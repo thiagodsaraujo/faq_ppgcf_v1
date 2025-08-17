@@ -1,6 +1,347 @@
 
 // FAQ Data
 const faqData = [
+
+{
+    topic: "PÓS-DOUTORADO",
+    subtopic: "Regras Gerais",
+    question: "O que é e quem pode fazer o Estágio de Pós-Doutorado na UEPB?",
+    answer: "É um estágio de pesquisa realizado por profissionais com título de doutor que não fazem parte do quadro efetivo da UEPB. O objetivo é desenvolver um projeto de pesquisa sob a supervisão de um docente de um programa de pós-graduação da universidade.",
+    details: [{
+        icon: '👨‍🔬',
+        category: 'Categoria Principal: Definição e Público',
+        points: [
+            "Destinado a pesquisadores doutores externos à UEPB.",
+            "As atividades são realizadas em regime de tempo integral ou parcial.",
+            "O estágio é sempre vinculado a um projeto de pesquisa e a um supervisor credenciado em um programa de pós-graduação."
+        ]
+    }],
+    legalBasis: "Art. 1º, § 1º da Resolução/UEPB/CONSEPE/008/2022",
+    documentation: "Carta de aceite do supervisor, cópia do diploma de doutor, currículo lattes e plano de trabalho.",
+    deadlines: "A duração mínima do estágio é de 3 meses."
+},
+{
+    topic: "PÓS-DOUTORADO",
+    subtopic: "Regras Gerais",
+    question: "Além da pesquisa, quais outras atividades o pós-doutorando pode realizar?",
+    answer: "O pós-doutorando pode atuar em diversas frentes, incluindo ensino na graduação e pós-graduação, orientação de iniciação científica e até mesmo coorientação de mestrado e doutorado, a critério do colegiado do programa.",
+    details: [{
+        icon: '📚',
+        category: 'Categoria Principal: Atividades Permitidas',
+        points: [
+            "Atuar em disciplinas de graduação e pós-graduação, sempre sob a responsabilidade de um professor do quadro.",
+            "Orientar estudantes de Iniciação Científica.",
+            "Atuar como coorientador em dissertações e teses, se aprovado pelo colegiado.",
+            "Pode se credenciar como orientador pleno, desde que cumpra os requisitos da CAPES e do programa."
+        ]
+    }],
+    legalBasis: "Art. 1º, §§ 2º, 4º, 5º e 6º da Resolução/UEPB/CONSEPE/008/2022",
+    documentation: "Todas as atividades devem estar previstas no Plano de Trabalho aprovado.",
+    deadlines: "A coorientação e orientação dependem de aprovação específica do colegiado do programa."
+},
+{
+    topic: "PÓS-DOUTORADO",
+    subtopic: "Regras Gerais",
+    question: "Como funciona o processo de candidatura ao Pós-Doutorado?",
+    answer: "O candidato deve submeter um pedido ao Colegiado do Programa de Pós-Graduação de interesse, contendo a documentação necessária, incluindo uma carta de aceite do futuro supervisor e um plano de trabalho detalhado.",
+    details: [{
+        icon: '📝',
+        category: 'Categoria Principal: Documentação para Candidatura',
+        points: [
+            "Carta de aceite de um professor supervisor do programa.",
+            "Cópia do diploma de doutor.",
+            "Curriculum Vitae (formato Lattes).",
+            "Plano de trabalho detalhado com projeto de pesquisa, cronograma e origem dos recursos.",
+            "Declaração de afastamento da instituição de origem (se houver vínculo e for dedicação exclusiva)."
+        ]
+    }],
+    legalBasis: "Art. 3º da Resolução/UEPB/CONSEPE/008/2022",
+    documentation: "A documentação completa deve ser submetida à secretaria do programa de interesse.",
+    deadlines: "O processo pode ser em fluxo contínuo ou por meio de editais específicos, a depender do programa."
+},
+{
+    topic: "PÓS-DOUTORADO",
+    subtopic: "Regras Gerais",
+    question: "Qual a duração do estágio e como funciona a renovação?",
+    answer: "O estágio tem duração inicial de até 12 meses, podendo ser renovado anualmente até um limite máximo de 60 meses (5 anos). A duração mínima para que seja considerado um estágio de pós-doutorado é de 3 meses.",
+    details: [{
+        icon: '⏳',
+        category: 'Categoria Principal: Duração e Prorrogação',
+        points: [
+            "Duração mínima: 3 meses.",
+            "Duração inicial padrão: Até 12 meses.",
+            "Duração máxima total: 60 meses (5 anos), mediante renovações anuais.",
+            "A renovação depende da aprovação de um relatório de atividades pelo colegiado do programa."
+        ]
+    }],
+    legalBasis: "Art. 4º, §§ 3º e 4º da Resolução/UEPB/CONSEPE/008/2022",
+    documentation: "Para renovar, é preciso entregar um relatório anual de atividades com parecer do supervisor.",
+    deadlines: "O relatório deve ser entregue ao final de cada ano de estágio para avaliação da renovação."
+},
+{
+    topic: "PÓS-DOUTORADO",
+    subtopic: "Regras Gerais",
+    question: "O estágio de pós-doutorado gera algum vínculo empregatício ou título?",
+    answer: "Não. A participação no estágio de pós-doutorado não gera qualquer vínculo empregatício ou funcional com a UEPB. Por ser um estágio acadêmico, ele não confere um novo título ao pesquisador, mas sim um certificado de conclusão.",
+    details: [{
+        icon: '📜',
+        category: 'Categoria Principal: Natureza do Vínculo',
+        points: [
+            "Não há vínculo empregatício ou funcional.",
+            "As atividades são de caráter voluntário, a menos que o pesquisador seja bolsista.",
+            "Não confere um novo grau ou titulação.",
+            "Ao final, o pesquisador recebe um certificado emitido pela Pró-Reitoria de Pós-Graduação e Pesquisa (PRPGP)."
+        ]
+    }],
+    legalBasis: "Art. 8º e Art. 9º da Resolução/UEPB/CONSEPE/008/2022",
+    documentation: "O Certificado de Conclusão é emitido pela PRPGP após a aprovação do relatório final.",
+    deadlines: "O relatório final deve ser aprovado pelo colegiado do programa ao término do estágio."
+},
+{
+    topic: "PROFESSOR VOLUNTÁRIO",
+    subtopic: "Regras Gerais",
+    question: "O que é o Programa de Professor e Técnico Voluntário (PPTAV)?",
+    answer: "É um programa que permite a professores e técnicos administrativos, especialmente aposentados ou sem vínculo com a UEPB, a continuarem contribuindo com a universidade em atividades culturais, educacionais e científicas. O serviço é voluntário e não cria vínculo empregatício ou obrigação de remuneração.",
+    details: [{
+        icon: '🤝',
+        category: 'Categoria Principal: Natureza do Vínculo',
+        points: [
+            "O programa é regido pela Lei Federal nº 9.608/1998.",
+            "A participação é formalizada por um Termo de Adesão.",
+            "Não gera vínculo empregatício, salário ou obrigações trabalhistas e previdenciárias para a UEPB.",
+            "Busca evitar a descontinuidade em atividades de ensino, pesquisa e extensão."
+        ]
+    }],
+    legalBasis: "Art. 1º e Art. 2º da Resolução/UEPB/CONSUNI/0208/2017",
+    documentation: "Termo de Adesão firmado entre o voluntário e a UEPB.",
+    deadlines: "A duração do vínculo é de no máximo 1 ano, renovável."
+},
+{
+    topic: "PROFESSOR VOLUNTÁRIO",
+    subtopic: "Regras Gerais",
+    question: "Quem pode se candidatar para ser Professor Voluntário?",
+    answer: "Podem se candidatar professores aposentados (da UEPB ou de outras instituições) ou profissionais sem vínculo com a UEPB que tenham reconhecida competência em sua área de atuação. Para atuar na pós-graduação stricto sensu, é exigido o título de Doutor.",
+    details: [{
+        icon: '🧑‍🏫',
+        category: 'Categoria Principal: Requisitos para Adesão',
+        points: [
+            "Ser docente aposentado ou sem vínculo com a UEPB.",
+            "Ter reconhecida competência na área de atuação.",
+            "Ter um Plano de Trabalho aprovado pelas instâncias do curso ou programa.",
+            "Para a Pós-Graduação (Mestrado/Doutorado), o título de Doutor é obrigatório."
+        ]
+    }],
+    legalBasis: "Art. 3º e §2º da Resolução/UEPB/CONSUNI/0208/2017",
+    documentation: "Requerimento formal, Plano de Trabalho e Curriculum Vitae (preferencialmente Lattes).",
+    deadlines: "O processo de candidatura pode ser aberto a qualquer tempo, dependendo da aceitação da unidade de interesse."
+},
+{
+    topic: "PROFESSOR VOLUNTÁRIO",
+    subtopic: "Regras Gerais",
+    question: "Quais atividades um Professor Voluntário pode desenvolver?",
+    answer: "O Professor Voluntário pode realizar a maioria das atividades acadêmicas, como lecionar, pesquisar, participar de projetos de extensão, orientar alunos e participar de bancas examinadoras.",
+    details: [{
+        icon: '📚',
+        category: 'Categoria Principal: Atividades Permitidas',
+        points: [
+            "Atividades de ensino na graduação e pós-graduação.",
+            "Desenvolvimento de projetos de pesquisa e extensão.",
+            "Orientação de alunos de TCC, mestrado e doutorado.",
+            "Participação em bancas de monografia, dissertação, tese e concursos.",
+            "Participação em reuniões de colegiado, com direito a voz, mas sem direito a voto."
+        ]
+    }],
+    legalBasis: "Art. 4º da Resolução/UEPB/CONSUNI/0208/2017",
+    documentation: "As atividades devem estar detalhadas e aprovadas no Plano de Trabalho.",
+    deadlines: "As atividades devem ser executadas dentro do prazo de vigência do Termo de Adesão."
+},
+{
+    topic: "PROFESSOR VOLUNTÁRIO",
+    subtopic: "Regras Gerais",
+    question: "Quais são os direitos e limitações do Professor Voluntário?",
+    answer: "O voluntário tem direito de usar a infraestrutura da UEPB (bibliotecas, laboratórios) e a afiliação institucional. No entanto, não possui direitos administrativos, como votar ou ser votado para cargos de chefia ou representação.",
+    details: [{
+        icon: '⚖️',
+        category: 'Categoria Principal: Direitos e Vedações',
+        points: [
+            "Direito de usar a denominação 'Professor Voluntário da UEPB'.",
+            "Direito de acesso a espaços como laboratórios e bibliotecas.",
+            "Direito a um e-mail institucional.",
+            "Limitação: Não pode votar ou ser votado para cargos administrativos (Chefia, Coordenação, etc.).",
+            "Limitação: Participa de reuniões colegiadas com direito a voz, mas sem direito a voto."
+        ]
+    }],
+    legalBasis: "Art. 4º (§1º e §2º) e Art. 12 da Resolução/UEPB/CONSUNI/0208/2017",
+    documentation: "Os direitos e deveres são formalizados no Termo de Adesão.",
+    deadlines: "Os direitos são válidos durante a vigência do Termo de Adesão."
+},
+{
+    topic: "PROFESSOR VOLUNTÁRIO",
+    subtopic: "Regras Gerais",
+    question: "Como é o processo para se tornar um Professor Voluntário?",
+    answer: "O interessado deve formalizar um requerimento junto à unidade de interesse (Departamento ou Programa de Pós-Graduação), apresentando um Plano de Trabalho e seu currículo. O pedido será analisado e votado pelo colegiado da unidade.",
+    details: [{
+        icon: '📝',
+        category: 'Categoria Principal: Processo de Adesão',
+        points: [
+            "1. Elaborar um requerimento e um Plano de Trabalho detalhando as atividades, período e carga horária semanal.",
+            "2. Submeter o requerimento, o plano e o currículo ao colegiado do Departamento ou Programa.",
+            "3. Aguardar o parecer da unidade, que tem 30 dias para se manifestar.",
+            "4. Se aprovado, assinar o Termo de Adesão junto à UEPB, que será registrado na PROGEP."
+        ]
+    }],
+    legalBasis: "Art. 6º, 7º e 8º da Resolução/UEPB/CONSUNI/0208/2017",
+    documentation: "Requerimento, Plano de Trabalho e Curriculum Vitae.",
+    deadlines: "O colegiado da unidade tem 30 dias para emitir parecer sobre a solicitação."
+},
+{
+    topic: "PROFESSOR VOLUNTÁRIO",
+    subtopic: "Regras Gerais",
+    question: "Qual a duração do vínculo de voluntariado e como funciona a renovação?",
+    answer: "O Termo de Adesão tem duração máxima de 1 (um) ano. É possível solicitar a renovação por igual período, seguindo os mesmos trâmites da solicitação inicial e incluindo um relatório das atividades já realizadas.",
+    details: [{
+        icon: '🔄',
+        category: 'Categoria Principal: Duração e Renovação',
+        points: [
+            "Duração inicial: Máximo de 1 ano.",
+            "Renovação: Permitida por mais 1 ano.",
+            "Processo de Renovação: Requer a apresentação de um relatório de atividades e uma nova avaliação de desempenho.",
+            "A solicitação de renovação passa pela mesma aprovação do colegiado da unidade."
+        ]
+    }],
+    legalBasis: "Art. 9º da Resolução/UEPB/CONSUNI/0208/2017",
+    documentation: "Para renovação, é necessário um relatório de atividades e uma nova solicitação.",
+    deadlines: "A solicitação de renovação deve ser feita antes do término do prazo de vigência atual."
+},
+    {
+    topic: "VIDA ACADÊMICA",
+    subtopic: "Estágio de Docência",
+    question: "Qual o objetivo do Estágio de Docência?",
+    answer: "O Estágio de Docência busca preparar os pós-graduandos para a carreira de professor, criando oportunidades para aperfeiçoamento através da participação em atividades de ensino na graduação.",
+    details: [{
+        icon: '🎯',
+        category: 'Categoria Principal: Formação Docente',
+        points: [
+            "Capacitar o pós-graduando para a docência no ensino superior.",
+            "Promover a integração entre os programas de pós-graduação e os cursos de graduação.",
+            "Melhorar a qualidade do ensino em ambos os níveis (graduação e pós-graduação)."
+        ]
+    }],
+    legalBasis: "Art. 1º da Resolução/UEPB/CONSEPE/032/2011",
+    documentation: "Plano de Trabalho e Relatório de Atividades.",
+    deadlines: "O estágio deve ser realizado a partir do segundo período de matrícula no curso."
+},
+{
+    topic: "VIDA ACADÊMICA",
+    subtopic: "Estágio de Docência",
+    question: "O Estágio de Docência é obrigatório para todos?",
+    answer: "Sim, o estágio é uma atividade obrigatória para todos os alunos de mestrado e doutorado. No entanto, alunos que já são professores no Ensino Superior podem solicitar a dispensa da atividade.",
+    details: [{
+        icon: '🧑‍🏫',
+        category: 'Categoria Principal: Obrigatoriedade e Dispensas',
+        points: [
+            "A obrigatoriedade visa integrar a formação do pós-graduando, conforme normas da CAPES.",
+            "A dispensa não é automática e deve ser solicitada formalmente.",
+            "A decisão final sobre a dispensa cabe ao Colegiado do Programa."
+        ]
+    }],
+    legalBasis: "Art. 2º e Parágrafo Único da Resolução/UEPB/CONSEPE/032/2011",
+    documentation: "Para dispensa, é necessário apresentar comprovante de exercício do magistério em Ensino Superior.",
+    deadlines: "A solicitação de dispensa deve ser feita ao Colegiado do Programa."
+},
+{
+    topic: "VIDA ACADÊMICA",
+    subtopic: "Estágio de Docência",
+    question: "Qual a duração e a carga horária do estágio?",
+    answer: "A duração varia entre mestrado e doutorado, com uma carga horária semanal limitada para não prejudicar as outras atividades do pós-graduando.",
+    details: [{
+        icon: '⏳',
+        category: 'Categoria Principal: Duração e Carga Horária',
+        points: [
+            "Mestrado: Duração mínima de 1 semestre e máxima de 2 semestres.",
+            "Doutorado: Duração mínima de 2 semestres e máxima de 3 semestres.",
+            "Carga Horária Semanal: Máximo de 4 horas semanais."
+        ]
+    }],
+    legalBasis: "Art. 3º e Art. 4º da Resolução/UEPB/CONSEPE/032/2011",
+    documentation: "O Plano de Trabalho detalhará a distribuição da carga horária.",
+    deadlines: "A carga horária deve ser cumprida durante o semestre letivo em que o aluno está matriculado na atividade."
+},
+{
+    topic: "VIDA ACADÊMICA",
+    subtopic: "Estágio de Docência",
+    question: "Quais atividades posso realizar durante o Estágio de Docência?",
+    answer: "O estágio permite a participação em diversas atividades acadêmicas, sendo a regência de uma porcentagem das aulas teóricas ou práticas uma das principais.",
+    details: [{
+        icon: '📚',
+        category: 'Categoria Principal: Atividades Desenvolvidas',
+        points: [
+            "Participar da elaboração do plano de ensino e de aulas.",
+            "Preparar e ministrar aulas teóricas e/ou práticas (mínimo de 20% e máximo de 30% da carga horária do componente).",
+            "Auxiliar no processo de avaliação dos alunos de graduação.",
+            "Supervisionar projetos de Iniciação Científica e TCCs.",
+            "Apresentar seminários ou palestras."
+        ]
+    }],
+    legalBasis: "Art. 5º da Resolução/UEPB/CONSEPE/032/2011",
+    documentation: "As atividades devem ser detalhadas no Plano de Trabalho.",
+    deadlines: "As atividades devem seguir o cronograma aprovado no Plano de Trabalho."
+},
+{
+    topic: "VIDA ACADÊMICA",
+    subtopic: "Estágio de Docência",
+    question: "Como funciona a matrícula e a atribuição de créditos do estágio?",
+    answer: "O aluno se matricula em um Componente Curricular específico de Estágio de Docência. A atividade gera créditos que são adicionais à grade curricular regular do curso.",
+    details: [{
+        icon: '📊',
+        category: 'Categoria Principal: Matrícula e Créditos',
+        points: [
+            "Mestrado: Até 2 créditos (30 horas).",
+            "Doutorado: Até 4 créditos (60 horas).",
+            "Créditos Adicionais: Não substituem os créditos obrigatórios ou eletivos do programa.",
+            "Matrícula: Realizada a partir do segundo período do curso."
+        ]
+    }],
+    legalBasis: "Art. 6º, §1º, §2º e Art. 7º da Resolução/UEPB/CONSEPE/032/2011",
+    documentation: "A matrícula é formalizada na Secretaria do Programa, com a entrega do Plano de Trabalho.",
+    deadlines: "A matrícula deve ser feita no período letivo em que o estágio será realizado."
+},
+{
+    topic: "VIDA ACADÊMICA",
+    subtopic: "Estágio de Docência",
+    question: "Preciso de um Plano de Trabalho? O que ele deve conter?",
+    answer: "Sim, um Plano de Trabalho detalhado é obrigatório. Ele deve ser elaborado em conjunto com seu orientador e aprovado pelo Colegiado do Programa e pelo Departamento responsável.",
+    details: [{
+        icon: '📋',
+        category: 'Categoria Principal: Planejamento do Estágio',
+        points: [
+            "Conteúdo: Justificativa, objetivos, carga horária semanal, cronograma de atividades e referências.",
+            "Assinaturas: Deve ser assinado por você (aluno), seu orientador e o professor do Componente Curricular (se for diferente do orientador).",
+            "Aprovação: O plano precisa ser aprovado antes do início das atividades."
+        ]
+    }],
+    legalBasis: "Art. 8º da Resolução/UEPB/CONSEPE/032/2011",
+    documentation: "O Plano de Trabalho deve ser entregue na Secretaria do Programa no ato da matrícula na disciplina de estágio.",
+    deadlines: "O plano deve ser submetido antes do início do período letivo do estágio."
+},
+{
+    topic: "VIDA ACADÊMICA",
+    subtopic: "Estágio de Docência",
+    question: "Como serei avaliado no Estágio de Docência?",
+    answer: "A avaliação é feita com base em um relatório final que você elabora ao concluir as atividades. O relatório é avaliado pelo seu orientador e, posteriormente, pelo Colegiado do Programa.",
+    details: [{
+        icon: '✅',
+        category: 'Categoria Principal: Avaliação e Conclusão',
+        points: [
+            "Relatório Parcial: Um relatório sobre as atividades de sala de aula deve ser entregue ao professor do componente em até 15 dias após sua conclusão.",
+            "Relatório Final: Um relatório completo, assinado por você e seu orientador (com o parecer dele anexado), deve ser entregue ao Colegiado em até 30 dias após o fim de todas as atividades.",
+            "Resultado: O Colegiado pode aprovar, solicitar complementações ou reprovar o relatório. Em caso de reprovação, um novo estágio deverá ser realizado."
+        ]
+    }],
+    legalBasis: "Art. 10, Art. 11 e Art. 12 da Resolução/UEPB/CONSEPE/032/2011",
+    documentation: "Relatório de Estágio de Docência, conforme modelo ou diretrizes do programa.",
+    deadlines: "Relatório Parcial (15 dias após fim das aulas), Relatório Final (30 dias após fim de todas as atividades)."
+},
     { topic: "INGRESSO E ADMISSÃO", subtopic: "Processo Seletivo Regular", question: "Como funciona o processo seletivo regular?", answer: "O processo seletivo é a porta de entrada oficial para o programa, regido por um edital público que detalha todas as regras, datas e documentos necessários.", details: [{ icon: '📝', category: 'Categoria Principal: Processo Seletivo', points: ["Edital: É o documento mais importante, publicado com no mínimo 30 dias de antecedência. Define vagas, critérios, cronograma e documentação.", "Inscrição: Geralmente online, exige o preenchimento de formulários e o envio de documentos digitalizados.", "Fluxo Contínuo: O programa pode optar por um modelo de 'fluxo contínuo', permitindo inscrições em qualquer época do ano, conforme edital."] }], legalBasis: "Art. 79 (Normatização), Art. 81 (Fluxo Contínuo), Art. 87 (Comissão de Seleção), Art. 88 (Validade do Processo)", documentation: "Requerimento de inscrição, Formulário de inscrição, Cópia do diploma (ou declaração), Histórico escolar, Currículo Lattes, Comprovante de taxa.", deadlines: "Publicação do Edital: Mínimo 30 dias antes das inscrições. Recursos: Prazo definido no edital, com o Colegiado como primeira instância." },
     { topic: "INGRESSO E ADMISSÃO", subtopic: "Matrícula Institucional", question: "Fui aprovado! Como faço a matrícula institucional?", answer: "A matrícula institucional é o ato que oficializa seu vínculo com a UEPB. Perder o prazo significa perder a vaga, mesmo tendo sido aprovado.", details: [{ icon: '🔗', category: 'Categoria Principal: Vínculo Acadêmico', points: ["Procedimento: Realizada na secretaria do programa, dentro do prazo estipulado no calendário acadêmico.", "Condição: É um pré-requisito para a primeira matrícula em disciplinas.", "Vedação: É proibido manter matrícula simultânea em mais de um curso de pós-graduação stricto sensu na UEPB."] }], legalBasis: "Art. 100 (Obrigatoriedade e Prazos), Art. 101 (Vedação de Matrícula Simultânea), Art. 102 (Diplomas Estrangeiros), Art. 103 (Matrícula Semestral)", documentation: "Documentos listados no edital de seleção (diploma, histórico, documentos pessoais, etc.).", deadlines: "Prazo definido no calendário escolar do programa. A não efetivação resulta em perda automática da vaga (Art. 100, §4º)." },
     { topic: "INGRESSO E ADMISSÃO", subtopic: "Transferência", question: "Posso me transferir de outro programa de mestrado/doutorado para o PPGCF?", answer: "Sim, a transferência é possível, mas depende da existência de vagas, da aprovação do Colegiado e do cumprimento de requisitos específicos.", details: [{ icon: '🔄', category: 'Categoria Principal: Mobilidade Acadêmica', points: ["Requisitos: Ser aluno regular de um programa com conceito CAPES igual ou superior, ter cursado no mínimo 6 meses e ter o aceite formal de um orientador do PPGCF.", "Processo: A solicitação deve ser aprovada pelos Colegiados de ambos os programas (origem e destino)."] }], legalBasis: "Art. 86, §1º (Admissão por Transferência), Art. 105 (Condições Mínimas)", documentation: "Requerimento formal, Histórico escolar de origem, Ementas das disciplinas, Carta de aceite do novo orientador, Carta de anuência do programa de origem.", deadlines: "O tempo de curso já cumprido na origem é contabilizado no prazo máximo. A decisão final é do Colegiado do PPGCF." },
@@ -46,7 +387,9 @@ const quickAccessCards = [
     { icon: 'fas fa-clock', title: 'Prazos e Situações Especiais', description: 'Prazos do curso e situações especiais', topic: 'PRAZOS E SITUAÇÕES ESPECIAIS' },
     { icon: 'fas fa-exclamation-triangle', title: 'Situações Problemáticas', description: 'Desligamento e problemas acadêmicos', topic: 'SITUAÇÕES PROBLEMÁTICAS' },
     { icon: 'fas fa-users', title: 'Corpo Docente', description: 'Professores, orientadores e credenciamento', topic: 'CORPO DOCENTE' },
-    { icon: 'fas fa-check-circle', title: 'Requisitos de Conclusão', description: 'Critérios para finalizar o curso', topic: 'REQUISITOS DE CONCLUSÃO' }
+    { icon: 'fas fa-check-circle', title: 'Requisitos de Conclusão', description: 'Critérios para finalizar o curso', topic: 'REQUISITOS DE CONCLUSÃO' },
+{ icon: 'fas fa-hands-helping', title: 'Professor Voluntário', description: 'Regras para atuação voluntária na UEPB', topic: 'PROFESSOR VOLUNTÁRIO' },
+{ icon: 'fas fa-microscope', title: 'Pós-Doutorado', description: 'Estágio, regras e atividades', topic: 'PÓS-DOUTORADO' }
 ];
 
 // Topic icons
@@ -61,6 +404,8 @@ const topicIcons = {
     "DEFESA E DIPLOMAÇÃO": "fas fa-certificate",
     "SITUAÇÕES PROBLEMÁTICAS": "fas fa-exclamation-triangle",
     "DIREITOS E GOVERNANÇA": "fas fa-balance-scale",
+    "PROFESSOR VOLUNTÁRIO": "fas fa-hands-helping",
+    "PÓS-DOUTORADO": "fas fa-microscope",
     "REQUISITOS DE CONCLUSÃO": "fas fa-check-circle"
 };
 

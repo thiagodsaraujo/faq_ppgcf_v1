@@ -177,7 +177,7 @@ body {
     border-radius: 12px;
     backdrop-filter: blur(10px);
     max-width: 450px;
-    margin: 4rem auto 0;
+    margin: 2rem auto 0;
     animation: fadeInUp 1.4s ease 0.5s both;
 }
 
@@ -844,6 +844,14 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .legal-reference {
+        flex-direction: column;
+        text-align: center;
+        gap: 0.4rem;
+        padding: 0.5rem 0.4rem;
+        max-width: 400px;
+    }
+
     .hero {
         padding: 3rem 0 2rem;
     }
