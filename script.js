@@ -1,7 +1,97 @@
 
 // FAQ Data
 const faqData = [
-
+    // COLE O CÓDIGO ABAIXO DENTRO DA SUA 'const faqData'
+{
+    topic: "APOIO A EVENTOS CIENTÍFICOS",
+    subtopic: "Regras Gerais",
+    question: "A UEPB oferece ajuda de custo para apresentar trabalhos em congressos?",
+    answer: "Sim, a UEPB oferece incentivos financeiros para docentes do quadro efetivo e professores visitantes participarem de eventos científicos ou tecnológicos, nacionais ou internacionais, com apresentação de trabalho.",
+    details: [{
+        icon: '✈️',
+        category: 'Categoria Principal: Incentivo à Produção Científica',
+        points: [
+            "O apoio destina-se a custear a participação em eventos para divulgação de pesquisas.",
+            "O programa visa fortalecer as políticas de Pós-Graduação e Pesquisa da universidade."
+        ]
+    }],
+    legalBasis: "Art. 1º da Resolução/UEPB/CONSEPE/079/2015",
+    documentation: "Formulário de solicitação, resumo do trabalho, carta de aceite, folder do evento, entre outros.",
+    deadlines: "A solicitação deve ser feita com no mínimo 60 dias de antecedência do evento."
+},
+{
+    topic: "APOIO A EVENTOS CIENTÍFICOS",
+    subtopic: "Regras Gerais",
+    question: "Que tipo de auxílio posso solicitar e quem tem direito?",
+    answer: "Docentes efetivos e visitantes em pleno exercício podem solicitar OU passagens aéreas (classe econômica) OU até 4 diárias. Não é permitido solicitar ambos. Docentes afastados de suas atividades não têm direito ao auxílio.",
+    details: [{
+        icon: '💰',
+        category: 'Categoria Principal: Modalidades de Auxílio',
+        points: [
+            "O solicitante deve escolher entre passagem OU diárias.",
+            "As passagens são sempre em classe econômica, buscando o melhor custo-benefício.",
+            "O limite é de 4 diárias, de acordo com a duração do evento.",
+            "Apenas docentes do quadro efetivo ou visitantes podem solicitar."
+        ]
+    }],
+    legalBasis: "Art. 2º e Art. 5º da Resolução/UEPB/CONSEPE/079/2015",
+    documentation: "Formulário de solicitação específico para passagens ou diárias.",
+    deadlines: "A solicitação deve ser feita com no mínimo 60 dias de antecedência."
+},
+{
+    topic: "APOIO A EVENTOS CIENTÍFICOS",
+    subtopic: "Regras Gerais",
+    question: "Quais são os pré-requisitos para conseguir o auxílio?",
+    answer: "Para ter o pedido aprovado, o trabalho a ser apresentado deve ter um aluno da UEPB como primeiro autor e o professor solicitante deve ter produção intelectual recente.",
+    details: [{
+        icon: '📋',
+        category: 'Categoria Principal: Critérios de Elegibilidade',
+        points: [
+            "É obrigatório ter um trabalho aceito no evento, preferencialmente para apresentação oral.",
+            "Para eventos nacionais, o primeiro autor deve ser um aluno de graduação, IC ou pós-graduação lato sensu da UEPB.",
+            "Para eventos internacionais, o primeiro autor deve ser um aluno de pós-graduação stricto sensu da UEPB.",
+            "O professor solicitante precisa ter publicado pelo menos um artigo, livro ou capítulo de livro nos últimos 3 anos."
+        ]
+    }],
+    legalBasis: "Art. 3º da Resolução/UEPB/CONSEPE/079/2015",
+    documentation: "Cópia do trabalho aceito, comprovante da produção intelectual recente, e documento que comprove o vínculo do aluno como primeiro autor.",
+    deadlines: "O documento de aceite do trabalho pode ser enviado até 15 dias antes do evento."
+},
+{
+    topic: "APOIO A EVENTOS CIENTÍFICOS",
+    subtopic: "Regras Gerais",
+    question: "Com que frequência posso solicitar este auxílio?",
+    answer: "Existe um limite de solicitações para garantir que mais docentes possam ser beneficiados. É permitido um auxílio para congresso nacional por ano e um auxílio para congresso internacional a cada dois anos.",
+    details: [{
+        icon: '🗓️',
+        category: 'Categoria Principal: Limites de Solicitação',
+        points: [
+            "Auxílio para evento nacional: 1 por ano.",
+            "Auxílio para evento internacional: 1 a cada 2 anos."
+        ]
+    }],
+    legalBasis: "Art. 4º da Resolução/UEPB/CONSEPE/079/2015",
+    documentation: "N/A",
+    deadlines: "O controle é feito com base nas solicitações anteriores do docente."
+},
+{
+    topic: "APOIO A EVENTOS CIENTÍFICOS",
+    subtopic: "Regras Gerais",
+    question: "Como e quando devo fazer a prestação de contas?",
+    answer: "Após o evento, o professor beneficiado tem um prazo de 15 dias para comprovar sua participação e a apresentação do trabalho junto à Pró-Reitoria de Pós-Graduação e Pesquisa (PRPGP).",
+    details: [{
+        icon: '🧾',
+        category: 'Categoria Principal: Prestação de Contas',
+        points: [
+            "Apresentar o certificado de participação no congresso.",
+            "Apresentar o comprovante de apresentação do trabalho.",
+            "Entregar os bilhetes de viagem (canhotos dos cartões de embarque), caso tenha recebido passagens."
+        ]
+    }],
+    legalBasis: "Art. 8º da Resolução/UEPB/CONSEPE/079/2015",
+    documentation: "Certificados e bilhetes de viagem.",
+    deadlines: "O prazo para entrega da documentação é de 15 dias após o término do evento."
+},
 {
     topic: "PÓS-DOUTORADO",
     subtopic: "Regras Gerais",
@@ -358,15 +448,87 @@ const faqData = [
     { topic: "VIDA ACADÊMICA", subtopic: "Avaliação e Aprovação", question: "Como funciona a avaliação nas disciplinas?", answer: "A aprovação em uma disciplina depende de nota e frequência mínimas.", details: [{ icon: '✅', category: 'Categoria Principal: Desempenho Acadêmico', points: ["Nota Mínima: Aprovação exige nota igual ou superior a 7,0 (Conceito C).", "Frequência Mínima: É obrigatória a presença em, no mínimo, 75% das aulas.", "CRE (Coeficiente de Rendimento Escolar): Manter o CRE acima de 7,0 é condição para a permanência no programa."] }], legalBasis: "Art. 125 (Sistema de Notas), Art. 126 (Frequência Mínima), Art. 110, inciso VI (Desligamento por CRE baixo)", documentation: "Não se aplica.", deadlines: "O professor tem até 30 dias após o término da disciplina para lançar as notas. Reprovar 2x na mesma disciplina ou ter CRE < 7,0 leva ao desligamento." },
     { topic: "VIDA ACADÊMICA", subtopic: "Estágio de Docência", question: "O Estágio de Docência é obrigatório?", answer: "Sim, o estágio de docência é uma atividade acadêmica obrigatória para bolsistas, visando a formação para o ensino superior. Discentes que já são professores podem solicitar a dispensa da atividade.", details: [{ icon: '👨‍🏫', category: 'Detalhes do Estágio', points: ["É obrigatório para discentes bolsistas.", "Mestrandos devem cursar por um semestre; doutorandos por dois semestres.", "As atividades são supervisionadas pelo orientador e por um professor da graduação.", "Ao final, o discente deve elaborar um relatório para obter os créditos."] }], legalBasis: "Art. 118", documentation: "Relatório de atividades do estágio.", deadlines: "Deve ser cumprido dentro do prazo regular do curso." },
     { topic: "VIDA ACADÊMICA", subtopic: "Aproveitamento de Estudos", question: "Posso aproveitar créditos de outros cursos de pós-graduação?", answer: "Sim, o Colegiado pode aceitar créditos de disciplinas cursadas em outros programas de pós-graduação (stricto ou lato sensu), desde que tenham sido concluídas nos últimos 5 anos e sejam relevantes para sua formação.", details: [{ icon: '📚', category: 'Regras para Aproveitamento', points: ["O componente curricular deve ter sido concluído há, no máximo, 5 anos.", "A nota obtida deve ser igual ou superior a 7,0 (ou conceito C).", "O número máximo de créditos a serem aproveitados é definido no regimento de cada programa.", "É necessário apresentar requerimento com histórico escolar e ementas das disciplinas."] }], legalBasis: "Art. 129, Art. 130", documentation: "Requerimento formal, histórico escolar e ementas das disciplinas cursadas.", deadlines: "A solicitação deve ser feita formalmente à coordenação do programa." },
+    
+    
+    
     { topic: "PRAZOS E SITUAÇÕES ESPECIAIS", subtopic: "Prazos do Curso", question: "Qual o prazo máximo para concluir o mestrado/doutorado?", answer: "O regimento estabelece prazos mínimos e máximos para a conclusão do curso, contados a partir da data da primeira matrícula.", details: [{ icon: '⏳', category: 'Categoria Principal: Prazos Regimentais', points: ["Mestrado: Mínimo de 1 ano e máximo de 2 anos e 6 meses (30 meses).", "Doutorado: Mínimo de 2 anos e máximo de 5 anos (60 meses).", "Prorrogação: Em casos excepcionais, o Colegiado pode conceder uma prorrogação de até 6 meses (mestrado) ou 12 meses (doutorado)."] }], legalBasis: "Art. 113 (Prazos), Art. 114 (Prorrogação)", documentation: "Para prorrogação: Requerimento formal, justificativa, parecer do orientador, versão preliminar do trabalho, cronograma.", deadlines: "A solicitação de prorrogação deve ser feita ANTES do vencimento do prazo regular. A decisão é do Colegiado." },
-    { topic: "PRAZOS E SITUAÇÕES ESPECIAIS", subtopic: "Trancamento Geral", question: "Posso trancar o curso por um tempo?", answer: "Sim, é possível solicitar a 'Interrupção de Estudos' (trancamento geral), mas apenas por motivos específicos e por um período limitado.", details: [{ icon: '⏸️', category: 'Categoria Principal: Interrupção de Estudos', points: ["Motivos Aceitos: Viagem de trabalho, doença comprovada ou licença maternidade.", "Prazos de Trancamento: Mestrado (1 período letivo), Doutorado (até 2 períodos).", "Efeito: O período trancado não é contado no tempo total do curso.", "Bolsa: A bolsa é suspensa durante a interrupção (exceto licença maternidade)."] }], legalBasis: "Art. 107 (Regras para Interrupção de Estudos)", documentation: "Requerimento formal, documentos comprobatórios, parecer do orientador.", deadlines: "A solicitação deve ser feita antes ou durante o período a ser trancado. A decisão é do Colegiado." },
+    
+    {
+    topic: "PRAZOS E SITUAÇÕES ESPECIAIS",
+    subtopic: "Trancamento Geral e Licença",
+    question: "Posso trancar o curso por um tempo por um tempo?",
+    answer: "Sim, é possível solicitar a 'Interrupção de Estudos' (trancamento geral) por motivo de doença comprovada ou licença maternidade. O período de trancamento não é contabilizado no tempo total para a conclusão do curso.",
+    keywords: ["trancamento", "interrupção", "licença maternidade", "doença", "afastamento", "pausa", "suspender", "gestante", "saúde", "atestado médico"],
+    details: [{
+        icon: '⏸️',
+        category: 'Categoria Principal: Interrupção de Estudos',
+        points: [
+            "Motivos Aceitos: Viagem de trabalho, doença comprovada ou licença maternidade.",
+            "Prazos de Trancamento: Mestrado (1 período letivo), Doutorado (até 2 períodos letivos).",
+            "Efeito: O período trancado não é contado no tempo total do curso.",
+            "Bolsa: A bolsa é suspensa durante a interrupção, exceto para o caso de licença maternidade.",
+            "Licença Maternidade: A pós-graduanda tem direito a 180 dias de licença, que não suspendem a bolsa e não contam no prazo do curso."
+        ]
+    }],
+    legalBasis: "Art. 107 da Resolução/UEPB/CONSEPE/008/2023",
+    documentation: "Requerimento formal com justificativa comprovada (atestado médico, etc.), parecer do orientador e aprovação do Colegiado.",
+    deadlines: "A solicitação deve ser feita antes ou durante o período a ser trancado."
+},
+    
+    
+    {
+    topic: "PRAZOS E SITUAÇÕES ESPECIAIS",
+    subtopic: "Trancamento Geral e Licença",
+    question: "Como funciona a licença-maternidade na pós-graduação?",
+    answer: "A pós-graduanda tem direito a 180 dias de licença-maternidade. Este período não é descontado do prazo total para a conclusão do curso e, para alunas bolsistas, a bolsa não é suspensa durante a licença.",
+    keywords: ["licença maternidade", "mãe", "gestante", "parto", "adoção", "afastamento", "bebê", "filho", "bolsa", "prazo"],
+    details: [{
+        icon: '🤱',
+        category: 'Categoria Principal: Direitos da Pós-Graduanda',
+        points: [
+            "Duração da Licença: 180 dias.",
+            "Contagem de Prazo: O período da licença NÃO é contabilizado no prazo máximo para a defesa da dissertação ou tese.",
+            "Bolsa de Estudos: A bolsa de estudos é mantida integralmente durante a licença, sendo uma exceção à regra de suspensão por afastamento.",
+            "Exercícios Domiciliares: A aluna gestante também tem direito a um regime de exercícios domiciliares a partir do oitavo mês de gestação, com duração de 4 meses."
+        ]
+    }],
+    legalBasis: "Art. 41 (§ 2º), Art. 107 (§§ 6º e 7º) e Art. 108 (I) da Resolução/UEPB/CONSEPE/008/2023",
+    documentation: "Atestado médico ou certidão de nascimento para formalizar o pedido junto à coordenação do programa.",
+    deadlines: "A solicitação deve ser feita formalmente à coordenação do programa para que os prazos e a manutenção da bolsa sejam garantidos."
+},
     { topic: "ORIENTAÇÃO", subtopic: "Definição e Troca de Orientador", question: "Como funciona a definição e a troca de orientador?", answer: "Todo aluno tem direito a um orientador, que é formalizado pelo Colegiado. A troca é possível, mas é um processo que requer acordo e aprovação.", details: [{ icon: '🤝', category: 'Categoria Principal: Relação Orientador-Orientando', points: ["Definição: Designado pelo Colegiado, com base na indicação do aluno e afinidade de pesquisa.", "Mudança pelo Aluno: O aluno pode solicitar a troca, com anuência do orientador atual e do novo.", "Conflito: Em caso de discordância, a decisão final sobre a troca cabe ao Colegiado."] }], legalBasis: "Art. 65 (Definição), Art. 66 (Mudança pelo Discente), Art. 32, inciso XXI (Atribuição do Colegiado)", documentation: "Para troca: Requerimento formal, justificativa, carta de anuência/aceite.", deadlines: "O Colegiado tem até 30 dias para designar um novo orientador em caso de vacância." },
     { topic: "ORIENTAÇÃO", subtopic: "Definição e Troca de Orientador", question: "Um orientador pode deixar de me orientar?", answer: "Sim, um orientador pode solicitar ao Colegiado o direito de abdicar da orientação de um discente. Isso deve ser feito através de uma justificativa formal e circunstanciada, baseada nos relatórios de desempenho do aluno.", details: [{ icon: '👋', category: 'Abdicação da Orientação', points: ["Direito do Orientador: É facultado ao orientador o direito de abdicar da orientação.", "Justificativa: A solicitação deve ser formal e bem fundamentada.", "Aprovação: O pedido precisa ser submetido e aprovado pelo Colegiado do programa.", "Novo Orientador: Em caso de aprovação, o Colegiado designará um novo orientador em até 30 dias."] }], legalBasis: "Art. 67 (Abdicação pelo Orientador), Art. 68 (Tutela da Coordenação)", documentation: "Justificativa formal do orientador.", deadlines: "A decisão final é do Colegiado." },
     { topic: "DEFESA E DIPLOMAÇÃO", subtopic: "Exame de Qualificação", question: "O que é o Exame de Qualificação?", answer: "O exame de qualificação (ou pré-banca) é uma etapa obrigatória para o doutorado que avalia a capacidade do discente de realizar uma pesquisa original. É um marco importante que antecede a defesa final da tese.", details: [{ icon: '🧐', category: 'Processo de Qualificação', points: ["Objetivo: Avaliar a maturidade da pesquisa e a capacidade do discente.", "Obrigatoriedade: É obrigatório para o Doutorado e pode ser exigido no Mestrado, conforme o regimento do programa.", "Banca: Composta por no mínimo três doutores, aprovada pelo Colegiado.", "Resultado: O discente pode ser 'Aprovado' ou 'Reprovado'. Em caso de reprovação, há uma única chance de repetir o exame."] }], legalBasis: "Art. 147, 148, 149, 150", documentation: "Versão do trabalho para a banca, requerimento de agendamento.", deadlines: "O prazo para a segunda tentativa é de até 120 dias (Doutorado) ou 60 dias (Mestrado) após a primeira." },
     { topic: "DEFESA E DIPLOMAÇÃO", subtopic: "Requisitos para Defesa", question: "O que preciso fazer para poder defender minha dissertação/tese?", answer: "Para marcar a defesa, é preciso ter cumprido uma série de requisitos acadêmicos e administrativos, formando um checklist obrigatório.", details: [{ icon: '🏁', category: 'Categoria Principal: Conclusão de Curso', points: ["Checklist: Créditos integralizados, aprovação na qualificação, proficiência em língua estrangeira, estágio docência cumprido, declaração de não plágio e recomendação do orientador."] }], legalBasis: "Art. 151 (Requisitos para a Defesa)", documentation: "Requerimento de agendamento, autorização do orientador, versão do trabalho para a banca, sugestão de nomes para a comissão, comprovantes de todos os requisitos.", deadlines: "O Colegiado tem até 30 dias para homologar a banca, e a defesa deve ser marcada em até 30 dias após a homologação." },
     { topic: "DEFESA E DIPLOMAÇÃO", subtopic: "Banca e Resultados", question: "Como funciona a banca de defesa e quais os possíveis resultados?", answer: "A defesa é uma sessão pública julgada por uma comissão de especialistas. O resultado pode ser aprovação, aprovação com correções ou reprovação.", details: [{ icon: '🧑‍⚖️', category: 'Categoria Principal: Banca Examinadora', points: ["Composição (Mestrado): Orientador + 2 especialistas (1 externo).", "Composição (Doutorado): Orientador + 4 especialistas (2 externos, 1 de outra instituição).", "Resultados: Aprovado(a), Insuficiente (com prazo para correções), Reprovado(a) (leva ao desligamento)."] }], legalBasis: "Art. 156 (Composição da Banca), Art. 157 (Resultados)", documentation: "Ata da sessão de defesa pública.", deadlines: "Prazo para correções (se 'Insuficiente'): 90 dias (Mestrado) ou 180 dias (Doutorado)." },
     { topic: "DEFESA E DIPLOMAÇÃO", subtopic: "Diplomação", question: "Fui aprovado! Como faço para solicitar o diploma?", answer: "Após a aprovação e a realização das correções, é preciso depositar a versão final do trabalho no repositório da UEPB e, então, solicitar formalmente a expedição do diploma.", details: [{ icon: '📜', category: 'Categoria Principal: Diplomação', points: ["Depósito Final: A versão final corrigida (PDF/A com ficha catalográfica) deve ser depositada no Repositório Institucional em até 30 dias após a defesa.", "Solicitação do Diploma: O processo é aberto pelo aluno junto à PRPGP, com toda a documentação comprobatória."] }], legalBasis: "Art. 159 (Depósito Final), Art. 162 (Requisitos para Outorga), Art. 163 (Documentação para Expedição)", documentation: "Requerimento padrão, Ata da defesa, Cópia do diploma anterior, Documentos pessoais, Comprovante de depósito, Declaração de quitação da biblioteca, Declaração e histórico de conclusão.", deadlines: "Prazo para Depósito: 30 dias após a defesa (prorrogável por mais 15). A expedição do diploma é de responsabilidade da PRPGP." },
-    { topic: "SITUAÇÕES PROBLEMÁTICAS", subtopic: "Desligamento", question: "Em quais situações posso ser desligado do programa?", answer: "O desligamento é automático em casos de desempenho acadêmico insuficiente, descumprimento de prazos ou infrações graves, como plágio.", details: [{ icon: '❌', category: 'Categoria Principal: Desligamento', points: ["Causas: Reprovar 2x na mesma disciplina, não ser aprovado na proficiência, não se matricular, reprovar 2x na qualificação, esgotar o prazo, ter CRE < 7,0, ser reprovado na defesa, ou plágio."] }], legalBasis: "Art. 110 (Causas de Desligamento), Art. 111 (Abandono)", documentation: "O processo é administrativo, iniciado pela Coordenação.", deadlines: "O aluno pode recorrer da decisão de desligamento, sendo o Colegiado a primeira instância." },
+    
+    
+{
+    topic: "SITUAÇÕES PROBLEMÁTICAS",
+    subtopic: "Desligamento",
+    question: "Em quais situações um aluno pode ser desligado do programa?",
+    answer: "O desligamento é o encerramento do vínculo do aluno com o programa e ocorre automaticamente em casos de desempenho acadêmico insuficiente, descumprimento de prazos ou infrações graves, como plágio.",
+    keywords: ["desligamento", "jubilamento", "expulsão", "reprovação", "prazo estourado", "abandono", "plágio", "CRE baixo", "perder a vaga"],
+    details: [{
+        icon: '❌',
+        category: 'Categoria Principal: Causas de Desligamento',
+        points: [
+            "Reprovar 2 vezes na mesma disciplina obrigatória.",
+            "Não ser aprovado nos exames de proficiência dentro do prazo.",
+            "Não efetuar a matrícula semestral no prazo.",
+            "Ser reprovado 2 vezes no exame de qualificação ou pré-banca.",
+            "Esgotar o prazo máximo para a conclusão do curso, incluindo prorrogações.",
+            "Ter o Coeficiente de Rendimento Escolar (CRE) inferior a 7,0.",
+            "Ser reprovado na defesa final da dissertação ou tese.",
+            "Comprovação de plágio em qualquer trabalho acadêmico."
+        ]
+    }],
+    legalBasis: "Art. 110 e Art. 111 da Resolução/UEPB/CONSEPE/008/2023",
+    documentation: "O processo é administrativo, iniciado pela Coordenação, garantindo ao discente o direito de ampla defesa e recurso ao Colegiado.",
+    deadlines: "O desligamento é efetivado após a notificação oficial ou a publicação da decisão do Colegiado."
+},
+    
     { topic: "DIREITOS E GOVERNANÇA", subtopic: "Propriedade Intelectual", question: "Quem é o dono da minha pesquisa? Posso pedir sigilo?", answer: "Os resultados da pesquisa são de propriedade da UEPB, mas os direitos autorais são resguardados. Sim, você pode e deve solicitar sigilo se planeja publicar ou patentear.", details: [{ icon: '💡', category: 'Categoria Principal: Propriedade Intelectual', points: ["Propriedade: Os resultados são da UEPB, mas a divulgação deve sempre mencionar a universidade, o orientador e o discente.", "Sigilo: Você tem o direito de solicitar um prazo de sigilo de até 1 ano para a divulgação do seu trabalho no repositório.", "Processo: A solicitação de sigilo é feita no momento do depósito final do trabalho."] }], legalBasis: "Art. 187 (Divulgação e Sigilo), Art. 188 (Propriedade dos Resultados)", documentation: "Formulário de autorização de depósito, com a opção de embargo/sigilo marcada.", deadlines: "Prazo de Sigilo: Até 1 ano, podendo ser ampliado. A solicitação é feita no ato do depósito." },
     { topic: "DIREITOS E GOVERNANÇA", subtopic: "Regras de Transição", question: "Como funcionam as regras de transição para o novo regimento?", answer: "Para discentes que ingressaram até o segundo período letivo de 2023, aplicam-se as disposições do regimento anterior. Esta nova resolução vale para os ingressantes a partir de sua publicação.", details: [{ icon: '📜', category: 'Categoria Principal: Normas Aplicáveis', points: ["Marco Temporal: A data de ingresso no curso define qual regimento se aplica ao aluno.", "Regra Anterior: Alunos ingressantes até 2023.2 seguem o regimento antigo.", "Regra Nova: Alunos ingressantes após a publicação desta resolução seguem as novas regras."] }], legalBasis: "Art. 189", documentation: "Não se aplica documentação específica, a regra é aplicada automaticamente pela secretaria.", deadlines: "A regra de transição é permanente para as turmas especificadas." },
     { topic: "DIREITOS E GOVERNANÇA", subtopic: "Passagem Direta Mestrado-Doutorado", question: "É possível passar do mestrado para o doutorado diretamente (fast track)?", answer: "Sim, os programas podem prever a passagem de alunos do mestrado para o doutorado sem a necessidade de um novo processo seletivo público, contanto que critérios de excelência sejam atendidos.", details: [{ icon: '🚀', category: 'Categoria Principal: Mobilidade Acadêmica Avançada', points: ["Condição: O regimento do programa deve prever e detalhar essa possibilidade.", "Critérios: O aluno deve demonstrar desempenho excepcional, produção acadêmica qualificada e ter um plano de trabalho consistente para o doutorado.", "Avaliação: A passagem depende de uma avaliação rigorosa por uma comissão designada pelo Colegiado."] }], legalBasis: "Art. 104", documentation: "Requerimento formal, histórico escolar, currículo Lattes atualizado, produção científica, plano de trabalho para o doutorado, carta de recomendação do orientador.", deadlines: "A solicitação deve ser feita em um prazo definido pelo regimento do programa, geralmente após a qualificação do mestrado." },
@@ -387,9 +549,10 @@ const quickAccessCards = [
     { icon: 'fas fa-clock', title: 'Prazos e Situações Especiais', description: 'Prazos do curso e situações especiais', topic: 'PRAZOS E SITUAÇÕES ESPECIAIS' },
     { icon: 'fas fa-exclamation-triangle', title: 'Situações Problemáticas', description: 'Desligamento e problemas acadêmicos', topic: 'SITUAÇÕES PROBLEMÁTICAS' },
     { icon: 'fas fa-users', title: 'Corpo Docente', description: 'Professores, orientadores e credenciamento', topic: 'CORPO DOCENTE' },
+    { icon: 'fas fa-plane-departure', title: 'Apoio a Eventos', description: 'Auxílio para participação em congressos', topic: 'APOIO A EVENTOS CIENTÍFICOS' },
     { icon: 'fas fa-check-circle', title: 'Requisitos de Conclusão', description: 'Critérios para finalizar o curso', topic: 'REQUISITOS DE CONCLUSÃO' },
-{ icon: 'fas fa-hands-helping', title: 'Professor Voluntário', description: 'Regras para atuação voluntária na UEPB', topic: 'PROFESSOR VOLUNTÁRIO' },
-{ icon: 'fas fa-microscope', title: 'Pós-Doutorado', description: 'Estágio, regras e atividades', topic: 'PÓS-DOUTORADO' }
+    { icon: 'fas fa-hands-helping', title: 'Professor Voluntário', description: 'Regras para atuação voluntária na UEPB', topic: 'PROFESSOR VOLUNTÁRIO' },
+    { icon: 'fas fa-microscope', title: 'Pós-Doutorado', description: 'Estágio, regras e atividades', topic: 'PÓS-DOUTORADO' }
 ];
 
 // Topic icons
@@ -404,6 +567,7 @@ const topicIcons = {
     "DEFESA E DIPLOMAÇÃO": "fas fa-certificate",
     "SITUAÇÕES PROBLEMÁTICAS": "fas fa-exclamation-triangle",
     "DIREITOS E GOVERNANÇA": "fas fa-balance-scale",
+    "APOIO A EVENTOS CIENTÍFICOS": "fas fa-plane-departure",
     "PROFESSOR VOLUNTÁRIO": "fas fa-hands-helping",
     "PÓS-DOUTORADO": "fas fa-microscope",
     "REQUISITOS DE CONCLUSÃO": "fas fa-check-circle"
