@@ -1,8 +1,7 @@
 
 // FAQ Data
 const faqData = [
-    // COLE O CÓDIGO ABAIXO DENTRO DA SUA 'const faqData'
-{
+    {
     topic: "APOIO A EVENTOS CIENTÍFICOS",
     subtopic: "Regras Gerais",
     question: "A UEPB oferece ajuda de custo para apresentar trabalhos em congressos?",
@@ -448,15 +447,19 @@ const faqData = [
     { topic: "VIDA ACADÊMICA", subtopic: "Avaliação e Aprovação", question: "Como funciona a avaliação nas disciplinas?", answer: "A aprovação em uma disciplina depende de nota e frequência mínimas.", details: [{ icon: '✅', category: 'Categoria Principal: Desempenho Acadêmico', points: ["Nota Mínima: Aprovação exige nota igual ou superior a 7,0 (Conceito C).", "Frequência Mínima: É obrigatória a presença em, no mínimo, 75% das aulas.", "CRE (Coeficiente de Rendimento Escolar): Manter o CRE acima de 7,0 é condição para a permanência no programa."] }], legalBasis: "Art. 125 (Sistema de Notas), Art. 126 (Frequência Mínima), Art. 110, inciso VI (Desligamento por CRE baixo)", documentation: "Não se aplica.", deadlines: "O professor tem até 30 dias após o término da disciplina para lançar as notas. Reprovar 2x na mesma disciplina ou ter CRE < 7,0 leva ao desligamento." },
     { topic: "VIDA ACADÊMICA", subtopic: "Estágio de Docência", question: "O Estágio de Docência é obrigatório?", answer: "Sim, o estágio de docência é uma atividade acadêmica obrigatória para bolsistas, visando a formação para o ensino superior. Discentes que já são professores podem solicitar a dispensa da atividade.", details: [{ icon: '👨‍🏫', category: 'Detalhes do Estágio', points: ["É obrigatório para discentes bolsistas.", "Mestrandos devem cursar por um semestre; doutorandos por dois semestres.", "As atividades são supervisionadas pelo orientador e por um professor da graduação.", "Ao final, o discente deve elaborar um relatório para obter os créditos."] }], legalBasis: "Art. 118", documentation: "Relatório de atividades do estágio.", deadlines: "Deve ser cumprido dentro do prazo regular do curso." },
     { topic: "VIDA ACADÊMICA", subtopic: "Aproveitamento de Estudos", question: "Posso aproveitar créditos de outros cursos de pós-graduação?", answer: "Sim, o Colegiado pode aceitar créditos de disciplinas cursadas em outros programas de pós-graduação (stricto ou lato sensu), desde que tenham sido concluídas nos últimos 5 anos e sejam relevantes para sua formação.", details: [{ icon: '📚', category: 'Regras para Aproveitamento', points: ["O componente curricular deve ter sido concluído há, no máximo, 5 anos.", "A nota obtida deve ser igual ou superior a 7,0 (ou conceito C).", "O número máximo de créditos a serem aproveitados é definido no regimento de cada programa.", "É necessário apresentar requerimento com histórico escolar e ementas das disciplinas."] }], legalBasis: "Art. 129, Art. 130", documentation: "Requerimento formal, histórico escolar e ementas das disciplinas cursadas.", deadlines: "A solicitação deve ser feita formalmente à coordenação do programa." },
-    
-    
-    
     { topic: "PRAZOS E SITUAÇÕES ESPECIAIS", subtopic: "Prazos do Curso", question: "Qual o prazo máximo para concluir o mestrado/doutorado?", answer: "O regimento estabelece prazos mínimos e máximos para a conclusão do curso, contados a partir da data da primeira matrícula.", details: [{ icon: '⏳', category: 'Categoria Principal: Prazos Regimentais', points: ["Mestrado: Mínimo de 1 ano e máximo de 2 anos e 6 meses (30 meses).", "Doutorado: Mínimo de 2 anos e máximo de 5 anos (60 meses).", "Prorrogação: Em casos excepcionais, o Colegiado pode conceder uma prorrogação de até 6 meses (mestrado) ou 12 meses (doutorado)."] }], legalBasis: "Art. 113 (Prazos), Art. 114 (Prorrogação)", documentation: "Para prorrogação: Requerimento formal, justificativa, parecer do orientador, versão preliminar do trabalho, cronograma.", deadlines: "A solicitação de prorrogação deve ser feita ANTES do vencimento do prazo regular. A decisão é do Colegiado." },
-    
-    {
+    { topic: "ORIENTAÇÃO", subtopic: "Definição e Troca de Orientador", question: "Como funciona a definição e a troca de orientador?", answer: "Todo aluno tem direito a um orientador, que é formalizado pelo Colegiado. A troca é possível, mas é um processo que requer acordo e aprovação.", details: [{ icon: '🤝', category: 'Categoria Principal: Relação Orientador-Orientando', points: ["Definição: Designado pelo Colegiado, com base na indicação do aluno e afinidade de pesquisa.", "Mudança pelo Aluno: O aluno pode solicitar a troca, com anuência do orientador atual e do novo.", "Conflito: Em caso de discordância, a decisão final sobre a troca cabe ao Colegiado."] }], legalBasis: "Art. 65 (Definição), Art. 66 (Mudança pelo Discente), Art. 32, inciso XXI (Atribuição do Colegiado)", documentation: "Para troca: Requerimento formal, justificativa, carta de anuência/aceite.", deadlines: "O Colegiado tem até 30 dias para designar um novo orientador em caso de vacância." },
+    { topic: "ORIENTAÇÃO", subtopic: "Definição e Troca de Orientador", question: "Um orientador pode deixar de me orientar?", answer: "Sim, um orientador pode solicitar ao Colegiado o direito de abdicar da orientação de um discente. Isso deve ser feito através de uma justificativa formal e circunstanciada, baseada nos relatórios de desempenho do aluno.", details: [{ icon: '👋', category: 'Abdicação da Orientação', points: ["Direito do Orientador: É facultado ao orientador o direito de abdicar da orientação.", "Justificativa: A solicitação deve ser formal e bem fundamentada.", "Aprovação: O pedido precisa ser submetido e aprovado pelo Colegiado do programa.", "Novo Orientador: Em caso de aprovação, o Colegiado designará um novo orientador em até 30 dias."] }], legalBasis: "Art. 67 (Abdicação pelo Orientador), Art. 68 (Tutela da Coordenação)", documentation: "Justificativa formal do orientador.", deadlines: "A decisão final é do Colegiado." },
+    { topic: "DEFESA E DIPLOMAÇÃO", subtopic: "Exame de Qualificação", question: "O que é o Exame de Qualificação?", answer: "O exame de qualificação (ou pré-banca) é uma etapa obrigatória para o doutorado que avalia a capacidade do discente de realizar uma pesquisa original. É um marco importante que antecede a defesa final da tese.", details: [{ icon: '🧐', category: 'Processo de Qualificação', points: ["Objetivo: Avaliar a maturidade da pesquisa e a capacidade do discente.", "Obrigatoriedade: É obrigatório para o Doutorado e pode ser exigido no Mestrado, conforme o regimento do programa.", "Banca: Composta por no mínimo três doutores, aprovada pelo Colegiado.", "Resultado: O discente pode ser 'Aprovado' ou 'Reprovado'. Em caso de reprovação, há uma única chance de repetir o exame."] }], legalBasis: "Art. 147, 148, 149, 150", documentation: "Versão do trabalho para a banca, requerimento de agendamento.", deadlines: "O prazo para a segunda tentativa é de até 120 dias (Doutorado) ou 60 dias (Mestrado) após a primeira." },
+    { topic: "DEFESA E DIPLOMAÇÃO", subtopic: "Requisitos para Defesa", question: "O que preciso fazer para poder defender minha dissertação/tese?", answer: "Para marcar a defesa, é preciso ter cumprido uma série de requisitos acadêmicos e administrativos, formando um checklist obrigatório.", details: [{ icon: '🏁', category: 'Categoria Principal: Conclusão de Curso', points: ["Checklist: Créditos integralizados, aprovação na qualificação, proficiência em língua estrangeira, estágio docência cumprido, declaração de não plágio e recomendação do orientador."] }], legalBasis: "Art. 151 (Requisitos para a Defesa)", documentation: "Requerimento de agendamento, autorização do orientador, versão do trabalho para a banca, sugestão de nomes para a comissão, comprovantes de todos os requisitos.", deadlines: "O Colegiado tem até 30 dias para homologar a banca, e a defesa deve ser marcada em até 30 dias após a homologação." },
+    { topic: "DEFESA E DIPLOMAÇÃO", subtopic: "Banca e Resultados", question: "Como funciona a banca de defesa e quais os possíveis resultados?", answer: "A defesa é uma sessão pública julgada por uma comissão de especialistas. O resultado pode ser aprovação, aprovação com correções ou reprovação.", details: [{ icon: '🧑‍⚖️', category: 'Categoria Principal: Banca Examinadora', points: ["Composição (Mestrado): Orientador + 2 especialistas (1 externo).", "Composição (Doutorado): Orientador + 4 especialistas (2 externos, 1 de outra instituição).", "Resultados: Aprovado(a), Insuficiente (com prazo para correções), Reprovado(a) (leva ao desligamento)."] }], legalBasis: "Art. 156 (Composição da Banca), Art. 157 (Resultados)", documentation: "Ata da sessão de defesa pública.", deadlines: "Prazo para correções (se 'Insuficiente'): 90 dias (Mestrado) ou 180 dias (Doutorado)." },
+    { topic: "DEFESA E DIPLOMAÇÃO", subtopic: "Diplomação", question: "Fui aprovado! Como faço para solicitar o diploma?", answer: "Após a aprovação e a realização das correções, é preciso depositar a versão final do trabalho no repositório da UEPB e, então, solicitar formalmente a expedição do diploma.", details: [{ icon: '📜', category: 'Categoria Principal: Diplomação', points: ["Depósito Final: A versão final corrigida (PDF/A com ficha catalográfica) deve ser depositada no Repositório Institucional em até 30 dias após a defesa.", "Solicitação do Diploma: O processo é aberto pelo aluno junto à PRPGP, com toda a documentação comprobatória."] }], legalBasis: "Art. 159 (Depósito Final), Art. 162 (Requisitos para Outorga), Art. 163 (Documentação para Expedição)", documentation: "Requerimento padrão, Ata da defesa, Cópia do diploma anterior, Documentos pessoais, Comprovante de depósito, Declaração de quitação da biblioteca, Declaração e histórico de conclusão.", deadlines: "Prazo para Depósito: 30 dias após a defesa (prorrogável por mais 15). A expedição do diploma é de responsabilidade da PRPGP." },
+    { topic: "DIREITOS E GOVERNANÇA", subtopic: "Propriedade Intelectual", question: "Quem é o dono da minha pesquisa? Posso pedir sigilo?", answer: "Os resultados da pesquisa são de propriedade da UEPB, mas os direitos autorais são resguardados. Sim, você pode e deve solicitar sigilo se planeja publicar ou patentear.", details: [{ icon: '💡', category: 'Categoria Principal: Propriedade Intelectual', points: ["Propriedade: Os resultados são da UEPB, mas a divulgação deve sempre mencionar a universidade, o orientador e o discente.", "Sigilo: Você tem o direito de solicitar um prazo de sigilo de até 1 ano para a divulgação do seu trabalho no repositório.", "Processo: A solicitação de sigilo é feita no momento do depósito final do trabalho."] }], legalBasis: "Art. 187 (Divulgação e Sigilo), Art. 188 (Propriedade dos Resultados)", documentation: "Formulário de autorização de depósito, com a opção de embargo/sigilo marcada.", deadlines: "Prazo de Sigilo: Até 1 ano, podendo ser ampliado. A solicitação é feita no ato do depósito." },
+    { topic: "DIREITOS E GOVERNANÇA", subtopic: "Regras de Transição", question: "Como funcionam as regras de transição para o novo regimento?", answer: "Para discentes que ingressaram até o segundo período letivo de 2023, aplicam-se as disposições do regimento anterior. Esta nova resolução vale para os ingressantes a partir de sua publicação.", details: [{ icon: '📜', category: 'Categoria Principal: Normas Aplicáveis', points: ["Marco Temporal: A data de ingresso no curso define qual regimento se aplica ao aluno.", "Regra Anterior: Alunos ingressantes até 2023.2 seguem o regimento antigo.", "Regra Nova: Alunos ingressantes após a publicação desta resolução seguem as novas regras."] }], legalBasis: "Art. 189", documentation: "Não se aplica documentação específica, a regra é aplicada automaticamente pela secretaria.", deadlines: "A regra de transição é permanente para as turmas especificadas." },
+  {
     topic: "PRAZOS E SITUAÇÕES ESPECIAIS",
     subtopic: "Trancamento Geral e Licença",
-    question: "Posso trancar o curso por um tempo por um tempo?",
+    question: "Posso trancar o curso por um tempo?",
     answer: "Sim, é possível solicitar a 'Interrupção de Estudos' (trancamento geral) por motivo de doença comprovada ou licença maternidade. O período de trancamento não é contabilizado no tempo total para a conclusão do curso.",
     keywords: ["trancamento", "interrupção", "licença maternidade", "doença", "afastamento", "pausa", "suspender", "gestante", "saúde", "atestado médico"],
     details: [{
@@ -474,36 +477,6 @@ const faqData = [
     documentation: "Requerimento formal com justificativa comprovada (atestado médico, etc.), parecer do orientador e aprovação do Colegiado.",
     deadlines: "A solicitação deve ser feita antes ou durante o período a ser trancado."
 },
-    
-    
-    {
-    topic: "PRAZOS E SITUAÇÕES ESPECIAIS",
-    subtopic: "Trancamento Geral e Licença",
-    question: "Como funciona a licença-maternidade na pós-graduação?",
-    answer: "A pós-graduanda tem direito a 180 dias de licença-maternidade. Este período não é descontado do prazo total para a conclusão do curso e, para alunas bolsistas, a bolsa não é suspensa durante a licença.",
-    keywords: ["licença maternidade", "mãe", "gestante", "parto", "adoção", "afastamento", "bebê", "filho", "bolsa", "prazo"],
-    details: [{
-        icon: '🤱',
-        category: 'Categoria Principal: Direitos da Pós-Graduanda',
-        points: [
-            "Duração da Licença: 180 dias.",
-            "Contagem de Prazo: O período da licença NÃO é contabilizado no prazo máximo para a defesa da dissertação ou tese.",
-            "Bolsa de Estudos: A bolsa de estudos é mantida integralmente durante a licença, sendo uma exceção à regra de suspensão por afastamento.",
-            "Exercícios Domiciliares: A aluna gestante também tem direito a um regime de exercícios domiciliares a partir do oitavo mês de gestação, com duração de 4 meses."
-        ]
-    }],
-    legalBasis: "Art. 41 (§ 2º), Art. 107 (§§ 6º e 7º) e Art. 108 (I) da Resolução/UEPB/CONSEPE/008/2023",
-    documentation: "Atestado médico ou certidão de nascimento para formalizar o pedido junto à coordenação do programa.",
-    deadlines: "A solicitação deve ser feita formalmente à coordenação do programa para que os prazos e a manutenção da bolsa sejam garantidos."
-},
-    { topic: "ORIENTAÇÃO", subtopic: "Definição e Troca de Orientador", question: "Como funciona a definição e a troca de orientador?", answer: "Todo aluno tem direito a um orientador, que é formalizado pelo Colegiado. A troca é possível, mas é um processo que requer acordo e aprovação.", details: [{ icon: '🤝', category: 'Categoria Principal: Relação Orientador-Orientando', points: ["Definição: Designado pelo Colegiado, com base na indicação do aluno e afinidade de pesquisa.", "Mudança pelo Aluno: O aluno pode solicitar a troca, com anuência do orientador atual e do novo.", "Conflito: Em caso de discordância, a decisão final sobre a troca cabe ao Colegiado."] }], legalBasis: "Art. 65 (Definição), Art. 66 (Mudança pelo Discente), Art. 32, inciso XXI (Atribuição do Colegiado)", documentation: "Para troca: Requerimento formal, justificativa, carta de anuência/aceite.", deadlines: "O Colegiado tem até 30 dias para designar um novo orientador em caso de vacância." },
-    { topic: "ORIENTAÇÃO", subtopic: "Definição e Troca de Orientador", question: "Um orientador pode deixar de me orientar?", answer: "Sim, um orientador pode solicitar ao Colegiado o direito de abdicar da orientação de um discente. Isso deve ser feito através de uma justificativa formal e circunstanciada, baseada nos relatórios de desempenho do aluno.", details: [{ icon: '👋', category: 'Abdicação da Orientação', points: ["Direito do Orientador: É facultado ao orientador o direito de abdicar da orientação.", "Justificativa: A solicitação deve ser formal e bem fundamentada.", "Aprovação: O pedido precisa ser submetido e aprovado pelo Colegiado do programa.", "Novo Orientador: Em caso de aprovação, o Colegiado designará um novo orientador em até 30 dias."] }], legalBasis: "Art. 67 (Abdicação pelo Orientador), Art. 68 (Tutela da Coordenação)", documentation: "Justificativa formal do orientador.", deadlines: "A decisão final é do Colegiado." },
-    { topic: "DEFESA E DIPLOMAÇÃO", subtopic: "Exame de Qualificação", question: "O que é o Exame de Qualificação?", answer: "O exame de qualificação (ou pré-banca) é uma etapa obrigatória para o doutorado que avalia a capacidade do discente de realizar uma pesquisa original. É um marco importante que antecede a defesa final da tese.", details: [{ icon: '🧐', category: 'Processo de Qualificação', points: ["Objetivo: Avaliar a maturidade da pesquisa e a capacidade do discente.", "Obrigatoriedade: É obrigatório para o Doutorado e pode ser exigido no Mestrado, conforme o regimento do programa.", "Banca: Composta por no mínimo três doutores, aprovada pelo Colegiado.", "Resultado: O discente pode ser 'Aprovado' ou 'Reprovado'. Em caso de reprovação, há uma única chance de repetir o exame."] }], legalBasis: "Art. 147, 148, 149, 150", documentation: "Versão do trabalho para a banca, requerimento de agendamento.", deadlines: "O prazo para a segunda tentativa é de até 120 dias (Doutorado) ou 60 dias (Mestrado) após a primeira." },
-    { topic: "DEFESA E DIPLOMAÇÃO", subtopic: "Requisitos para Defesa", question: "O que preciso fazer para poder defender minha dissertação/tese?", answer: "Para marcar a defesa, é preciso ter cumprido uma série de requisitos acadêmicos e administrativos, formando um checklist obrigatório.", details: [{ icon: '🏁', category: 'Categoria Principal: Conclusão de Curso', points: ["Checklist: Créditos integralizados, aprovação na qualificação, proficiência em língua estrangeira, estágio docência cumprido, declaração de não plágio e recomendação do orientador."] }], legalBasis: "Art. 151 (Requisitos para a Defesa)", documentation: "Requerimento de agendamento, autorização do orientador, versão do trabalho para a banca, sugestão de nomes para a comissão, comprovantes de todos os requisitos.", deadlines: "O Colegiado tem até 30 dias para homologar a banca, e a defesa deve ser marcada em até 30 dias após a homologação." },
-    { topic: "DEFESA E DIPLOMAÇÃO", subtopic: "Banca e Resultados", question: "Como funciona a banca de defesa e quais os possíveis resultados?", answer: "A defesa é uma sessão pública julgada por uma comissão de especialistas. O resultado pode ser aprovação, aprovação com correções ou reprovação.", details: [{ icon: '🧑‍⚖️', category: 'Categoria Principal: Banca Examinadora', points: ["Composição (Mestrado): Orientador + 2 especialistas (1 externo).", "Composição (Doutorado): Orientador + 4 especialistas (2 externos, 1 de outra instituição).", "Resultados: Aprovado(a), Insuficiente (com prazo para correções), Reprovado(a) (leva ao desligamento)."] }], legalBasis: "Art. 156 (Composição da Banca), Art. 157 (Resultados)", documentation: "Ata da sessão de defesa pública.", deadlines: "Prazo para correções (se 'Insuficiente'): 90 dias (Mestrado) ou 180 dias (Doutorado)." },
-    { topic: "DEFESA E DIPLOMAÇÃO", subtopic: "Diplomação", question: "Fui aprovado! Como faço para solicitar o diploma?", answer: "Após a aprovação e a realização das correções, é preciso depositar a versão final do trabalho no repositório da UEPB e, então, solicitar formalmente a expedição do diploma.", details: [{ icon: '📜', category: 'Categoria Principal: Diplomação', points: ["Depósito Final: A versão final corrigida (PDF/A com ficha catalográfica) deve ser depositada no Repositório Institucional em até 30 dias após a defesa.", "Solicitação do Diploma: O processo é aberto pelo aluno junto à PRPGP, com toda a documentação comprobatória."] }], legalBasis: "Art. 159 (Depósito Final), Art. 162 (Requisitos para Outorga), Art. 163 (Documentação para Expedição)", documentation: "Requerimento padrão, Ata da defesa, Cópia do diploma anterior, Documentos pessoais, Comprovante de depósito, Declaração de quitação da biblioteca, Declaração e histórico de conclusão.", deadlines: "Prazo para Depósito: 30 dias após a defesa (prorrogável por mais 15). A expedição do diploma é de responsabilidade da PRPGP." },
-    
-    
 {
     topic: "SITUAÇÕES PROBLEMÁTICAS",
     subtopic: "Desligamento",
@@ -528,9 +501,26 @@ const faqData = [
     documentation: "O processo é administrativo, iniciado pela Coordenação, garantindo ao discente o direito de ampla defesa e recurso ao Colegiado.",
     deadlines: "O desligamento é efetivado após a notificação oficial ou a publicação da decisão do Colegiado."
 },
-    
-    { topic: "DIREITOS E GOVERNANÇA", subtopic: "Propriedade Intelectual", question: "Quem é o dono da minha pesquisa? Posso pedir sigilo?", answer: "Os resultados da pesquisa são de propriedade da UEPB, mas os direitos autorais são resguardados. Sim, você pode e deve solicitar sigilo se planeja publicar ou patentear.", details: [{ icon: '💡', category: 'Categoria Principal: Propriedade Intelectual', points: ["Propriedade: Os resultados são da UEPB, mas a divulgação deve sempre mencionar a universidade, o orientador e o discente.", "Sigilo: Você tem o direito de solicitar um prazo de sigilo de até 1 ano para a divulgação do seu trabalho no repositório.", "Processo: A solicitação de sigilo é feita no momento do depósito final do trabalho."] }], legalBasis: "Art. 187 (Divulgação e Sigilo), Art. 188 (Propriedade dos Resultados)", documentation: "Formulário de autorização de depósito, com a opção de embargo/sigilo marcada.", deadlines: "Prazo de Sigilo: Até 1 ano, podendo ser ampliado. A solicitação é feita no ato do depósito." },
-    { topic: "DIREITOS E GOVERNANÇA", subtopic: "Regras de Transição", question: "Como funcionam as regras de transição para o novo regimento?", answer: "Para discentes que ingressaram até o segundo período letivo de 2023, aplicam-se as disposições do regimento anterior. Esta nova resolução vale para os ingressantes a partir de sua publicação.", details: [{ icon: '📜', category: 'Categoria Principal: Normas Aplicáveis', points: ["Marco Temporal: A data de ingresso no curso define qual regimento se aplica ao aluno.", "Regra Anterior: Alunos ingressantes até 2023.2 seguem o regimento antigo.", "Regra Nova: Alunos ingressantes após a publicação desta resolução seguem as novas regras."] }], legalBasis: "Art. 189", documentation: "Não se aplica documentação específica, a regra é aplicada automaticamente pela secretaria.", deadlines: "A regra de transição é permanente para as turmas especificadas." },
+  {
+    topic: "PRAZOS E SITUAÇÕES ESPECIAIS",
+    subtopic: "Trancamento Geral e Licença",
+    question: "Como funciona a licença-maternidade na pós-graduação?",
+    answer: "A pós-graduanda tem direito a 180 dias de licença-maternidade. Este período não é descontado do prazo total para a conclusão do curso e, para alunas bolsistas, a bolsa não é suspensa durante a licença.",
+    keywords: ["licença maternidade", "mãe", "gestante", "parto", "adoção", "afastamento", "bebê", "filho", "bolsa", "prazo"],
+    details: [{
+        icon: '🤱',
+        category: 'Categoria Principal: Direitos da Pós-Graduanda',
+        points: [
+            "Duração da Licença: 180 dias.",
+            "Contagem de Prazo: O período da licença NÃO é contabilizado no prazo máximo para a defesa da dissertação ou tese.",
+            "Bolsa de Estudos: A bolsa de estudos é mantida integralmente durante a licença, sendo uma exceção à regra de suspensão por afastamento.",
+            "Exercícios Domiciliares: A aluna gestante também tem direito a um regime de exercícios domiciliares a partir do oitavo mês de gestação, com duração de 4 meses."
+        ]
+    }],
+    legalBasis: "Art. 41 (§ 2º), Art. 107 (§§ 6º e 7º) e Art. 108 (I) da Resolução/UEPB/CONSEPE/008/2023",
+    documentation: "Atestado médico ou certidão de nascimento para formalizar o pedido junto à coordenação do programa.",
+    deadlines: "A solicitação deve ser feita formalmente à coordenação do programa para que os prazos e a manutenção da bolsa sejam garantidos."
+},
     { topic: "DIREITOS E GOVERNANÇA", subtopic: "Passagem Direta Mestrado-Doutorado", question: "É possível passar do mestrado para o doutorado diretamente (fast track)?", answer: "Sim, os programas podem prever a passagem de alunos do mestrado para o doutorado sem a necessidade de um novo processo seletivo público, contanto que critérios de excelência sejam atendidos.", details: [{ icon: '🚀', category: 'Categoria Principal: Mobilidade Acadêmica Avançada', points: ["Condição: O regimento do programa deve prever e detalhar essa possibilidade.", "Critérios: O aluno deve demonstrar desempenho excepcional, produção acadêmica qualificada e ter um plano de trabalho consistente para o doutorado.", "Avaliação: A passagem depende de uma avaliação rigorosa por uma comissão designada pelo Colegiado."] }], legalBasis: "Art. 104", documentation: "Requerimento formal, histórico escolar, currículo Lattes atualizado, produção científica, plano de trabalho para o doutorado, carta de recomendação do orientador.", deadlines: "A solicitação deve ser feita em um prazo definido pelo regimento do programa, geralmente após a qualificação do mestrado." },
     { topic: "DIREITOS E GOVERNANÇA", subtopic: "Deveres do Discente", question: "Quais são os principais deveres do aluno de pós-graduação?", answer: "Além do respeito às normas da UEPB, o aluno deve cumprir o plano de estudos, manter o orientador informado, participar das atividades, realizar o estágio de docência e submeter projetos ao Comitê de Ética quando necessário.", details: [{ icon: '📋', category: 'Categoria Principal: Responsabilidades Acadêmicas', points: ["Zelar pelo nome da instituição e cumprir o regimento.", "Manter seus dados cadastrais e curriculares atualizados.", "Dedicar-se às atividades do curso e cumprir os prazos.", "Cumprir o Estágio de Docência (obrigatório para bolsistas).", "Observar as diretrizes do Comitê de Ética em Pesquisa."] }], legalBasis: "Art. 74", documentation: "Comprovantes de submissão ao Comitê de Ética, relatórios de estágio de docência, etc., conforme exigido pelo programa.", deadlines: "Os deveres devem ser cumpridos ao longo de todo o curso." },
     { topic: "DIREITOS E GOVERNANÇA", subtopic: "Representação Discente", question: "Como funciona a representação dos alunos no Colegiado?", answer: "Os alunos (discentes) têm direito a uma representação no Colegiado do programa, com direito a voz e voto, garantindo sua participação nas decisões. O mandato é de 1 ano, permitida uma recondução.", details: [{ icon: '🗣️', category: 'Categoria Principal: Governança e Participação', points: ["Composição: O Colegiado inclui representantes dos alunos, eleitos por seus pares.", "Mandato: O mandato do representante discente é de 1 (um) ano.", "Recondução: É permitida uma recondução para um segundo mandato.", "Voz e Voto: Os representantes participam ativamente das reuniões e deliberações."] }], legalBasis: "Art. 31, inciso III e §3º", documentation: "A eleição é organizada pelos próprios alunos e formalizada junto à coordenação do programa.", deadlines: "O mandato é de 1 ano, com eleições periódicas para a escolha dos representantes." },
@@ -552,7 +542,8 @@ const quickAccessCards = [
     { icon: 'fas fa-plane-departure', title: 'Apoio a Eventos', description: 'Auxílio para participação em congressos', topic: 'APOIO A EVENTOS CIENTÍFICOS' },
     { icon: 'fas fa-check-circle', title: 'Requisitos de Conclusão', description: 'Critérios para finalizar o curso', topic: 'REQUISITOS DE CONCLUSÃO' },
     { icon: 'fas fa-hands-helping', title: 'Professor Voluntário', description: 'Regras para atuação voluntária na UEPB', topic: 'PROFESSOR VOLUNTÁRIO' },
-    { icon: 'fas fa-microscope', title: 'Pós-Doutorado', description: 'Estágio, regras e atividades', topic: 'PÓS-DOUTORADO' }
+    { icon: 'fas fa-microscope', title: 'Pós-Doutorado', description: 'Estágio, regras e atividades', topic: 'PÓS-DOUTORADO' },
+    { icon: 'fas fa-info-circle', title: 'Sobre esta Versão', description: 'Informações sobre atualizações e melhorias', topic: 'SOBRE' }
 ];
 
 // Topic icons
@@ -584,6 +575,8 @@ const quickCards = document.getElementById('quickCards');
 
 // State
 let currentResults = faqData;
+let currentPage = 1;
+const itemsPerPage = 10;
 
 // Initialize
 document.addEventListener('DOMContentLoaded', function() {
@@ -596,7 +589,7 @@ function initializeApp() {
     renderFAQ(faqData);
     updateResultsCount(faqData.length);
     updateHeroStats();
-    
+
     // Event listeners
     searchInput.addEventListener('input', debounce(handleSearch, 300));
     topicFilter.addEventListener('change', handleFilter);
@@ -606,10 +599,10 @@ function initializeApp() {
 function updateHeroStats() {
     // Contar perguntas totais
     const totalQuestions = faqData.length;
-    
+
     // Contar categorias únicas (tópicos)
     const uniqueTopics = [...new Set(faqData.map(item => item.topic))].length;
-    
+
     // Atualizar os elementos no DOM
     const statNumbers = document.querySelectorAll('.stat-number');
     if (statNumbers.length >= 2) {
@@ -639,47 +632,81 @@ function populateFilters() {
 }
 
 function renderQuickAccessCards() {
-    quickCards.innerHTML = quickAccessCards.map(card => `
-        <div class="quick-card" onclick="filterByTopic('${card.topic}')">
-            <div class="quick-card-icon">
-                <i class="${card.icon}"></i>
-            </div>
-            <h3>${card.title}</h3>
-            <p>${card.description}</p>
-        </div>
-    `).join('');
+    quickCards.innerHTML = quickAccessCards.map(card => {
+        if (card.subtopic) {
+            return `
+                <div class="quick-card" onclick="filterByTopicAndSubtopic('${card.topic}', '${card.subtopic}')">
+                    <div class="quick-card-icon">
+                        <i class="${card.icon}"></i>
+                    </div>
+                    <h3>${card.title}</h3>
+                    <p>${card.description}</p>
+                </div>
+            `;
+        } else {
+            return `
+                <div class="quick-card" onclick="filterByTopic('${card.topic}')">
+                    <div class="quick-card-icon">
+                        <i class="${card.icon}"></i>
+                    </div>
+                    <h3>${card.title}</h3>
+                    <p>${card.description}</p>
+                </div>
+            `;
+        }
+    }).join('');
 }
 
 function renderFAQ(items) {
     if (items.length === 0) {
         faqContainer.innerHTML = '';
+        document.getElementById('paginationContainer').style.display = 'none';
         noResults.classList.add('show');
         return;
     }
 
     noResults.classList.remove('show');
-    
-    faqContainer.innerHTML = items.map((item, index) => `
-        <div class="faq-item" id="faq-${index}">
-            <div class="faq-header-item" onclick="toggleFAQ(${index})">
-                <div class="faq-question-content">
-                    <div class="faq-question">${item.question}</div>
-                    <div class="faq-tags">
-                        <span class="faq-tag topic">${item.topic}</span>
-                        <span class="faq-tag subtopic">${item.subtopic}</span>
+
+    // Calculate pagination
+    const totalPages = Math.ceil(items.length / itemsPerPage);
+    const startIndex = (currentPage - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+    const currentItems = items.slice(startIndex, endIndex);
+
+    // Render current page items
+    faqContainer.innerHTML = currentItems.map((item, index) => {
+        const globalIndex = startIndex + index;
+        return `
+            <div class="faq-item" id="faq-${globalIndex}">
+                <div class="faq-header-item" onclick="toggleFAQ(${globalIndex})">
+                    <div class="faq-question-content">
+                        <div class="faq-question">${item.question}</div>
+                        <div class="faq-tags">
+                            <span class="faq-tag topic">${item.topic}</span>
+                            <span class="faq-tag subtopic">${item.subtopic}</span>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-down faq-chevron"></i>
+                </div>
+                <div class="faq-content">
+                    <div class="faq-answer">${item.answer}</div>
+                    <div class="faq-details">
+                        ${renderDetails(item)}
+                        ${renderInfoGrid(item)}
                     </div>
                 </div>
-                <i class="fas fa-chevron-down faq-chevron"></i>
             </div>
-            <div class="faq-content">
-                <div class="faq-answer">${item.answer}</div>
-                <div class="faq-details">
-                    ${renderDetails(item)}
-                    ${renderInfoGrid(item)}
-                </div>
-            </div>
-        </div>
-    `).join('');
+        `;
+    }).join('');
+
+    // Show/hide pagination
+    const paginationContainer = document.getElementById('paginationContainer');
+    if (totalPages > 1) {
+        paginationContainer.style.display = 'flex';
+        renderPagination(totalPages, items.length);
+    } else {
+        paginationContainer.style.display = 'none';
+    }
 }
 
 function renderDetails(item) {
@@ -700,7 +727,7 @@ function renderInfoGrid(item) {
             <div class="info-item">
                 <i class="fas fa-book info-icon"></i>
                 <div class="info-content">
-                    <h5>Base Legal <i class="fas fa-external-link-alt legal-link-icon" onclick="openLegalDocument(event)"></i></h5>
+                    <h5>Base Legal <i class="fas fa-external-link-alt legal-link-icon" onclick="openLegalDocument(event, '${item.topic}', '${item.subtopic}')"></i></h5>
                     <p>${item.legalBasis}</p>
                 </div>
             </div>
@@ -724,7 +751,9 @@ function renderInfoGrid(item) {
 
 function toggleFAQ(index) {
     const faqItem = document.getElementById(`faq-${index}`);
-    faqItem.classList.toggle('active');
+    if (faqItem) {
+        faqItem.classList.toggle('active');
+    }
 }
 
 function handleSearch() {
@@ -735,15 +764,21 @@ function handleFilter() {
     applyFilters();
 }
 
+// Função para remover acentos
+function removeAccents(str) {
+    return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+}
+
 function applyFilters() {
     const searchTerm = searchInput.value.toLowerCase().trim();
+    const searchTermNoAccents = removeAccents(searchTerm);
     const selectedTopic = topicFilter.value;
     const selectedSubtopic = subtopicFilter.value;
 
     // Show/hide quick access cards based on search or any active filter
     const quickAccessSection = document.querySelector('.quick-access');
     const hasActiveFilters = searchTerm || selectedTopic || selectedSubtopic;
-    
+
     if (hasActiveFilters) {
         quickAccessSection.classList.add('hidden');
     } else {
@@ -753,10 +788,10 @@ function applyFilters() {
     let filtered = faqData.filter(item => {
         // Topic filter
         if (selectedTopic && item.topic !== selectedTopic) return false;
-        
+
         // Subtopic filter
         if (selectedSubtopic && item.subtopic !== selectedSubtopic) return false;
-        
+
         // Search filter
         if (searchTerm) {
             const searchableText = [
@@ -769,17 +804,24 @@ function applyFilters() {
                 item.deadlines,
                 ...item.details.flatMap(d => [d.category, ...d.points])
             ].join(' ').toLowerCase();
-            
-            if (!searchableText.includes(searchTerm)) return false;
+
+            const searchableTextNoAccents = removeAccents(searchableText);
+
+            // Busca tanto com acentos quanto sem acentos
+            if (!searchableText.includes(searchTerm) && !searchableTextNoAccents.includes(searchTermNoAccents)) {
+                return false;
+            }
         }
-        
+
         return true;
     });
 
+    // Reset to first page when filters change
+    currentPage = 1;
     currentResults = filtered;
     renderFAQ(filtered);
     updateResultsCount(filtered.length);
-    
+
     // Update subtopic filter based on selected topic
     if (selectedTopic) {
         updateSubtopicFilter(selectedTopic);
@@ -794,10 +836,10 @@ function updateSubtopicFilter(selectedTopic) {
             .filter(item => item.topic === selectedTopic)
             .map(item => item.subtopic)
     )].sort();
-    
+
     const currentValue = subtopicFilter.value;
     subtopicFilter.innerHTML = '<option value="">Todos os Subtópicos</option>';
-    
+
     relevantSubtopics.forEach(subtopic => {
         const option = document.createElement('option');
         option.value = subtopic;
@@ -811,7 +853,7 @@ function populateSubtopicFilter() {
     const subtopics = [...new Set(faqData.map(item => item.subtopic))].sort();
     const currentValue = subtopicFilter.value;
     subtopicFilter.innerHTML = '<option value="">Todos os Subtópicos</option>';
-    
+
     subtopics.forEach(subtopic => {
         const option = document.createElement('option');
         option.value = subtopic;
@@ -826,9 +868,29 @@ function filterByTopic(topic) {
     subtopicFilter.value = '';
     searchInput.value = '';
     applyFilters();
-    
+
+    // Mostrar indicador do filtro ativo
+    updateActiveFilterIndicator(topic);
+
     // Scroll to FAQ section
-    document.querySelector('.faq-section').scrollIntoView({ 
+    document.querySelector('.faq-section').scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+    });
+}
+
+function filterByTopicAndSubtopic(topic, subtopic) {
+    topicFilter.value = topic;
+    updateSubtopicFilter(topic);
+    subtopicFilter.value = subtopic;
+    searchInput.value = '';
+    applyFilters();
+
+    // Mostrar indicador do filtro ativo
+    updateActiveFilterIndicator(topic + ' - ' + subtopic);
+
+    // Scroll to FAQ section
+    document.querySelector('.faq-section').scrollIntoView({
         behavior: 'smooth',
         block: 'start'
     });
@@ -836,17 +898,28 @@ function filterByTopic(topic) {
 
 function updateResultsCount(count) {
     resultsCount.textContent = `${count} resultado${count !== 1 ? 's' : ''}`;
-    
+
     // Mostrar ou ocultar botão de reset baseado nos filtros ativos
     const resetBtn = document.getElementById('resetFiltersBtn');
-    const hasActiveFilters = searchInput.value.trim() !== '' || 
-                           topicFilter.value !== '' || 
-                           subtopicFilter.value !== '';
-    
+    const hasActiveFilters = searchInput.value.trim() !== '' ||
+        topicFilter.value !== '' ||
+        subtopicFilter.value !== '';
+
     if (hasActiveFilters) {
         resetBtn.classList.add('show');
     } else {
         resetBtn.classList.remove('show');
+    }
+}
+
+function updateActiveFilterIndicator(topic) {
+    const indicator = document.getElementById('activeFilterIndicator');
+
+    if (topic) {
+        indicator.textContent = topic;
+        indicator.classList.add('show');
+    } else {
+        indicator.classList.remove('show');
     }
 }
 
@@ -855,19 +928,99 @@ function resetAllFilters() {
     searchInput.value = '';
     topicFilter.value = '';
     subtopicFilter.value = '';
-    
+
     // Restaurar filtro de subtópicos
     populateSubtopicFilter();
-    
+
+    // Ocultar indicador de filtro ativo
+    updateActiveFilterIndicator(null);
+
+    // Reset pagination
+    currentPage = 1;
+
     // Mostrar cards de acesso rápido novamente
     const quickAccessSection = document.querySelector('.quick-access');
     quickAccessSection.classList.remove('hidden');
-    
+
     // Aplicar filtros (que agora estão vazios)
     applyFilters();
-    
+
     // Scroll suave para o topo da seção FAQ
-    document.querySelector('.faq-section').scrollIntoView({ 
+    document.querySelector('.faq-section').scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+    });
+}
+
+function renderPagination(totalPages, totalItems) {
+    const paginationContainer = document.getElementById('paginationContainer');
+    const startItem = (currentPage - 1) * itemsPerPage + 1;
+    const endItem = Math.min(currentPage * itemsPerPage, totalItems);
+    
+    let paginationHTML = `
+        <div class="pagination-info">
+            Mostrando ${startItem}-${endItem} de ${totalItems} resultados
+        </div>
+        <div class="pagination-controls">
+    `;
+
+    // Previous button
+    if (currentPage > 1) {
+        paginationHTML += `
+            <button class="pagination-btn" onclick="goToPage(${currentPage - 1})">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+        `;
+    }
+
+    // Page numbers
+    const startPage = Math.max(1, currentPage - 2);
+    const endPage = Math.min(totalPages, currentPage + 2);
+
+    if (startPage > 1) {
+        paginationHTML += `<button class="pagination-btn" onclick="goToPage(1)">1</button>`;
+        if (startPage > 2) {
+            paginationHTML += `<span class="pagination-ellipsis">...</span>`;
+        }
+    }
+
+    for (let i = startPage; i <= endPage; i++) {
+        paginationHTML += `
+            <button class="pagination-btn ${i === currentPage ? 'active' : ''}" onclick="goToPage(${i})">
+                ${i}
+            </button>
+        `;
+    }
+
+    if (endPage < totalPages) {
+        if (endPage < totalPages - 1) {
+            paginationHTML += `<span class="pagination-ellipsis">...</span>`;
+        }
+        paginationHTML += `<button class="pagination-btn" onclick="goToPage(${totalPages})">${totalPages}</button>`;
+    }
+
+    // Next button
+    if (currentPage < totalPages) {
+        paginationHTML += `
+            <button class="pagination-btn" onclick="goToPage(${currentPage + 1})">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        `;
+    }
+
+    paginationHTML += `
+        </div>
+    `;
+
+    paginationContainer.innerHTML = paginationHTML;
+}
+
+function goToPage(page) {
+    currentPage = page;
+    renderFAQ(currentResults);
+    
+    // Scroll to top of FAQ section
+    document.querySelector('.faq-section').scrollIntoView({
         behavior: 'smooth',
         block: 'start'
     });
@@ -898,9 +1051,24 @@ document.addEventListener('click', function(e) {
 });
 
 // Function to open legal document
-function openLegalDocument(event) {
+function openLegalDocument(event, topic = null, subtopic = null) {
     event.stopPropagation();
-    window.open('https://drive.google.com/file/d/1JLRNmKDOcBQI3TnAFPxKVXyf7K-UTF7o/view?usp=sharing', '_blank', 'noopener,noreferrer');
+    
+    // Links específicos para cada categoria
+    const specificLinks = {
+        'PROFESSOR VOLUNTÁRIO': 'https://drive.google.com/file/d/1ey0_GAxq3UPcbpv9WbmP8mP_tNkcMrAC/view?usp=drive_link',
+        'PÓS-DOUTORADO': 'https://drive.google.com/file/d/1-bojalWMDpKm2a9FSaYKjI6Ac0Q_pEzN/view?usp=sharing'
+    };
+    
+    // Para Estágio de Docência, usar o link específico
+    if (subtopic === 'Estágio de Docência') {
+        window.open('https://drive.google.com/file/d/1UJKf3oO2h1SO0Vszo--pmeFc-wroD0BX/view?usp=drive_link', '_blank', 'noopener,noreferrer');
+        return;
+    }
+    
+    // Usar link específico se disponível, senão usar o geral
+    const link = specificLinks[topic] || 'https://drive.google.com/file/d/1JLRNmKDOcBQI3TnAFPxKVXyf7K-UTF7o/view?usp=sharing';
+    window.open(link, '_blank', 'noopener,noreferrer');
 }
 
 // Back to Top Button functionality
@@ -921,12 +1089,40 @@ window.addEventListener('scroll', function() {
     }
 });
 
+// Version Modal Functions
+function openVersionModal() {
+    const modal = document.getElementById('versionModal');
+    modal.classList.add('show');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeVersionModal() {
+    const modal = document.getElementById('versionModal');
+    modal.classList.remove('show');
+    document.body.style.overflow = 'auto';
+}
+
 // Add keyboard navigation
 document.addEventListener('keydown', function(e) {
     if (e.key === 'Escape') {
+        // Close version modal if open
+        const versionModal = document.getElementById('versionModal');
+        if (versionModal.classList.contains('show')) {
+            closeVersionModal();
+            return;
+        }
+        
         // Close any open FAQ items
         document.querySelectorAll('.faq-item.active').forEach(item => {
             item.classList.remove('active');
         });
+    }
+});
+
+// Close modal when clicking outside
+document.addEventListener('click', function(e) {
+    const modal = document.getElementById('versionModal');
+    if (e.target === modal) {
+        closeVersionModal();
     }
 });

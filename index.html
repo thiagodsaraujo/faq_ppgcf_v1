@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQ Interativo - PPG/UEPB</title>
+    <title>FAQ Interativo - PPGCF UEPB</title>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
@@ -37,7 +37,7 @@
                     <div class="hero-text">
                         <h1>
                             <span class="hero-subtitle">Guia Interativo</span>
-                            <span class="hero-title">FAQ Acadêmico - PPG/UEPB</span>
+                            <span class="hero-title">FAQ Acadêmico</span>
                         </h1>
                     </div>
                     <p class="hero-description">
@@ -57,13 +57,13 @@
                         <span class="stat-label">Categorias</span>
                     </div>
                     <div class="stat-item">
-                        <span class="stat-number">18/08/2025</span>
+                        <span class="stat-number">15/08/2025</span>
                         <span class="stat-label">Atualizado</span>
                     </div>
                 </div>
             </div>
 
-            
+
 
             <!-- Legal Reference -->
             <div style="display: flex; justify-content: center;">
@@ -76,15 +76,12 @@
                         <a href="https://drive.google.com/drive/folders/13IzfiR690zx54eRSLJA0Nh7JCpBE6GYr?usp=drive_link"
                             target="_blank" rel="noopener noreferrer" class="legal-link">
                             Resolução UEPB/CONSEPE/008/2023
-                            e outras
+                            e outras normas
                             <i class="fas fa-external-link-alt"></i>
                         </a>
                     </div>
                 </div>
             </div>
-
-            
-
         </div>
         </div>
     </section>
@@ -119,7 +116,10 @@
             <!-- FAQ Content -->
             <div class="faq-section">
                 <div class="faq-header">
-                    <h2>Perguntas Frequentes</h2>
+                    <div class="faq-title-section">
+                        <h2>Perguntas Frequentes</h2>
+                        <span id="activeFilterIndicator" class="active-filter-indicator"></span>
+                    </div>
                     <div class="faq-actions">
                         <div class="faq-stats">
                             <span id="resultsCount">0 resultados</span>
@@ -133,6 +133,11 @@
 
                 <div class="faq-list" id="faqContainer">
                     <!-- FAQ items serão gerados dinamicamente -->
+                </div>
+
+                <!-- Pagination -->
+                <div class="pagination-container" id="paginationContainer">
+                    <!-- Pagination will be generated dynamically -->
                 </div>
 
                 <!-- No Results -->
@@ -160,6 +165,10 @@
                     Criado por <strong>Thiago Araújo</strong>, servidor da UEPB desde 2018,
                     para auxílio da comunidade acadêmica dos PPGs da UEPB
                 </p>
+                <p class="footer-version">
+                    <i class="fas fa-code-branch"></i>
+                    <span class="version-clickable" onclick="openVersionModal()">Versão 2.0</span> - Atualizada em 15/08/2025
+                </p>
                 <p class="footer-copyright">
                     &copy; 2025 PPGCF - UEPB. Todos os direitos reservados.
                 </p>
@@ -171,6 +180,53 @@
     <button id="backToTop" class="back-to-top" onclick="scrollToTop()" title="Voltar ao topo">
         <i class="fas fa-chevron-up"></i>
     </button>
+
+    <!-- Version Modal -->
+    <div id="versionModal" class="version-modal">
+        <div class="version-modal-content">
+            <div class="version-modal-header">
+                <h3><i class="fas fa-code-branch"></i> Versão 2.0</h3>
+                <button class="version-modal-close" onclick="closeVersionModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="version-modal-body">
+                <div class="version-section">
+                    <h4><i class="fas fa-plus-circle"></i> Novas Funcionalidades</h4>
+                    <ul>
+                        <li>Interface redesenhada com visual moderno e responsivo</li>
+                        <li>Sistema de busca inteligente com suporte a acentos</li>
+                        <li>Filtros por tópico e subtópico</li>
+                        <li>Cards de acesso rápido para navegação intuitiva</li>
+                        <li>Indicador de filtros ativos</li>
+                        <li>Botão para limpar todos os filtros</li>
+                        <li>Contador de resultados em tempo real</li>
+                        <li>Seção específica para Pós-Doutorado</li>
+                        <li>Seção específica para Professor Voluntário</li>
+                        <li>Informações sobre Estágio de Docência</li>
+                        <li>Requisitos de conclusão detalhados</li>
+                    </ul>
+                </div>
+                <div class="version-section">
+                    <h4><i class="fas fa-tools"></i> Melhorias e Correções</h4>
+                    <ul>
+                        <li>Navegação otimizada para dispositivos móveis</li>
+                        <li>Animações suaves e transições melhoradas</li>
+                        <li>Sistema de expandir/recolher FAQ aprimorado</li>
+                        <li>Links para documentos legais atualizados</li>
+                        <li>Melhor organização das informações por categoria</li>
+                        <li>Otimização da velocidade de carregamento</li>
+                        <li>Correções de responsividade em telas pequenas</li>
+                        <li>Melhoria na acessibilidade e contraste</li>
+                    </ul>
+                </div>
+                <div class="version-info">
+                    <p><strong>Data de Lançamento:</strong> 15 de Agosto de 2025</p>
+                    <p><strong>Desenvolvedor:</strong> Thiago Araújo - UEPB</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>

@@ -177,7 +177,7 @@ body {
     border-radius: 12px;
     backdrop-filter: blur(10px);
     max-width: 450px;
-    margin: 2rem auto 0;
+    margin: 4rem auto 0;
     animation: fadeInUp 1.4s ease 0.5s both;
 }
 
@@ -390,9 +390,9 @@ body {
     background: white;
     padding: 2rem;
     border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
     cursor: pointer;
-    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: all 0.3s ease;
     border: 2px solid #f0f0f0;
     position: relative;
     overflow: visible;
@@ -413,30 +413,19 @@ body {
     transition: height 0.4s ease;
 }
 
-.quick-card::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 0, 0, 0.05), transparent);
-    transition: left 0.6s ease;
-}
+
 
 .quick-card:hover {
-    transform: translateY(-8px) scale(1.02);
-    box-shadow: 0 12px 40px rgba(255, 0, 0, 0.2);
-    border-color: rgba(255, 0, 0, 0.3);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    border-color: rgba(255, 0, 0, 0.2);
 }
 
 .quick-card:hover::before {
     height: 8px;
 }
 
-.quick-card:hover::after {
-    left: 100%;
-}
+
 
 .quick-card-icon {
     font-size: 2.5rem;
@@ -771,6 +760,73 @@ body {
     transform: translateX(2px);
 }
 
+/* Pagination */
+.pagination-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    padding: 2rem 0;
+    border-top: 1px solid #f0f0f0;
+}
+
+.pagination-info {
+    color: #666;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.pagination-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pagination-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #e0e0e0;
+    background: white;
+    color: #666;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.pagination-btn:hover {
+    border-color: #FF0000;
+    color: #FF0000;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(255, 0, 0, 0.1);
+}
+
+.pagination-btn.active {
+    background: #FF0000;
+    color: white;
+    border-color: #FF0000;
+}
+
+.pagination-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+.pagination-ellipsis {
+    color: #999;
+    font-size: 0.9rem;
+    padding: 0 0.5rem;
+}
+
 /* No Results */
 .no-results {
     text-align: center;
@@ -834,6 +890,29 @@ body {
     font-weight: 600;
 }
 
+.footer-version {
+    font-size: 0.85rem;
+    color: #aaa;
+    margin: 0;
+}
+
+.footer-version i {
+    color: #FF0000;
+    margin-right: 0.5rem;
+}
+
+.version-clickable {
+    color: #FF0000;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: all 0.3s ease;
+}
+
+.version-clickable:hover {
+    color: #cc0000;
+    text-decoration: none;
+}
+
 .footer-copyright {
     font-size: 0.8rem;
     opacity: 0.7;
@@ -844,14 +923,6 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .legal-reference {
-        flex-direction: column;
-        text-align: center;
-        gap: 0.4rem;
-        padding: 0.5rem 0.4rem;
-        max-width: 400px;
-    }
-
     .hero {
         padding: 3rem 0 2rem;
     }
@@ -990,6 +1061,22 @@ body {
     }
 }
 
+@media (max-width: 768px) {
+    .pagination-controls {
+        gap: 0.25rem;
+    }
+
+    .pagination-btn {
+        width: 36px;
+        height: 36px;
+        font-size: 0.85rem;
+    }
+
+    .pagination-info {
+        font-size: 0.85rem;
+    }
+}
+
 @media (max-width: 480px) {
     .container {
         padding: 0 16px;
@@ -1114,6 +1201,24 @@ body {
     .quick-access {
         margin-bottom: 2rem;
     }
+
+    .pagination-container {
+        padding: 1.5rem 0;
+    }
+
+    .pagination-controls {
+        gap: 0.2rem;
+    }
+
+    .pagination-btn {
+        width: 32px;
+        height: 32px;
+        font-size: 0.8rem;
+    }
+
+    .pagination-info {
+        font-size: 0.8rem;
+    }
 }
 
 /* Animations */
@@ -1208,6 +1313,227 @@ html {
         width: 40px;
         height: 40px;
         font-size: 1rem;
+    }
+}
+
+/* Version Modal */
+.version-modal {
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    animation: modalFadeIn 0.3s ease;
+}
+
+.version-modal.show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.version-modal-content {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    width: 90%;
+    max-height: 80vh;
+    overflow-y: auto;
+    animation: modalSlideIn 0.3s ease;
+    position: relative;
+}
+
+.version-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid #f0f0f0;
+    background: #f8f8f8;
+    border-radius: 15px 15px 0 0;
+}
+
+.version-modal-header h3 {
+    margin: 0;
+    color: #1a1a1a;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.version-modal-header h3 i {
+    color: #FF0000;
+}
+
+.version-modal-close {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: #666;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+}
+
+.version-modal-close:hover {
+    background: #f0f0f0;
+    color: #FF0000;
+}
+
+.version-modal-body {
+    padding: 2rem;
+}
+
+.version-section {
+    margin-bottom: 2rem;
+}
+
+.version-section:last-of-type {
+    margin-bottom: 1.5rem;
+}
+
+.version-section h4 {
+    margin: 0 0 1rem 0;
+    color: #1a1a1a;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 0.5rem;
+}
+
+.version-section h4 i {
+    color: #FF0000;
+}
+
+.version-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.version-section li {
+    padding: 0.4rem 0;
+    position: relative;
+    padding-left: 1.5rem;
+    color: #4a4a4a;
+    line-height: 1.5;
+}
+
+.version-section li::before {
+    content: '•';
+    color: #FF0000;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+.version-info {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #f0f0f0;
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+
+.version-info p {
+    margin: 0.3rem 0;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.version-info strong {
+    color: #1a1a1a;
+}
+
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes modalSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px) scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* Responsive modal */
+@media (max-width: 768px) {
+    .version-modal-content {
+        width: 95%;
+        max-height: 85vh;
+    }
+
+    .version-modal-header {
+        padding: 1.2rem 1.5rem;
+    }
+
+    .version-modal-header h3 {
+        font-size: 1.2rem;
+    }
+
+    .version-modal-body {
+        padding: 1.5rem;
+    }
+
+    .version-section h4 {
+        font-size: 1rem;
+    }
+
+    .version-section li {
+        font-size: 0.9rem;
+        padding: 0.3rem 0;
+    }
+
+    .version-info {
+        padding: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .version-modal-content {
+        width: 98%;
+        max-height: 90vh;
+    }
+
+    .version-modal-header {
+        padding: 1rem;
+    }
+
+    .version-modal-body {
+        padding: 1rem;
+    }
+
+    .version-section {
+        margin-bottom: 1.5rem;
+    }
+
+    .version-info {
+        padding: 1rem;
+        margin-top: 1.5rem;
     }
 }
 
