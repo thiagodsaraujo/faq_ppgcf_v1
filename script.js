@@ -564,6 +564,2144 @@ const topicIcons = {
     "REQUISITOS DE CONCLUSÃO": "fas fa-check-circle"
 };
 
+// FAQ Data (English Version)
+const faqData_en = [
+    {
+        topic: "SUPPORT FOR SCIENTIFIC EVENTS",
+        subtopic: "General Rules",
+        question: "Does UEPB offer financial aid to present papers at conferences?",
+        answer: "Yes, UEPB offers financial incentives for permanent faculty members and visiting professors to participate in national or international scientific or technological events with a paper presentation.",
+        details: [{
+            icon: '✈️',
+            category: 'Main Category: Incentive for Scientific Production',
+            points: [
+                "The support is intended to cover the costs of participating in events to disseminate research.",
+                "The program aims to strengthen the university's Graduate and Research policies."
+            ]
+        }],
+        legalBasis: "Art. 1 of Resolution/UEPB/CONSEPE/079/2015",
+        documentation: "Application form, abstract of the paper, acceptance letter, event folder, among others.",
+        deadlines: "The request must be made at least 60 days before the event."
+    },
+    {
+        topic: "SUPPORT FOR SCIENTIFIC EVENTS",
+        subtopic: "General Rules",
+        question: "What type of aid can I request and who is eligible?",
+        answer: "Active permanent and visiting professors can request EITHER airfare (economy class) OR up to 4 daily allowances. It is not permitted to request both. Professors on leave from their activities are not eligible for the aid.",
+        details: [{
+            icon: '💰',
+            category: 'Main Category: Types of Aid',
+            points: [
+                "The applicant must choose between airfare OR daily allowances.",
+                "Airfare is always in economy class, seeking the best cost-benefit.",
+                "The limit is 4 daily allowances, according to the event's duration.",
+                "Only permanent or visiting faculty members can apply."
+            ]
+        }],
+        legalBasis: "Art. 2 and Art. 5 of Resolution/UEPB/CONSEPE/079/2015",
+        documentation: "Specific application form for airfare or daily allowances.",
+        deadlines: "The request must be made at least 60 days in advance."
+    },
+    {
+        topic: "SUPPORT FOR SCIENTIFIC EVENTS",
+        subtopic: "General Rules",
+        question: "What are the prerequisites to receive the aid?",
+        answer: "To have the request approved, the paper to be presented must have a UEPB student as the first author, and the applying professor must have recent intellectual production.",
+        details: [{
+            icon: '📋',
+            category: 'Main Category: Eligibility Criteria',
+            points: [
+                "It is mandatory to have a paper accepted at the event, preferably for oral presentation.",
+                "For national events, the first author must be an undergraduate, scientific initiation, or lato sensu graduate student from UEPB.",
+                "For international events, the first author must be a stricto sensu graduate student from UEPB.",
+                "The applying professor must have published at least one article, book, or book chapter in the last 3 years."
+            ]
+        }],
+        legalBasis: "Art. 3 of Resolution/UEPB/CONSEPE/079/2015",
+        documentation: "Copy of the accepted paper, proof of recent intellectual production, and a document proving the student's status as the first author.",
+        deadlines: "The paper acceptance document can be sent up to 15 days before the event."
+    },
+    {
+        topic: "SUPPORT FOR SCIENTIFIC EVENTS",
+        subtopic: "General Rules",
+        question: "How often can I apply for this aid?",
+        answer: "There is a limit on applications to ensure that more faculty members can benefit. One aid for a national conference is allowed per year, and one aid for an international conference is allowed every two years.",
+        details: [{
+            icon: '🗓️',
+            category: 'Main Category: Application Limits',
+            points: [
+                "Aid for a national event: 1 per year.",
+                "Aid for an international event: 1 every 2 years."
+            ]
+        }],
+        legalBasis: "Art. 4 of Resolution/UEPB/CONSEPE/079/2015",
+        documentation: "N/A",
+        deadlines: "Control is based on the professor's previous applications."
+    },
+    {
+        topic: "SUPPORT FOR SCIENTIFIC EVENTS",
+        subtopic: "General Rules",
+        question: "How and when should I submit the expense report?",
+        answer: "After the event, the beneficiary professor has 15 days to prove their participation and the presentation of the paper to the Dean's Office for Graduate Studies and Research (PRPGP).",
+        details: [{
+            icon: '🧾',
+            category: 'Main Category: Expense Reporting',
+            points: [
+                "Submit the certificate of participation in the conference.",
+                "Submit proof of the paper presentation.",
+                "Hand in the travel tickets (boarding pass stubs), if airfare was provided."
+            ]
+        }],
+        legalBasis: "Art. 8 of Resolution/UEPB/CONSEPE/079/2015",
+        documentation: "Certificates and travel tickets.",
+        deadlines: "The deadline for submitting documentation is 15 days after the end of the event."
+    },
+    {
+        topic: "POSTDOCTORAL RESEARCH",
+        subtopic: "General Rules",
+        question: "What is a Postdoctoral Fellowship and who can do it at UEPB?",
+        answer: "It is a research fellowship undertaken by professionals with a doctoral degree who are not part of UEPB's permanent staff. The goal is to develop a research project under the supervision of a faculty member from a university graduate program.",
+        details: [{
+            icon: '👨‍🔬',
+            category: 'Main Category: Definition and Audience',
+            points: [
+                "Aimed at external researchers with a Ph.D.",
+                "Activities are carried out on a full-time or part-time basis.",
+                "The fellowship is always linked to a research project and a supervisor accredited in a graduate program."
+            ]
+        }],
+        legalBasis: "Art. 1, § 1 of Resolution/UEPB/CONSEPE/008/2022",
+        documentation: "Acceptance letter from the supervisor, copy of the doctoral diploma, Lattes CV, and work plan.",
+        deadlines: "The minimum duration of the fellowship is 3 months."
+    },
+    {
+        topic: "POSTDOCTORAL RESEARCH",
+        subtopic: "General Rules",
+        question: "Besides research, what other activities can a postdoctoral fellow perform?",
+        answer: "A postdoctoral fellow can engage in various activities, including teaching in undergraduate and graduate courses, supervising scientific initiation students, and even co-supervising master's and doctoral students, at the discretion of the program's board.",
+        details: [{
+            icon: '📚',
+            category: 'Main Category: Permitted Activities',
+            points: [
+                "Teach in undergraduate and graduate courses, always under the responsibility of a permanent faculty member.",
+                "Supervise Scientific Initiation students.",
+                "Act as a co-supervisor for dissertations and theses, if approved by the board.",
+                "Can become a full supervisor, provided they meet the requirements of CAPES and the program."
+            ]
+        }],
+        legalBasis: "Art. 1, §§ 2, 4, 5, and 6 of Resolution/UEPB/CONSEPE/008/2022",
+        documentation: "All activities must be outlined in the approved Work Plan.",
+        deadlines: "Co-supervision and supervision depend on specific approval from the program's board."
+    },
+    {
+        topic: "POSTDOCTORAL RESEARCH",
+        subtopic: "General Rules",
+        question: "How does the Postdoctoral application process work?",
+        answer: "The candidate must submit an application to the Board of the desired Graduate Program, containing the necessary documentation, including an acceptance letter from the future supervisor and a detailed work plan.",
+        details: [{
+            icon: '📝',
+            category: 'Main Category: Application Documentation',
+            points: [
+                "Acceptance letter from a supervising professor in the program.",
+                "Copy of the doctoral diploma.",
+                "Curriculum Vitae (Lattes format).",
+                "Detailed work plan with research project, timeline, and source of funding.",
+                "Declaration of leave from the home institution (if there is an employment relationship and it is a full-time dedication)."
+            ]
+        }],
+        legalBasis: "Art. 3 of Resolution/UEPB/CONSEPE/008/2022",
+        documentation: "The complete documentation must be submitted to the secretary of the desired program.",
+        deadlines: "The process can be on a continuous basis or through specific calls for applications, depending on the program."
+    },
+    {
+        topic: "POSTDOCTORAL RESEARCH",
+        subtopic: "General Rules",
+        question: "What is the duration of the fellowship and how does renewal work?",
+        answer: "The fellowship has an initial duration of up to 12 months and can be renewed annually up to a maximum limit of 60 months (5 years). The minimum duration to be considered a postdoctoral fellowship is 3 months.",
+        details: [{
+            icon: '⏳',
+            category: 'Main Category: Duration and Extension',
+            points: [
+                "Minimum duration: 3 months.",
+                "Standard initial duration: Up to 12 months.",
+                "Maximum total duration: 60 months (5 years), subject to annual renewals.",
+                "Renewal depends on the approval of an activity report by the program's board."
+            ]
+        }],
+        legalBasis: "Art. 4, §§ 3 and 4 of Resolution/UEPB/CONSEPE/008/2022",
+        documentation: "To renew, an annual activity report with the supervisor's assessment must be submitted.",
+        deadlines: "The report must be submitted at the end of each fellowship year for renewal evaluation."
+    },
+    {
+        topic: "POSTDOCTORAL RESEARCH",
+        subtopic: "General Rules",
+        question: "Does the postdoctoral fellowship create an employment relationship or grant a title?",
+        answer: "No. Participation in the postdoctoral fellowship does not create any employment or functional relationship with UEPB. As an academic fellowship, it does not confer a new title on the researcher, but rather a certificate of completion.",
+        details: [{
+            icon: '📜',
+            category: 'Main Category: Nature of the Relationship',
+            points: [
+                "There is no employment or functional relationship.",
+                "The activities are voluntary unless the researcher is a scholarship holder.",
+                "It does not confer a new degree or title.",
+                "At the end, the researcher receives a certificate issued by the Dean's Office for Graduate Studies and Research (PRPGP)."
+            ]
+        }],
+        legalBasis: "Art. 8 and Art. 9 of Resolution/UEPB/CONSEPE/008/2022",
+        documentation: "The Certificate of Completion is issued by the PRPGP after the approval of the final report.",
+        deadlines: "The final report must be approved by the program's board at the end of the fellowship."
+    },
+    {
+        topic: "VOLUNTEER PROFESSOR",
+        subtopic: "General Rules",
+        question: "What is the Volunteer Professor and Technical Staff Program (PPTAV)?",
+        answer: "It is a program that allows professors and administrative staff, especially those who are retired or have no formal ties to UEPB, to continue contributing to the university in cultural, educational, and scientific activities. The service is voluntary and does not create an employment relationship or an obligation for remuneration.",
+        details: [{
+            icon: '🤝',
+            category: 'Main Category: Nature of the Relationship',
+            points: [
+                "The program is governed by Federal Law No. 9,608/1998.",
+                "Participation is formalized through a Term of Adhesion.",
+                "It does not generate employment ties, salary, or labor and social security obligations for UEPB.",
+                "It aims to prevent discontinuity in teaching, research, and extension activities."
+            ]
+        }],
+        legalBasis: "Art. 1 and Art. 2 of Resolution/UEPB/CONSUNI/0208/2017",
+        documentation: "Term of Adhesion signed between the volunteer and UEPB.",
+        deadlines: "The duration of the relationship is a maximum of 1 year, renewable."
+    },
+    {
+        topic: "VOLUNTEER PROFESSOR",
+        subtopic: "General Rules",
+        question: "Who can apply to be a Volunteer Professor?",
+        answer: "Retired professors (from UEPB or other institutions) or professionals without a formal tie to UEPB who have recognized expertise in their field can apply. To work in stricto sensu graduate programs, a Doctoral degree is required.",
+        details: [{
+            icon: '🧑‍🏫',
+            category: 'Main Category: Adhesion Requirements',
+            points: [
+                "Be a retired professor or have no formal tie with UEPB.",
+                "Have recognized expertise in the field of activity.",
+                "Have a Work Plan approved by the relevant course or program bodies.",
+                "For Graduate Studies (Master's/Doctorate), a Doctoral degree is mandatory."
+            ]
+        }],
+        legalBasis: "Art. 3 and §2 of Resolution/UEPB/CONSUNI/0208/2017",
+        documentation: "Formal application, Work Plan, and Curriculum Vitae (preferably Lattes).",
+        deadlines: "The application process can be opened at any time, depending on the acceptance of the interested unit."
+    },
+    {
+        topic: "VOLUNTEER PROFESSOR",
+        subtopic: "General Rules",
+        question: "What activities can a Volunteer Professor undertake?",
+        answer: "A Volunteer Professor can perform most academic activities, such as teaching, research, participating in extension projects, supervising students, and serving on examination committees.",
+        details: [{
+            icon: '📚',
+            category: 'Main Category: Permitted Activities',
+            points: [
+                "Teaching activities in undergraduate and graduate studies.",
+                "Development of research and extension projects.",
+                "Supervision of undergraduate final projects, master's dissertations, and doctoral theses.",
+                "Participation in committees for monographs, dissertations, theses, and public selections.",
+                "Participation in board meetings, with the right to speak but not to vote."
+            ]
+        }],
+        legalBasis: "Art. 4 of Resolution/UEPB/CONSUNI/0208/2017",
+        documentation: "The activities must be detailed and approved in the Work Plan.",
+        deadlines: "Activities must be carried out within the validity period of the Term of Adhesion."
+    },
+    {
+        topic: "VOLUNTEER PROFESSOR",
+        subtopic: "General Rules",
+        question: "What are the rights and limitations of a Volunteer Professor?",
+        answer: "The volunteer has the right to use UEPB's infrastructure (libraries, laboratories) and institutional affiliation. However, they do not have administrative rights, such as voting or being elected to leadership or representative positions.",
+        details: [{
+            icon: '⚖️',
+            category: 'Main Category: Rights and Prohibitions',
+            points: [
+                "Right to use the title 'Volunteer Professor of UEPB'.",
+                "Right to access spaces like laboratories and libraries.",
+                "Right to an institutional email.",
+                "Limitation: Cannot vote or be elected for administrative positions (Head of Department, Coordinator, etc.).",
+                "Limitation: Participates in board meetings with the right to speak but not to vote."
+            ]
+        }],
+        legalBasis: "Art. 4 (§1 and §2) and Art. 12 of Resolution/UEPB/CONSUNI/0208/2017",
+        documentation: "The rights and duties are formalized in the Term of Adhesion.",
+        deadlines: "The rights are valid during the term of the Term of Adhesion."
+    },
+    {
+        topic: "VOLUNTEER PROFESSOR",
+        subtopic: "General Rules",
+        question: "What is the process to become a Volunteer Professor?",
+        answer: "The interested party must formalize a request with the interested unit (Department or Graduate Program), presenting a Work Plan and their curriculum. The request will be analyzed and voted on by the unit's board.",
+        details: [{
+            icon: '📝',
+            category: 'Main Category: Adhesion Process',
+            points: [
+                "1. Prepare an application and a Work Plan detailing the activities, period, and weekly workload.",
+                "2. Submit the application, plan, and curriculum to the board of the Department or Program.",
+                "3. Await the unit's opinion, which has 30 days to respond.",
+                "4. If approved, sign the Term of Adhesion with UEPB, which will be registered with PROGEP."
+            ]
+        }],
+        legalBasis: "Art. 6, 7, and 8 of Resolution/UEPB/CONSUNI/0208/2017",
+        documentation: "Application, Work Plan, and Curriculum Vitae.",
+        deadlines: "The unit's board has 30 days to issue an opinion on the request."
+    },
+    {
+        topic: "VOLUNTEER PROFESSOR",
+        subtopic: "General Rules",
+        question: "What is the duration of the volunteer relationship and how does renewal work?",
+        answer: "The Term of Adhesion has a maximum duration of 1 (one) year. It is possible to request a renewal for the same period, following the same procedures as the initial request and including a report of the activities already carried out.",
+        details: [{
+            icon: '🔄',
+            category: 'Main Category: Duration and Renewal',
+            points: [
+                "Initial duration: Maximum of 1 year.",
+                "Renewal: Permitted for another 1 year.",
+                "Renewal Process: Requires the submission of an activity report and a new performance evaluation.",
+                "The renewal request undergoes the same approval process by the unit's board."
+            ]
+        }],
+        legalBasis: "Art. 9 of Resolution/UEPB/CONSUNI/0208/2017",
+        documentation: "For renewal, an activity report and a new request are required.",
+        deadlines: "The renewal request must be made before the end of the current term."
+    },
+    {
+        topic: "ACADEMIC LIFE",
+        subtopic: "Teaching Internship",
+        question: "What is the objective of the Teaching Internship?",
+        answer: "The Teaching Internship aims to prepare graduate students for a teaching career by creating opportunities for improvement through participation in undergraduate teaching activities.",
+        details: [{
+            icon: '🎯',
+            category: 'Main Category: Teacher Training',
+            points: [
+                "To train graduate students for teaching in higher education.",
+                "To promote integration between graduate programs and undergraduate courses.",
+                "To improve the quality of teaching at both levels (undergraduate and graduate)."
+            ]
+        }],
+        legalBasis: "Art. 1 of Resolution/UEPB/CONSEPE/032/2011",
+        documentation: "Work Plan and Activity Report.",
+        deadlines: "The internship must be carried out starting from the second semester of enrollment in the course."
+    },
+    {
+        topic: "ACADEMIC LIFE",
+        subtopic: "Teaching Internship",
+        question: "Is the Teaching Internship mandatory for everyone?",
+        answer: "Yes, the internship is a mandatory activity for all master's and doctoral students. However, students who are already higher education professors can request an exemption from the activity.",
+        details: [{
+            icon: '🧑‍🏫',
+            category: 'Main Category: Obligation and Exemptions',
+            points: [
+                "The requirement aims to integrate the graduate student's training, according to CAPES norms.",
+                "Exemption is not automatic and must be formally requested.",
+                "The final decision on the exemption rests with the Program's Board."
+            ]
+        }],
+        legalBasis: "Art. 2 and Sole Paragraph of Resolution/UEPB/CONSEPE/032/2011",
+        documentation: "For exemption, proof of teaching experience in Higher Education is required.",
+        deadlines: "The exemption request must be made to the Program's Board."
+    },
+    {
+        topic: "ACADEMIC LIFE",
+        subtopic: "Teaching Internship",
+        question: "What is the duration and workload of the internship?",
+        answer: "The duration varies between master's and doctoral degrees, with a limited weekly workload to not interfere with the graduate student's other activities.",
+        details: [{
+            icon: '⏳',
+            category: 'Main Category: Duration and Workload',
+            points: [
+                "Master's: Minimum duration of 1 semester and maximum of 2 semesters.",
+                "Doctorate: Minimum duration of 2 semesters and maximum of 3 semesters.",
+                "Weekly Workload: Maximum of 4 hours per week."
+            ]
+        }],
+        legalBasis: "Art. 3 and Art. 4 of Resolution/UEPB/CONSEPE/032/2011",
+        documentation: "The Work Plan will detail the distribution of the workload.",
+        deadlines: "The workload must be completed during the academic semester in which the student is enrolled in the activity."
+    },
+    {
+        topic: "ACADEMIC LIFE",
+        subtopic: "Teaching Internship",
+        question: "What activities can I perform during the Teaching Internship?",
+        answer: "The internship allows participation in various academic activities, with teaching a percentage of theoretical or practical classes being one of the main ones.",
+        details: [{
+            icon: '📚',
+            category: 'Main Category: Activities Performed',
+            points: [
+                "Participate in the development of the syllabus and lesson plans.",
+                "Prepare and teach theoretical and/or practical classes (minimum of 20% and maximum of 30% of the course's workload).",
+                "Assist in the evaluation process of undergraduate students.",
+                "Supervise Scientific Initiation and Final Project students.",
+                "Present seminars or lectures."
+            ]
+        }],
+        legalBasis: "Art. 5 of Resolution/UEPB/CONSEPE/032/2011",
+        documentation: "The activities must be detailed in the Work Plan.",
+        deadlines: "The activities must follow the schedule approved in the Work Plan."
+    },
+    {
+        topic: "ACADEMIC LIFE",
+        subtopic: "Teaching Internship",
+        question: "How do enrollment and credit attribution for the internship work?",
+        answer: "The student enrolls in a specific Teaching Internship course. The activity generates credits that are additional to the regular curriculum of the program.",
+        details: [{
+            icon: '📊',
+            category: 'Main Category: Enrollment and Credits',
+            points: [
+                "Master's: Up to 2 credits (30 hours).",
+                "Doctorate: Up to 4 credits (60 hours).",
+                "Additional Credits: Do not replace the mandatory or elective credits of the program.",
+                "Enrollment: Carried out from the second semester of the course."
+            ]
+        }],
+        legalBasis: "Art. 6, §1, §2, and Art. 7 of Resolution/UEPB/CONSEPE/032/2011",
+        documentation: "Enrollment is formalized at the Program's Secretariat, with the submission of the Work Plan.",
+        deadlines: "Enrollment must be done in the academic period when the internship will be carried out."
+    },
+    {
+        topic: "ACADEMIC LIFE",
+        subtopic: "Teaching Internship",
+        question: "Do I need a Work Plan? What should it contain?",
+        answer: "Yes, a detailed Work Plan is mandatory. It must be prepared together with your supervisor and approved by the Program's Board and the responsible Department.",
+        details: [{
+            icon: '📋',
+            category: 'Main Category: Internship Planning',
+            points: [
+                "Content: Justification, objectives, weekly workload, activity schedule, and references.",
+                "Signatures: Must be signed by you (the student), your supervisor, and the course professor (if different from the supervisor).",
+                "Approval: The plan must be approved before the start of activities."
+            ]
+        }],
+        legalBasis: "Art. 8 of Resolution/UEPB/CONSEPE/032/2011",
+        documentation: "The Work Plan must be submitted to the Program's Secretariat upon enrollment in the internship discipline.",
+        deadlines: "The plan must be submitted before the beginning of the internship's academic period."
+    },
+    {
+        topic: "ACADEMIC LIFE",
+        subtopic: "Teaching Internship",
+        question: "How will I be evaluated in the Teaching Internship?",
+        answer: "The evaluation is based on a final report that you prepare upon completing the activities. The report is evaluated by your supervisor and subsequently by the Program's Board.",
+        details: [{
+            icon: '✅',
+            category: 'Main Category: Evaluation and Completion',
+            points: [
+                "Partial Report: A report on classroom activities must be submitted to the course professor within 15 days of its completion.",
+                "Final Report: A complete report, signed by you and your supervisor (with their opinion attached), must be submitted to the Board within 30 days after the end of all activities.",
+                "Result: The Board can approve, request additions, or fail the report. In case of failure, a new internship must be undertaken."
+            ]
+        }],
+        legalBasis: "Art. 10, Art. 11, and Art. 12 of Resolution/UEPB/CONSEPE/032/2011",
+        documentation: "Teaching Internship Report, according to the program's model or guidelines.",
+        deadlines: "Partial Report (15 days after classes end), Final Report (30 days after all activities end)."
+    },
+    {
+        topic: "ENROLLMENT AND ADMISSION",
+        subtopic: "Regular Selection Process",
+        question: "How does the regular selection process work?",
+        answer: "The selection process is the official entry point to the program, governed by a public call for applications that details all rules, dates, and necessary documents.",
+        details: [{
+            icon: '📝',
+            category: 'Main Category: Selection Process',
+            points: [
+                "Call for Applications: This is the most important document, published at least 30 days in advance. It defines vacancies, criteria, schedule, and documentation.",
+                "Application: Usually online, requires filling out forms and submitting scanned documents.",
+                "Continuous Flow: The program may opt for a 'continuous flow' model, allowing applications at any time of the year, as per the call."
+            ]
+        }],
+        legalBasis: "Art. 79 (Standardization), Art. 81 (Continuous Flow), Art. 87 (Selection Committee), Art. 88 (Process Validity)",
+        documentation: "Application request, Application form, Copy of diploma (or declaration), Academic transcript, Lattes CV, Proof of fee payment.",
+        deadlines: "Publication of the Call: Minimum 30 days before applications. Appeals: Deadline defined in the call, with the Board as the first instance."
+    },
+    {
+        topic: "ENROLLMENT AND ADMISSION",
+        subtopic: "Institutional Enrollment",
+        question: "I was accepted! How do I complete the institutional enrollment?",
+        answer: "Institutional enrollment is the act that formalizes your connection with UEPB. Missing the deadline means losing your spot, even if you were accepted.",
+        details: [{
+            icon: '🔗',
+            category: 'Main Category: Academic Link',
+            points: [
+                "Procedure: Carried out at the program's secretariat, within the period stipulated in the academic calendar.",
+                "Condition: It is a prerequisite for the first enrollment in courses.",
+                "Prohibition: Simultaneous enrollment in more than one stricto sensu graduate program at UEPB is prohibited."
+            ]
+        }],
+        legalBasis: "Art. 100 (Mandatory Nature and Deadlines), Art. 101 (Prohibition of Simultaneous Enrollment), Art. 102 (Foreign Diplomas), Art. 103 (Semester Enrollment)",
+        documentation: "Documents listed in the selection call (diploma, transcript, personal documents, etc.).",
+        deadlines: "Deadline defined in the program's academic calendar. Failure to enroll results in automatic loss of the spot (Art. 100, §4)."
+    },
+    {
+        topic: "ENROLLMENT AND ADMISSION",
+        subtopic: "Transfer",
+        question: "Can I transfer from another master's/doctoral program to PPGCF?",
+        answer: "Yes, transferring is possible, but it depends on the availability of spots, the approval of the Board, and meeting specific requirements.",
+        details: [{
+            icon: '🔄',
+            category: 'Main Category: Academic Mobility',
+            points: [
+                "Requirements: Be a regular student of a program with a CAPES score equal to or higher, have completed at least 6 months, and have the formal acceptance of a PPGCF supervisor.",
+                "Process: The request must be approved by the Boards of both programs (origin and destination)."
+            ]
+        }],
+        legalBasis: "Art. 86, §1 (Admission by Transfer), Art. 105 (Minimum Conditions)",
+        documentation: "Formal request, Academic transcript from the original institution, Course syllabi, Acceptance letter from the new supervisor, Letter of consent from the original program.",
+        deadlines: "The time already spent in the original program is counted towards the maximum duration. The final decision rests with the PPGCF Board."
+    },
+    {
+        topic: "ENROLLMENT AND ADMISSION",
+        subtopic: "Re-entry",
+        question: "I was dismissed from the program. Can I try to enter again?",
+        answer: "Yes, but there is a mandatory waiting period. Re-entry is not automatic and requires participation in a new selection process.",
+        details: [{
+            icon: '⏳',
+            category: 'Main Category: Re-entry',
+            points: [
+                "Waiting Period: It is necessary to wait a minimum of 12 months after the dismissal date to apply for a new selection process.",
+                "New Enrollment: If approved, re-entry is considered a new enrollment, with no automatic transfer of credits."
+            ]
+        }],
+        legalBasis: "Art. 80 (Waiting Period), Art. 112 (Re-entry as New Enrollment)",
+        documentation: "The same documentation required in the selection call for new candidates.",
+        deadlines: "Minimum waiting period of 12 months. The candidate competes normally in the new selection process."
+    },
+    {
+        topic: "ENROLLMENT AND ADMISSION",
+        subtopic: "Special Student",
+        question: "What is a 'Special Student' and how does it work?",
+        answer: "A Special Student is one who takes individual courses in the program without a regular enrollment. It is a great way to get to know the program or earn credits in advance.",
+        details: [{
+            icon: '🧑‍🏫',
+            category: 'Main Category: Non-Degree Participation',
+            points: [
+                "Rights: Can attend classes and receive a certificate of completion for the course.",
+                "Limitations: Does not have a supervisor, cannot receive a scholarship, and does not have the same rights as a regular student.",
+                "Credit Transfer: Credits earned in the last 5 years can be transferred if the student later enrolls as a regular student."
+            ]
+        }],
+        legalBasis: "Art. 75 (Definition), Art. 76 (Acceptance Rules), Arts. 77 and 78 (Possibility for undergraduate students and researchers)",
+        documentation: "Usually, an undergraduate diploma, transcript, CV, and a letter of interest.",
+        deadlines: "Application according to the academic calendar. Acceptance is approved by the Board."
+    },
+    {
+        topic: "STRUCTURE AND GOVERNANCE",
+        subtopic: "Board's Responsibilities",
+        question: "What are the main responsibilities of the Board?",
+        answer: "The Board is the program's highest deliberative body. It defines and approves all academic, pedagogical, and administrative rules, being the main instance for appealing decisions made by the Coordination.",
+        details: [{
+            icon: '🏛️',
+            category: 'Main Competencies',
+            points: [
+                "Propose and approve changes to the program's regulations.",
+                "Define the number of vacancies and approve selection calls.",
+                "Deliberate on credit transfers, transfers, leaves of absence, and dismissals.",
+                "Appoint supervisors, co-supervisors, and approve examination committees (panels).",
+                "Approve the academic calendar and the course offerings for each term."
+            ]
+        }],
+        legalBasis: "Art. 30, 31, 32",
+        documentation: "Minutes of the Board meetings.",
+        deadlines: "Decisions are made in regular meetings (at least once a month) or extraordinary ones."
+    },
+    {
+        topic: "STRUCTURE AND GOVERNANCE",
+        subtopic: "Coordination's Responsibilities",
+        question: "What are the functions of the Program's Coordination?",
+        answer: "The Coordination is the executive body that manages the day-to-day operations of the program. It implements the Board's decisions, represents the program, and ensures compliance with all rules and deadlines.",
+        details: [{
+            icon: '🧑‍💼',
+            category: 'Main Functions',
+            points: [
+                "Preside over the Board meetings and execute its decisions.",
+                "Prepare and send reports to CAPES (Sucupira Platform).",
+                "Manage the allocation of financial resources (such as PROAP).",
+                "Organize the academic calendar and oversee the completion of activities.",
+                "Make urgent 'ad referendum' decisions, which must be ratified by the Board at the next meeting."
+            ]
+        }],
+        legalBasis: "Art. 33, 34, 35",
+        documentation: "Annual reports, resource application plans, calls for applications.",
+        deadlines: "Responsible for meeting the deadlines set by CAPES and UEPB."
+    },
+    {
+        topic: "STRUCTURE AND GOVERNANCE",
+        subtopic: "Secretariat's Responsibilities",
+        question: "What is the role of the Program's Secretariat?",
+        answer: "The Secretariat is the administrative support body that handles bureaucratic and academic control functions. It is the main point of contact for students and faculty for documentary and routine matters.",
+        details: [{
+            icon: '🗗',
+            category: 'Main Tasks',
+            points: [
+                "Organize and process applications, enrollments, and other requests.",
+                "Keep files, records, and academic histories of students and faculty updated.",
+                "Provide secretarial support for Board meetings, defenses, and qualification exams.",
+                "Manage the flow of correspondence and official program documents."
+            ]
+        }],
+        legalBasis: "Art. 36, 37",
+        documentation: "Enrollment processes, academic transcripts, final paper archives.",
+        deadlines: "Continuous work to ensure smooth administrative functioning."
+    },
+    {
+        topic: "FACULTY",
+        subtopic: "Accreditation and Categories",
+        question: "How does a professor become part of the program's faculty?",
+        answer: "A professor or researcher with a doctoral degree can be authorized to participate in the program (accredited) in one of three categories: Permanent, Visiting, or Collaborator, after approval by the Board.",
+        details: [{
+            icon: '🧑‍🏫',
+            category: 'Faculty Categories',
+            points: [
+                "Permanent: The core of the program, with continuous involvement in teaching, research, and supervision.",
+                "Visiting: An external professor hired for a fixed term to collaborate with the program.",
+                "Collaborator: Participates in a complementary way in projects, classes, or supervisions, without the same ties as a permanent faculty member."
+            ]
+        }],
+        legalBasis: "Art. 43, 44, 45, 46, 49",
+        documentation: "Accreditation call, Lattes CV, research project.",
+        deadlines: "Accreditation occurs periodically, according to calls published by the program."
+    },
+    {
+        topic: "FACULTY",
+        subtopic: "Supervisor's Duties",
+        question: "What are my supervisor's main responsibilities?",
+        answer: "The supervisor is responsible for guiding the student throughout their academic journey, from planning studies and choosing courses to preparing and defending the final work.",
+        details: [{
+            icon: '🧭',
+            category: 'Main Responsibilities',
+            points: [
+                "Assist the student in academic planning and enrollment.",
+                "Monitor and evaluate the student's performance.",
+                "Help in preparing the project and final work.",
+                "Propose the dismissal of the student in case of non-compliance with activities.",
+                "Suggest names for committees and authorize the defense of the final work."
+            ]
+        }],
+        legalBasis: "Art. 69",
+        documentation: "Performance reports, opinions on student requests.",
+        deadlines: "Continuous monitoring throughout the student's course."
+    },
+    {
+        topic: "FINANCIAL MATTERS",
+        subtopic: "Scholarships",
+        question: "How are scholarships awarded?",
+        answer: "Scholarships are not automatic and depend on the availability of quotas from funding agencies (like CAPES). Selection is based on academic merit.",
+        details: [{
+            icon: '💰',
+            category: 'Main Category: Funding and Aid',
+            points: [
+                "Scholarship Committee: Each program has a committee responsible for defining the selection criteria and monitoring scholarship holders.",
+                "Selection Criteria: Prioritize academic merit, usually based on the ranking in the selection process.",
+                "Renewal: The scholarship is granted for 12 months, renewable annually up to the course limit, subject to good performance."
+            ]
+        }],
+        legalBasis: "Art. 167 (Scholarship Committee), Art. 168 (Requirements), Art. 169 (Renewal)",
+        documentation: "Documents proving the absence of a paid employment relationship, commitment term from the funding agency.",
+        deadlines: "Selection is carried out by the Scholarship Committee after the results of the admission selection process."
+    },
+    {
+        topic: "FINANCIAL MATTERS",
+        subtopic: "Full-Time Dedication",
+        question: "Can I work and receive a scholarship at the same time?",
+        answer: "No. The scholarship requires full-time dedication to the program's activities.",
+        details: [{
+            icon: '🚫',
+            category: 'Main Category: Prohibitions and Rules',
+            points: [
+                "Full-Time Dedication: The scholarship holder must be fully dedicated to the course, which prevents accumulating it with paid professional activities.",
+                "Exceptions: The funding agency itself may provide for specific exceptions in its regulations.",
+                "Consequences: Non-compliance leads to the cancellation of the scholarship and the obligation to reimburse the amounts received."
+            ]
+        }],
+        legalBasis: "Art. 168, items II and IV (Full-Time Dedication Requirement)",
+        documentation: "Declaration of non-accumulation of scholarships and absence of employment.",
+        deadlines: "The student is responsible for maintaining their full-time dedication status and informing the coordination of any changes."
+    },
+    {
+        topic: "ACADEMIC LIFE",
+        subtopic: "Minimum Credits",
+        question: "How many credits do I need to complete the course?",
+        answer: "The program requires a minimum number of credits in courses, which must be completed within the course's timeframe.",
+        details: [{
+            icon: '📊',
+            category: 'Main Category: Curriculum Structure',
+            points: [
+                "Master's: Minimum of 18 credits.",
+                "Doctorate: Minimum of 27 credits.",
+                "Credit Definition: 1 credit = 15h of theoretical class or 30h of practical class.",
+                "Note: Dissertation/thesis credits do not count towards this total."
+            ]
+        }],
+        legalBasis: "Art. 115 (Minimum Credit Limits)",
+        documentation: "Control is done via the academic transcript.",
+        deadlines: "Credits must be completed within the maximum course duration. The student and supervisor are responsible for planning."
+    },
+    {
+        topic: "ACADEMIC LIFE",
+        subtopic: "Evaluation and Approval",
+        question: "How does evaluation in courses work?",
+        answer: "Passing a course depends on a minimum grade and attendance.",
+        details: [{
+            icon: '✅',
+            category: 'Main Category: Academic Performance',
+            points: [
+                "Minimum Grade: Passing requires a grade of 7.0 or higher (Concept C).",
+                "Minimum Attendance: Attendance of at least 75% of classes is mandatory.",
+                "GPA (Grade Point Average): Maintaining a GPA above 7.0 is a condition for remaining in the program."
+            ]
+        }],
+        legalBasis: "Art. 125 (Grading System), Art. 126 (Minimum Attendance), Art. 110, item VI (Dismissal for low GPA)",
+        documentation: "N/A",
+        deadlines: "The professor has up to 30 days after the end of the course to post the grades. Failing the same course twice or having a GPA < 7.0 leads to dismissal."
+    },
+    {
+        topic: "ACADEMIC LIFE",
+        subtopic: "Teaching Internship",
+        question: "Is the Teaching Internship mandatory?",
+        answer: "Yes, the teaching internship is a mandatory academic activity for scholarship holders, aimed at training for higher education teaching. Students who are already professors can request an exemption.",
+        details: [{
+            icon: '👨‍🏫',
+            category: 'Internship Details',
+            points: [
+                "It is mandatory for scholarship students.",
+                "Master's students must complete it for one semester; doctoral students for two semesters.",
+                "The activities are supervised by the supervisor and an undergraduate professor.",
+                "At the end, the student must prepare a report to obtain the credits."
+            ]
+        }],
+        legalBasis: "Art. 118",
+        documentation: "Activity report of the internship.",
+        deadlines: "Must be completed within the regular course duration."
+    },
+    {
+        topic: "ACADEMIC LIFE",
+        subtopic: "Credit Transfer",
+        question: "Can I transfer credits from other graduate courses?",
+        answer: "Yes, the Board may accept credits from courses taken in other graduate programs (stricto or lato sensu), provided they were completed in the last 5 years and are relevant to your training.",
+        details: [{
+            icon: '📚',
+            category: 'Rules for Credit Transfer',
+            points: [
+                "The course must have been completed no more than 5 years ago.",
+                "The grade obtained must be 7.0 or higher (or concept C).",
+                "The maximum number of credits to be transferred is defined in each program's regulations.",
+                "A request with the academic transcript and course syllabi must be submitted."
+            ]
+        }],
+        legalBasis: "Art. 129, Art. 130",
+        documentation: "Formal request, academic transcript, and syllabi of the courses taken.",
+        deadlines: "The request must be formally submitted to the program's coordination."
+    },
+    {
+        topic: "DEADLINES AND SPECIAL SITUATIONS",
+        subtopic: "Course Deadlines",
+        question: "What is the maximum time to complete the master's/doctorate?",
+        answer: "The regulations establish minimum and maximum deadlines for completing the course, counted from the date of the first enrollment.",
+        details: [{
+            icon: '⏳',
+            category: 'Main Category: Regulatory Deadlines',
+            points: [
+                "Master's: Minimum of 1 year and maximum of 2 years and 6 months (30 months).",
+                "Doctorate: Minimum of 2 years and maximum of 5 years (60 months).",
+                "Extension: In exceptional cases, the Board may grant an extension of up to 6 months (master's) or 12 months (doctorate)."
+            ]
+        }],
+        legalBasis: "Art. 113 (Deadlines), Art. 114 (Extension)",
+        documentation: "For extension: Formal request, justification, supervisor's opinion, preliminary version of the work, timeline.",
+        deadlines: "The extension request must be made BEFORE the regular deadline expires. The decision is up to the Board."
+    },
+    {
+        topic: "SUPERVISION",
+        subtopic: "Supervisor Assignment and Change",
+        question: "How does the assignment and change of a supervisor work?",
+        answer: "Every student is entitled to a supervisor, who is formally appointed by the Board. A change is possible, but it is a process that requires agreement and approval.",
+        details: [{
+            icon: '🤝',
+            category: 'Main Category: Supervisor-Student Relationship',
+            points: [
+                "Assignment: Appointed by the Board, based on the student's indication and research alignment.",
+                "Change by the Student: The student can request a change, with the consent of the current and new supervisor.",
+                "Conflict: In case of disagreement, the final decision on the change rests with the Board."
+            ]
+        }],
+        legalBasis: "Art. 65 (Assignment), Art. 66 (Change by Student), Art. 32, item XXI (Board's Authority)",
+        documentation: "For change: Formal request, justification, letters of consent/acceptance.",
+        deadlines: "The Board has up to 30 days to appoint a new supervisor in case of a vacancy."
+    },
+    {
+        topic: "SUPERVISION",
+        subtopic: "Supervisor Assignment and Change",
+        question: "Can a supervisor stop supervising me?",
+        answer: "Yes, a supervisor can request the Board for the right to step down from supervising a student. This must be done through a formal and detailed justification, based on the student's performance reports.",
+        details: [{
+            icon: '👋',
+            category: 'Stepping Down from Supervision',
+            points: [
+                "Supervisor's Right: Supervisors have the right to step down from supervision.",
+                "Justification: The request must be formal and well-founded.",
+                "Approval: The request must be submitted to and approved by the program's Board.",
+                "New Supervisor: If approved, the Board will appoint a new supervisor within 30 days."
+            ]
+        }],
+        legalBasis: "Art. 67 (Stepping Down by Supervisor), Art. 68 (Coordination's Guardianship)",
+        documentation: "Formal justification from the supervisor.",
+        deadlines: "The final decision is made by the Board."
+    },
+    {
+        topic: "DEFENSE AND GRADUATION",
+        subtopic: "Qualification Exam",
+        question: "What is the Qualification Exam?",
+        answer: "The qualification exam (or pre-defense) is a mandatory step for the doctorate that assesses the student's ability to conduct original research. It is an important milestone that precedes the final thesis defense.",
+        details: [{
+            icon: '🧐',
+            category: 'Qualification Process',
+            points: [
+                "Objective: To assess the maturity of the research and the student's capability.",
+                "Mandatory: It is mandatory for the Doctorate and may be required for the Master's, according to the program's regulations.",
+                "Committee: Composed of at least three doctors, approved by the Board.",
+                "Result: The student can be 'Approved' or 'Failed'. In case of failure, there is only one chance to retake the exam."
+            ]
+        }],
+        legalBasis: "Art. 147, 148, 149, 150",
+        documentation: "Version of the work for the committee, scheduling request.",
+        deadlines: "The deadline for the second attempt is up to 120 days (Doctorate) or 60 days (Master's) after the first."
+    },
+    {
+        topic: "DEFENSE AND GRADUATION",
+        subtopic: "Defense Requirements",
+        question: "What do I need to do to be able to defend my dissertation/thesis?",
+        answer: "To schedule the defense, a series of academic and administrative requirements must be met, forming a mandatory checklist.",
+        details: [{
+            icon: '🏁',
+            category: 'Main Category: Course Completion',
+            points: [
+                "Checklist: Credits completed, qualification exam passed, proficiency in a foreign language, teaching internship completed, declaration of no plagiarism, and supervisor's recommendation."
+            ]
+        }],
+        legalBasis: "Art. 151 (Defense Requirements)",
+        documentation: "Scheduling request, supervisor's authorization, version of the work for the committee, suggestion of names for the committee, proof of all requirements.",
+        deadlines: "The Board has up to 30 days to approve the committee, and the defense must be scheduled within 30 days after approval."
+    },
+    {
+        topic: "DEFENSE AND GRADUATION",
+        subtopic: "Committee and Results",
+        question: "How does the defense committee work and what are the possible outcomes?",
+        answer: "The defense is a public session judged by a committee of experts. The outcome can be approval, approval with corrections, or failure.",
+        details: [{
+            icon: '🧑‍⚖️',
+            category: 'Main Category: Examination Committee',
+            points: [
+                "Composition (Master's): Supervisor + 2 experts (1 external).",
+                "Composition (Doctorate): Supervisor + 4 experts (2 external, 1 from another institution).",
+                "Outcomes: Approved, Insufficient (with a deadline for corrections), Failed (leads to dismissal)."
+            ]
+        }],
+        legalBasis: "Art. 156 (Committee Composition), Art. 157 (Outcomes)",
+        documentation: "Minutes of the public defense session.",
+        deadlines: "Deadline for corrections (if 'Insufficient'): 90 days (Master's) or 180 days (Doctorate)."
+    },
+    {
+        topic: "DEFENSE AND GRADUATION",
+        subtopic: "Diploma Issuance",
+        question: "I passed! How do I request my diploma?",
+        answer: "After approval and making the corrections, you need to deposit the final version of the work in the UEPB repository and then formally request the issuance of the diploma.",
+        details: [{
+            icon: '📜',
+            category: 'Main Category: Diploma Issuance',
+            points: [
+                "Final Deposit: The final corrected version (PDF/A with catalog card) must be deposited in the Institutional Repository within 30 days of the defense.",
+                "Diploma Request: The process is initiated by the student with the PRPGP, with all supporting documentation."
+            ]
+        }],
+        legalBasis: "Art. 159 (Final Deposit), Art. 162 (Requirements for Conferral), Art. 163 (Documentation for Issuance)",
+        documentation: "Standard request form, Minutes of the defense, Copy of the previous diploma, Personal documents, Proof of deposit, Library clearance statement, Declaration and transcript of completion.",
+        deadlines: "Deposit Deadline: 30 days after the defense (extendable by another 15). The issuance of the diploma is the responsibility of the PRPGP."
+    },
+    {
+        topic: "RIGHTS AND GOVERNANCE",
+        subtopic: "Intellectual Property",
+        question: "Who owns my research? Can I request confidentiality?",
+        answer: "The research results are the property of UEPB, but the copyrights are protected. Yes, you can and should request confidentiality if you plan to publish or patent.",
+        details: [{
+            icon: '💡',
+            category: 'Main Category: Intellectual Property',
+            points: [
+                "Ownership: The results belong to UEPB, but any dissemination must always mention the university, the supervisor, and the student.",
+                "Confidentiality: You have the right to request a confidentiality period of up to 1 year for the dissemination of your work in the repository.",
+                "Process: The confidentiality request is made at the time of the final deposit of the work."
+            ]
+        }],
+        legalBasis: "Art. 187 (Dissemination and Confidentiality), Art. 188 (Ownership of Results)",
+        documentation: "Deposit authorization form, with the embargo/confidentiality option checked.",
+        deadlines: "Confidentiality Period: Up to 1 year, can be extended. The request is made at the time of deposit."
+    },
+    {
+        topic: "RIGHTS AND GOVERNANCE",
+        subtopic: "Transition Rules",
+        question: "How do the transition rules for the new regulations work?",
+        answer: "For students who entered up to the second academic term of 2023, the provisions of the previous regulations apply. This new resolution applies to those entering after its publication.",
+        details: [{
+            icon: '📜',
+            category: 'Main Category: Applicable Rules',
+            points: [
+                "Time Frame: The entry date into the course determines which regulation applies to the student.",
+                "Previous Rule: Students who entered up to 2023.2 follow the old regulations.",
+                "New Rule: Students entering after the publication of this resolution follow the new rules."
+            ]
+        }],
+        legalBasis: "Art. 189",
+        documentation: "No specific documentation applies; the rule is applied automatically by the secretariat.",
+        deadlines: "The transition rule is permanent for the specified cohorts."
+    },
+    {
+        topic: "DEADLINES AND SPECIAL SITUATIONS",
+        subtopic: "General Leave and Absence",
+        question: "Can I take a break from the course for a while?",
+        answer: "Yes, it is possible to request a 'Study Interruption' (general leave) for reasons of proven illness or maternity leave. The period of leave is not counted in the total time for course completion.",
+        keywords: ["leave", "interruption", "maternity leave", "illness", "absence", "break", "suspend", "pregnant", "health", "medical certificate"],
+        details: [{
+            icon: '⏸️',
+            category: 'Main Category: Study Interruption',
+            points: [
+                "Accepted Reasons: Work-related travel, proven illness, or maternity leave.",
+                "Leave Durations: Master's (1 academic term), Doctorate (up to 2 academic terms).",
+                "Effect: The leave period does not count towards the total course duration.",
+                "Scholarship: The scholarship is suspended during the interruption, except for maternity leave.",
+                "Maternity Leave: The graduate student is entitled to 180 days of leave, which does not suspend the scholarship and does not count towards the course deadline."
+            ]
+        }],
+        legalBasis: "Art. 107 of Resolution/UEPB/CONSEPE/008/2023",
+        documentation: "Formal request with proven justification (medical certificate, etc.), supervisor's opinion, and Board approval.",
+        deadlines: "The request must be made before or during the period to be taken off."
+    },
+    {
+        topic: "PROBLEMATIC SITUATIONS",
+        subtopic: "Dismissal",
+        question: "In what situations can a student be dismissed from the program?",
+        answer: "Dismissal is the termination of the student's relationship with the program and occurs automatically in cases of insufficient academic performance, failure to meet deadlines, or serious infractions, such as plagiarism.",
+        keywords: ["dismissal", "expulsion", "failure", "missed deadline", "dropping out", "plagiarism", "low GPA", "losing spot"],
+        details: [{
+            icon: '❌',
+            category: 'Main Category: Causes for Dismissal',
+            points: [
+                "Failing the same mandatory course twice.",
+                "Not passing the proficiency exams within the deadline.",
+                "Failing to enroll for the semester on time.",
+                "Failing the qualification exam or pre-defense twice.",
+                "Exceeding the maximum time for course completion, including extensions.",
+                "Having a Grade Point Average (GPA) below 7.0.",
+                "Failing the final defense of the dissertation or thesis.",
+                "Proven plagiarism in any academic work."
+            ]
+        }],
+        legalBasis: "Art. 110 and Art. 111 of Resolution/UEPB/CONSEPE/008/2023",
+        documentation: "The process is administrative, initiated by the Coordination, ensuring the student the right to a full defense and appeal to the Board.",
+        deadlines: "Dismissal becomes effective after official notification or the publication of the Board's decision."
+    },
+    {
+        topic: "DEADLINES AND SPECIAL SITUATIONS",
+        subtopic: "General Leave and Absence",
+        question: "How does maternity leave work in graduate school?",
+        answer: "A graduate student is entitled to 180 days of maternity leave. This period is not deducted from the total time for course completion, and for scholarship students, the scholarship is not suspended during the leave.",
+        keywords: ["maternity leave", "mother", "pregnant", "childbirth", "adoption", "leave", "baby", "child", "scholarship", "deadline"],
+        details: [{
+            icon: '🤱',
+            category: 'Main Category: Rights of Graduate Students',
+            points: [
+                "Leave Duration: 180 days.",
+                "Deadline Calculation: The leave period is NOT counted in the maximum time for the defense of the dissertation or thesis.",
+                "Scholarship: The scholarship is fully maintained during the leave, being an exception to the rule of suspension for absence.",
+                "Home-based Activities: A pregnant student is also entitled to a regime of home-based activities from the eighth month of pregnancy, lasting 4 months."
+            ]
+        }],
+        legalBasis: "Art. 41 (§ 2), Art. 107 (§§ 6 and 7), and Art. 108 (I) of Resolution/UEPB/CONSEPE/008/2023",
+        documentation: "Medical certificate or birth certificate to formalize the request with the program coordination.",
+        deadlines: "The request must be formally made to the program coordination to ensure that deadlines and scholarship maintenance are guaranteed."
+    },
+    {
+        topic: "RIGHTS AND GOVERNANCE",
+        subtopic: "Direct Transfer Master's-Doctorate",
+        question: "Is it possible to go from a master's to a doctorate directly (fast track)?",
+        answer: "Yes, programs may allow students to transfer from a master's to a doctorate without a new public selection process, provided that excellence criteria are met.",
+        details: [{
+            icon: '🚀',
+            category: 'Main Category: Advanced Academic Mobility',
+            points: [
+                "Condition: The program's regulations must provide for and detail this possibility.",
+                "Criteria: The student must demonstrate exceptional performance, qualified academic production, and have a consistent work plan for the doctorate.",
+                "Evaluation: The transfer depends on a rigorous evaluation by a committee appointed by the Board."
+            ]
+        }],
+        legalBasis: "Art. 104",
+        documentation: "Formal request, academic transcript, updated Lattes CV, scientific production, doctoral work plan, letter of recommendation from the supervisor.",
+        deadlines: "The request must be made within a deadline defined by the program's regulations, usually after the master's qualification."
+    },
+    {
+        topic: "RIGHTS AND GOVERNANCE",
+        subtopic: "Student's Duties",
+        question: "What are the main duties of a graduate student?",
+        answer: "In addition to respecting UEPB's rules, the student must follow the study plan, keep the supervisor informed, participate in activities, complete the teaching internship, and submit projects to the Ethics Committee when necessary.",
+        details: [{
+            icon: '📋',
+            category: 'Main Category: Academic Responsibilities',
+            points: [
+                "Uphold the institution's name and comply with the regulations.",
+                "Keep their registration and curricular data updated.",
+                "Dedicate themselves to the course activities and meet deadlines.",
+                "Complete the Teaching Internship (mandatory for scholarship holders).",
+                "Observe the guidelines of the Research Ethics Committee."
+            ]
+        }],
+        legalBasis: "Art. 74",
+        documentation: "Proof of submission to the Ethics Committee, teaching internship reports, etc., as required by the program.",
+        deadlines: "Duties must be fulfilled throughout the entire course."
+    },
+    {
+        topic: "RIGHTS AND GOVERNANCE",
+        subtopic: "Student Representation",
+        question: "How does student representation on the Board work?",
+        answer: "Students have the right to representation on the program's Board, with the right to speak and vote, ensuring their participation in decisions. The term is for 1 year, with one reappointment allowed.",
+        details: [{
+            icon: '🗣️',
+            category: 'Main Category: Governance and Participation',
+            points: [
+                "Composition: The Board includes student representatives, elected by their peers.",
+                "Term: The student representative's term is for 1 (one) year.",
+                "Reappointment: One reappointment for a second term is allowed.",
+                "Voice and Vote: Representatives actively participate in meetings and deliberations."
+            ]
+        }],
+        legalBasis: "Art. 31, item III and §3",
+        documentation: "The election is organized by the students themselves and formalized with the program coordination.",
+        deadlines: "The term is for 1 year, with periodic elections to choose representatives."
+    },
+    {
+        topic: "CONCLUSION REQUIREMENTS",
+        subtopic: "Finalization Criteria",
+        question: "What are the mandatory requirements to complete the Master's in Pharmaceutical Sciences?",
+        answer: "To complete the Master's at PPGCF/UEPB, the student must meet specific criteria regarding deadline, language proficiency, and scientific production, which vary depending on their scholarship status.",
+        details: [{
+            icon: '🎯',
+            category: 'Main Category: Conclusion Requirements',
+            points: [
+                "Deadline: Maximum duration of 24 months, with a possible extension of up to 6 months upon board approval.",
+                "Proficiency: Approval in an English Language Proficiency Exam from a recognized public institution.",
+                "Scientific Production (without scholarship): Minimum of 1 submitted product (Qualis A article, patent, or book chapter).",
+                "Scientific Production (with scholarship): Minimum of 2 submitted products or 1 accepted product (Qualis A article, patent, or book chapter).",
+                "Note: The student must be the first author of the submitted articles."
+            ]
+        }],
+        legalBasis: "PPGCF's Internal Regulations",
+        documentation: "Proof of proficiency, proof of submission/acceptance of scientific products.",
+        deadlines: "Maximum deadline of 24 months for completion, with the possibility of a 6-month extension."
+    }
+];
+
+// Quick access cards data (English Version)
+const quickAccessCards_en = [
+    { icon: 'fas fa-user-plus', title: 'Admission', description: 'Selection process, enrollment and admission', topic: 'ENROLLMENT AND ADMISSION' },
+    { icon: 'fas fa-graduation-cap', title: 'Academic Life', description: 'Credits, courses, and evaluations', topic: 'ACADEMIC LIFE' },
+    { icon: 'fas fa-money-bill-wave', title: 'Scholarships', description: 'Financial aid and dedication', topic: 'FINANCIAL MATTERS' },
+    { icon: 'fas fa-chalkboard-teacher', title: 'Supervision', description: 'Supervisors and relationships', topic: 'SUPERVISION' },
+    { icon: 'fas fa-certificate', title: 'Defense', description: 'Qualification, defense, and graduation', topic: 'DEFENSE AND GRADUATION' },
+    { icon: 'fas fa-balance-scale', title: 'Rights & Governance', description: 'Structure, operation, and rights', topic: 'RIGHTS AND GOVERNANCE' },
+    { icon: 'fas fa-clock', title: 'Deadlines & Special Situations', description: 'Course deadlines and special cases', topic: 'DEADLINES AND SPECIAL SITUATIONS' },
+    { icon: 'fas fa-exclamation-triangle', title: 'Problematic Situations', description: 'Dismissal and academic issues', topic: 'PROBLEMATIC SITUATIONS' },
+    { icon: 'fas fa-users', title: 'Faculty', description: 'Professors, supervisors, and accreditation', topic: 'FACULTY' },
+    { icon: 'fas fa-plane-departure', title: 'Event Support', description: 'Aid for conference participation', topic: 'SUPPORT FOR SCIENTIFIC EVENTS' },
+    { icon: 'fas fa-check-circle', title: 'Conclusion Requirements', description: 'Criteria to finish the course', topic: 'CONCLUSION REQUIREMENTS' },
+    { icon: 'fas fa-hands-helping', title: 'Volunteer Professor', description: 'Rules for voluntary work at UEPB', topic: 'VOLUNTEER PROFESSOR' },
+    { icon: 'fas fa-microscope', title: 'Postdoctoral Research', description: 'Fellowship, rules, and activities', topic: 'POSTDOCTORAL RESEARCH' },
+    { icon: 'fas fa-info-circle', title: 'About this Version', description: 'Information on updates and improvements', topic: 'ABOUT' }
+];
+
+// Topic icons (English Version)
+const topicIcons_en = {
+    "ENROLLMENT AND ADMISSION": "fas fa-door-open",
+    "STRUCTURE AND GOVERNANCE": "fas fa-building",
+    "FACULTY": "fas fa-users",
+    "FINANCIAL MATTERS": "fas fa-money-bill-wave",
+    "ACADEMIC LIFE": "fas fa-graduation-cap",
+    "DEADLINES AND SPECIAL SITUATIONS": "fas fa-clock",
+    "SUPERVISION": "fas fa-chalkboard-teacher",
+    "DEFENSE AND GRADUATION": "fas fa-certificate",
+    "PROBLEMATIC SITUATIONS": "fas fa-exclamation-triangle",
+    "RIGHTS AND GOVERNANCE": "fas fa-balance-scale",
+    "SUPPORT FOR SCIENTIFIC EVENTS": "fas fa-plane-departure",
+    "VOLUNTEER PROFESSOR": "fas fa-hands-helping",
+    "POSTDOCTORAL RESEARCH": "fas fa-microscope",
+    "CONCLUSION REQUIREMENTS": "fas fa-check-circle"
+};
+
+// FAQ Data (Spanish Version)
+const faqData_es = [
+    {
+        topic: "APOYO A EVENTOS CIENTÍFICOS",
+        subtopic: "Reglas Generales",
+        question: "¿La UEPB ofrece ayuda económica para presentar trabajos en congresos?",
+        answer: "Sí, la UEPB ofrece incentivos financieros para docentes del cuadro permanente y profesores visitantes para participar en eventos científicos o tecnológicos, nacionales o internacionales, con presentación de trabajo.",
+        details: [{
+            icon: '✈️',
+            category: 'Categoría Principal: Incentivo a la Producción Científica',
+            points: [
+                "El apoyo está destinado a cubrir los costos de participación en eventos para la divulgación de investigaciones.",
+                "El programa busca fortalecer las políticas de Posgrado e Investigación de la universidad."
+            ]
+        }],
+        legalBasis: "Art. 1 de la Resolución/UEPB/CONSEPE/079/2015",
+        documentation: "Formulario de solicitud, resumen del trabajo, carta de aceptación, folleto del evento, entre otros.",
+        deadlines: "La solicitud debe realizarse con al menos 60 días de antelación al evento."
+    },
+    {
+        topic: "APOYO A EVENTOS CIENTÍFICOS",
+        subtopic: "Reglas Generales",
+        question: "¿Qué tipo de ayuda puedo solicitar y quién tiene derecho?",
+        answer: "Docentes permanentes y visitantes en servicio activo pueden solicitar O pasajes aéreos (clase económica) O hasta 4 viáticos diarios. No está permitido solicitar ambos. Los profesores con licencia de sus actividades no tienen derecho a la ayuda.",
+        details: [{
+            icon: '💰',
+            category: 'Categoría Principal: Tipos de Ayuda',
+            points: [
+                "El solicitante debe elegir entre pasajes O viáticos.",
+                "Los pasajes son siempre en clase económica, buscando la mejor relación costo-beneficio.",
+                "El límite es de 4 viáticos, de acuerdo con la duración del evento.",
+                "Solo los miembros del profesorado permanente o visitantes pueden solicitarlo."
+            ]
+        }],
+        legalBasis: "Art. 2 y Art. 5 de la Resolución/UEPB/CONSEPE/079/2015",
+        documentation: "Formulario de solicitud específico para pasajes o viáticos.",
+        deadlines: "La solicitud debe realizarse con al menos 60 días de antelación."
+    },
+    {
+        topic: "APOYO A EVENTOS CIENTÍFICOS",
+        subtopic: "Reglas Generales",
+        question: "¿Cuáles son los prerrequisitos para recibir la ayuda?",
+        answer: "Para que la solicitud sea aprobada, el trabajo a presentar debe tener a un estudiante de la UEPB como primer autor, y el profesor solicitante debe tener producción intelectual reciente.",
+        details: [{
+            icon: '📋',
+            category: 'Categoría Principal: Criterios de Elegibilidad',
+            points: [
+                "Es obligatorio tener un trabajo aceptado en el evento, preferiblemente para presentación oral.",
+                "Para eventos nacionales, el primer autor debe ser un estudiante de grado, iniciación científica o posgrado lato sensu de la UEPB.",
+                "Para eventos internacionales, el primer autor debe ser un estudiante de posgrado stricto sensu de la UEPB.",
+                "El profesor solicitante debe haber publicado al menos un artículo, libro o capítulo de libro en los últimos 3 años."
+            ]
+        }],
+        legalBasis: "Art. 3 de la Resolución/UEPB/CONSEPE/079/2015",
+        documentation: "Copia del trabajo aceptado, comprobante de producción intelectual reciente y un documento que demuestre el vínculo del estudiante como primer autor.",
+        deadlines: "El documento de aceptación del trabajo puede enviarse hasta 15 días antes del evento."
+    },
+    {
+        topic: "APOYO A EVENTOS CIENTÍFICOS",
+        subtopic: "Reglas Generales",
+        question: "¿Con qué frecuencia puedo solicitar esta ayuda?",
+        answer: "Existe un límite de solicitudes para garantizar que más docentes puedan beneficiarse. Se permite una ayuda para un congreso nacional por año y una ayuda para un congreso internacional cada dos años.",
+        details: [{
+            icon: '🗓️',
+            category: 'Categoría Principal: Límites de Solicitud',
+            points: [
+                "Ayuda para evento nacional: 1 por año.",
+                "Ayuda para evento internacional: 1 cada 2 años."
+            ]
+        }],
+        legalBasis: "Art. 4 de la Resolución/UEPB/CONSEPE/079/2015",
+        documentation: "N/A",
+        deadlines: "El control se basa en las solicitudes anteriores del profesor."
+    },
+    {
+        topic: "APOYO A EVENTOS CIENTÍFICOS",
+        subtopic: "Reglas Generales",
+        question: "¿Cómo y cuándo debo presentar el informe de gastos?",
+        answer: "Después del evento, el profesor beneficiario tiene 15 días para comprobar su participación y la presentación del trabajo ante el Vicerrectorado de Posgrado e Investigación (PRPGP).",
+        details: [{
+            icon: '🧾',
+            category: 'Categoría Principal: Informe de Gastos',
+            points: [
+                "Presentar el certificado de participación en el congreso.",
+                "Presentar el comprobante de la presentación del trabajo.",
+                "Entregar los boletos de viaje (talones de las tarjetas de embarque), si se proporcionaron pasajes aéreos."
+            ]
+        }],
+        legalBasis: "Art. 8 de la Resolución/UEPB/CONSEPE/079/2015",
+        documentation: "Certificados y boletos de viaje.",
+        deadlines: "El plazo para entregar la documentación es de 15 días después del final del evento."
+    },
+    {
+        topic: "INVESTIGACIÓN POSTDOCTORAL",
+        subtopic: "Reglas Generales",
+        question: "¿Qué es una Beca Postdoctoral y quién puede realizarla en la UEPB?",
+        answer: "Es una estancia de investigación realizada por profesionales con un título de doctor que no forman parte del personal permanente de la UEPB. El objetivo es desarrollar un proyecto de investigación bajo la supervisión de un miembro del profesorado de un programa de posgrado de la universidad.",
+        details: [{
+            icon: '👨‍🔬',
+            category: 'Categoría Principal: Definición y Público',
+            points: [
+                "Dirigido a investigadores externos con un doctorado.",
+                "Las actividades se realizan a tiempo completo o parcial.",
+                "La estancia siempre está vinculada a un proyecto de investigación y a un supervisor acreditado en un programa de posgrado."
+            ]
+        }],
+        legalBasis: "Art. 1, § 1 de la Resolución/UEPB/CONSEPE/008/2022",
+        documentation: "Carta de aceptación del supervisor, copia del diploma de doctor, CV Lattes y plan de trabajo.",
+        deadlines: "La duración mínima de la estancia es de 3 meses."
+    },
+    {
+        topic: "INVESTIGACIÓN POSTDOCTORAL",
+        subtopic: "Reglas Generales",
+        question: "Además de la investigación, ¿qué otras actividades puede realizar un investigador postdoctoral?",
+        answer: "Un investigador postdoctoral puede participar en diversas actividades, incluyendo la docencia en cursos de grado y posgrado, la supervisión de estudiantes de iniciación científica e incluso la co-supervisión de estudiantes de maestría y doctorado, a discreción del comité del programa.",
+        details: [{
+            icon: '📚',
+            category: 'Categoría Principal: Actividades Permitidas',
+            points: [
+                "Impartir clases en cursos de grado y posgrado, siempre bajo la responsabilidad de un miembro del profesorado permanente.",
+                "Supervisar a estudiantes de Iniciación Científica.",
+                "Actuar como co-supervisor de tesinas y tesis, si es aprobado por el comité.",
+                "Puede convertirse en supervisor principal, siempre que cumpla con los requisitos de la CAPES y del programa."
+            ]
+        }],
+        legalBasis: "Art. 1, §§ 2, 4, 5 y 6 de la Resolución/UEPB/CONSEPE/008/2022",
+        documentation: "Todas las actividades deben estar descritas en el Plan de Trabajo aprobado.",
+        deadlines: "La co-supervisión y supervisión dependen de la aprobación específica del comité del programa."
+    },
+    {
+        topic: "INVESTIGACIÓN POSTDOCTORAL",
+        subtopic: "Reglas Generales",
+        question: "¿Cómo funciona el proceso de solicitud postdoctoral?",
+        answer: "El candidato debe presentar una solicitud al Comité del Programa de Posgrado deseado, que contenga la documentación necesaria, incluyendo una carta de aceptación del futuro supervisor y un plan de trabajo detallado.",
+        details: [{
+            icon: '📝',
+            category: 'Categoría Principal: Documentación de Solicitud',
+            points: [
+                "Carta de aceptación de un profesor supervisor del programa.",
+                "Copia del diploma de doctor.",
+                "Curriculum Vitae (formato Lattes).",
+                "Plan de trabajo detallado con proyecto de investigación, cronograma y fuente de financiación.",
+                "Declaración de licencia de la institución de origen (si existe una relación laboral y es de dedicación a tiempo completo)."
+            ]
+        }],
+        legalBasis: "Art. 3 de la Resolución/UEPB/CONSEPE/008/2022",
+        documentation: "La documentación completa debe ser presentada en la secretaría del programa deseado.",
+        deadlines: "El proceso puede ser de flujo continuo o a través de convocatorias específicas, dependiendo del programa."
+    },
+    {
+        topic: "INVESTIGACIÓN POSTDOCTORAL",
+        subtopic: "Reglas Generales",
+        question: "¿Cuál es la duración de la estancia y cómo funciona la renovación?",
+        answer: "La estancia tiene una duración inicial de hasta 12 meses y puede renovarse anualmente hasta un límite máximo de 60 meses (5 años). La duración mínima para ser considerada una estancia postdoctoral es de 3 meses.",
+        details: [{
+            icon: '⏳',
+            category: 'Categoría Principal: Duración y Prórroga',
+            points: [
+                "Duración mínima: 3 meses.",
+                "Duración inicial estándar: Hasta 12 meses.",
+                "Duración máxima total: 60 meses (5 años), sujeta a renovaciones anuales.",
+                "La renovación depende de la aprobación de un informe de actividades por parte del comité del programa."
+            ]
+        }],
+        legalBasis: "Art. 4, §§ 3 y 4 de la Resolución/UEPB/CONSEPE/008/2022",
+        documentation: "Para renovar, se debe presentar un informe anual de actividades con la evaluación del supervisor.",
+        deadlines: "El informe debe presentarse al final de cada año de la estancia para la evaluación de la renovación."
+    },
+    {
+        topic: "INVESTIGACIÓN POSTDOCTORAL",
+        subtopic: "Reglas Generales",
+        question: "¿La estancia postdoctoral crea una relación laboral o concede un título?",
+        answer: "No. La participación en la estancia postdoctoral no crea ninguna relación laboral o funcional con la UEPB. Como una estancia académica, no confiere un nuevo título al investigador, sino un certificado de finalización.",
+        details: [{
+            icon: '📜',
+            category: 'Categoría Principal: Naturaleza de la Relación',
+            points: [
+                "No existe una relación laboral o funcional.",
+                "Las actividades son voluntarias a menos que el investigador sea becario.",
+                "No confiere un nuevo grado o título.",
+                "Al final, el investigador recibe un certificado emitido por el Vicerrectorado de Posgrado e Investigación (PRPGP)."
+            ]
+        }],
+        legalBasis: "Art. 8 y Art. 9 de la Resolución/UEPB/CONSEPE/008/2022",
+        documentation: "El Certificado de Finalización es emitido por el PRPGP tras la aprobación del informe final.",
+        deadlines: "El informe final debe ser aprobado por el comité del programa al final de la estancia."
+    },
+    {
+        topic: "PROFESOR VOLUNTARIO",
+        subtopic: "Reglas Generales",
+        question: "¿Qué es el Programa de Profesores y Personal Técnico Voluntario (PPTAV)?",
+        answer: "Es un programa que permite a profesores y personal administrativo, especialmente a aquellos que están jubilados o no tienen vínculos formales con la UEPB, continuar contribuyendo a la universidad en actividades culturales, educativas y científicas. El servicio es voluntario y no crea una relación laboral ni una obligación de remuneración.",
+        details: [{
+            icon: '🤝',
+            category: 'Categoría Principal: Naturaleza de la Relación',
+            points: [
+                "El programa se rige por la Ley Federal N.º 9.608/1998.",
+                "La participación se formaliza mediante un Término de Adhesión.",
+                "No genera vínculos laborales, salario ni obligaciones laborales y de seguridad social para la UEPB.",
+                "Busca prevenir la discontinuidad en las actividades de docencia, investigación y extensión."
+            ]
+        }],
+        legalBasis: "Art. 1 y Art. 2 de la Resolución/UEPB/CONSUNI/0208/2017",
+        documentation: "Término de Adhesión firmado entre el voluntario y la UEPB.",
+        deadlines: "La duración de la relación es de un máximo de 1 año, renovable."
+    },
+    {
+        topic: "PROFESOR VOLUNTARIO",
+        subtopic: "Reglas Generales",
+        question: "¿Quién puede postularse para ser Profesor Voluntario?",
+        answer: "Pueden postularse profesores jubilados (de la UEPB u otras instituciones) o profesionales sin un vínculo formal con la UEPB que tengan reconocida experiencia en su campo. Para trabajar en programas de posgrado stricto sensu, se requiere un título de Doctor.",
+        details: [{
+            icon: '🧑‍🏫',
+            category: 'Categoría Principal: Requisitos de Adhesión',
+            points: [
+                "Ser un profesor jubilado o no tener un vínculo formal con la UEPB.",
+                "Tener reconocida experiencia en el campo de actividad.",
+                "Tener un Plan de Trabajo aprobado por los órganos pertinentes del curso o programa.",
+                "Para Estudios de Posgrado (Maestría/Doctorado), es obligatorio tener un título de Doctor."
+            ]
+        }],
+        legalBasis: "Art. 3 y §2 de la Resolución/UEPB/CONSUNI/0208/2017",
+        documentation: "Solicitud formal, Plan de Trabajo y Curriculum Vitae (preferiblemente Lattes).",
+        deadlines: "El proceso de solicitud puede abrirse en cualquier momento, dependiendo de la aceptación de la unidad interesada."
+    },
+    {
+        topic: "PROFESOR VOLUNTARIO",
+        subtopic: "Reglas Generales",
+        question: "¿Qué actividades puede realizar un Profesor Voluntario?",
+        answer: "Un Profesor Voluntario puede realizar la mayoría de las actividades académicas, como enseñar, investigar, participar en proyectos de extensión, supervisar a estudiantes y formar parte de comités de examen.",
+        details: [{
+            icon: '📚',
+            category: 'Categoría Principal: Actividades Permitidas',
+            points: [
+                "Actividades de docencia en estudios de grado y posgrado.",
+                "Desarrollo de proyectos de investigación y extensión.",
+                "Supervisión de proyectos de fin de grado, tesinas de maestría y tesis doctorales.",
+                "Participación en comités de monografías, tesinas, tesis y selecciones públicas.",
+                "Participación en reuniones de comités, con derecho a voz pero sin voto."
+            ]
+        }],
+        legalBasis: "Art. 4 de la Resolución/UEPB/CONSUNI/0208/2017",
+        documentation: "Las actividades deben estar detalladas y aprobadas en el Plan de Trabajo.",
+        deadlines: "Las actividades deben llevarse a cabo dentro del período de validez del Término de Adhesión."
+    },
+    {
+        topic: "PROFESOR VOLUNTARIO",
+        subtopic: "Reglas Generales",
+        question: "¿Cuáles son los derechos y limitaciones de un Profesor Voluntario?",
+        answer: "El voluntario tiene derecho a utilizar la infraestructura de la UEPB (bibliotecas, laboratorios) y la afiliación institucional. Sin embargo, no tiene derechos administrativos, como votar o ser elegido para puestos de liderazgo o representación.",
+        details: [{
+            icon: '⚖️',
+            category: 'Categoría Principal: Derechos y Prohibiciones',
+            points: [
+                "Derecho a usar el título de 'Profesor Voluntario de la UEPB'.",
+                "Derecho a acceder a espacios como laboratorios y bibliotecas.",
+                "Derecho a un correo electrónico institucional.",
+                "Limitación: No puede votar ni ser elegido para cargos administrativos (Jefe de Departamento, Coordinador, etc.).",
+                "Limitación: Participa en reuniones de comités con derecho a voz pero sin voto."
+            ]
+        }],
+        legalBasis: "Art. 4 (§1 y §2) y Art. 12 de la Resolución/UEPB/CONSUNI/0208/2017",
+        documentation: "Los derechos y deberes se formalizan en el Término de Adhesión.",
+        deadlines: "Los derechos son válidos durante la vigencia del Término de Adhesión."
+    },
+    {
+        topic: "PROFESOR VOLUNTARIO",
+        subtopic: "Reglas Generales",
+        question: "¿Cuál es el proceso para convertirse en Profesor Voluntario?",
+        answer: "El interesado debe formalizar una solicitud ante la unidad de interés (Departamento o Programa de Posgrado), presentando un Plan de Trabajo y su currículum. La solicitud será analizada y votada por el comité de la unidad.",
+        details: [{
+            icon: '📝',
+            category: 'Categoría Principal: Proceso de Adhesión',
+            points: [
+                "1. Preparar una solicitud y un Plan de Trabajo que detalle las actividades, el período y la carga horaria semanal.",
+                "2. Presentar la solicitud, el plan y el currículum al comité del Departamento o Programa.",
+                "3. Esperar el dictamen de la unidad, que tiene 30 días para responder.",
+                "4. Si se aprueba, firmar el Término de Adhesión con la UEPB, que será registrado en la PROGEP."
+            ]
+        }],
+        legalBasis: "Art. 6, 7 y 8 de la Resolución/UEPB/CONSUNI/0208/2017",
+        documentation: "Solicitud, Plan de Trabajo y Curriculum Vitae.",
+        deadlines: "El comité de la unidad tiene 30 días para emitir un dictamen sobre la solicitud."
+    },
+    {
+        topic: "PROFESOR VOLUNTARIO",
+        subtopic: "Reglas Generales",
+        question: "¿Cuál es la duración de la relación de voluntariado y cómo funciona la renovación?",
+        answer: "El Término de Adhesión tiene una duración máxima de 1 (un) año. Es posible solicitar una renovación por el mismo período, siguiendo los mismos procedimientos que la solicitud inicial e incluyendo un informe de las actividades ya realizadas.",
+        details: [{
+            icon: '🔄',
+            category: 'Categoría Principal: Duración y Renovación',
+            points: [
+                "Duración inicial: Máximo de 1 año.",
+                "Renovación: Permitida por otro año más.",
+                "Proceso de Renovación: Requiere la presentación de un informe de actividades y una nueva evaluación de desempeño.",
+                "La solicitud de renovación pasa por el mismo proceso de aprobación por parte del comité de la unidad."
+            ]
+        }],
+        legalBasis: "Art. 9 de la Resolución/UEPB/CONSUNI/0208/2017",
+        documentation: "Para la renovación, se requiere un informe de actividades y una nueva solicitud.",
+        deadlines: "La solicitud de renovación debe realizarse antes de que finalice el período de vigencia actual."
+    },
+    {
+        topic: "VIDA ACADÉMICA",
+        subtopic: "Prácticas de Docencia",
+        question: "¿Cuál es el objetivo de las Prácticas de Docencia?",
+        answer: "Las Prácticas de Docencia tienen como objetivo preparar a los estudiantes de posgrado para una carrera docente, creando oportunidades de mejora a través de la participación en actividades de enseñanza de grado.",
+        details: [{
+            icon: '🎯',
+            category: 'Categoría Principal: Formación de Profesores',
+            points: [
+                "Capacitar a los estudiantes de posgrado para la docencia en la educación superior.",
+                "Promover la integración entre los programas de posgrado y los cursos de grado.",
+                "Mejorar la calidad de la enseñanza en ambos niveles (grado y posgrado)."
+            ]
+        }],
+        legalBasis: "Art. 1 de la Resolución/UEPB/CONSEPE/032/2011",
+        documentation: "Plan de Trabajo e Informe de Actividades.",
+        deadlines: "Las prácticas deben realizarse a partir del segundo semestre de inscripción en el curso."
+    },
+    {
+        topic: "VIDA ACADÉMICA",
+        subtopic: "Prácticas de Docencia",
+        question: "¿Son obligatorias las Prácticas de Docencia para todos?",
+        answer: "Sí, las prácticas son una actividad obligatoria para todos los estudiantes de maestría y doctorado. Sin embargo, los estudiantes que ya son profesores de educación superior pueden solicitar una exención de la actividad.",
+        details: [{
+            icon: '🧑‍🏫',
+            category: 'Categoría Principal: Obligatoriedad y Exenciones',
+            points: [
+                "El requisito tiene como objetivo integrar la formación del estudiante de posgrado, según las normas de la CAPES.",
+                "La exención no es automática y debe solicitarse formalmente.",
+                "La decisión final sobre la exención recae en el Comité del Programa."
+            ]
+        }],
+        legalBasis: "Art. 2 y Párrafo Único de la Resolución/UEPB/CONSEPE/032/2011",
+        documentation: "Para la exención, se requiere prueba de experiencia docente en Educación Superior.",
+        deadlines: "La solicitud de exención debe realizarse ante el Comité del Programa."
+    },
+    {
+        topic: "VIDA ACADÉMICA",
+        subtopic: "Prácticas de Docencia",
+        question: "¿Cuál es la duración y la carga horaria de las prácticas?",
+        answer: "La duración varía entre maestrías y doctorados, con una carga horaria semanal limitada para no interferir con las otras actividades del estudiante de posgrado.",
+        details: [{
+            icon: '⏳',
+            category: 'Categoría Principal: Duración y Carga Horaria',
+            points: [
+                "Maestría: Duración mínima de 1 semestre y máxima de 2 semestres.",
+                "Doctorado: Duración mínima de 2 semestres y máxima de 3 semestres.",
+                "Carga Horaria Semanal: Máximo de 4 horas por semana."
+            ]
+        }],
+        legalBasis: "Art. 3 y Art. 4 de la Resolución/UEPB/CONSEPE/032/2011",
+        documentation: "El Plan de Trabajo detallará la distribución de la carga horaria.",
+        deadlines: "La carga horaria debe completarse durante el semestre académico en que el estudiante está inscrito en la actividad."
+    },
+    {
+        topic: "VIDA ACADÉMICA",
+        subtopic: "Prácticas de Docencia",
+        question: "¿Qué actividades puedo realizar durante las Prácticas de Docencia?",
+        answer: "Las prácticas permiten la participación en diversas actividades académicas, siendo una de las principales la impartición de un porcentaje de las clases teóricas o prácticas.",
+        details: [{
+            icon: '📚',
+            category: 'Categoría Principal: Actividades Realizadas',
+            points: [
+                "Participar en el desarrollo del programa de estudios y los planes de lecciones.",
+                "Preparar e impartir clases teóricas y/o prácticas (mínimo del 20% y máximo del 30% de la carga horaria del curso).",
+                "Asistir en el proceso de evaluación de los estudiantes de grado.",
+                "Supervisar a estudiantes de Iniciación Científica y Proyectos Finales.",
+                "Presentar seminarios o conferencias."
+            ]
+        }],
+        legalBasis: "Art. 5 de la Resolución/UEPB/CONSEPE/032/2011",
+        documentation: "Las actividades deben detallarse en el Plan de Trabajo.",
+        deadlines: "Las actividades deben seguir el cronograma aprobado en el Plan de Trabajo."
+    },
+    {
+        topic: "VIDA ACADÉMICA",
+        subtopic: "Prácticas de Docencia",
+        question: "¿Cómo funcionan la inscripción y la atribución de créditos para las prácticas?",
+        answer: "El estudiante se inscribe en un curso específico de Prácticas de Docencia. La actividad genera créditos que son adicionales al currículo regular del programa.",
+        details: [{
+            icon: '📊',
+            category: 'Categoría Principal: Inscripción y Créditos',
+            points: [
+                "Maestría: Hasta 2 créditos (30 horas).",
+                "Doctorado: Hasta 4 créditos (60 horas).",
+                "Créditos Adicionales: No reemplazan los créditos obligatorios o electivos del programa.",
+                "Inscripción: Se realiza a partir del segundo semestre del curso."
+            ]
+        }],
+        legalBasis: "Art. 6, §1, §2 y Art. 7 de la Resolución/UEPB/CONSEPE/032/2011",
+        documentation: "La inscripción se formaliza en la Secretaría del Programa, con la entrega del Plan de Trabajo.",
+        deadlines: "La inscripción debe realizarse en el período académico en que se llevarán a cabo las prácticas."
+    },
+    {
+        topic: "VIDA ACADÉMICA",
+        subtopic: "Prácticas de Docencia",
+        question: "¿Necesito un Plan de Trabajo? ¿Qué debe contener?",
+        answer: "Sí, es obligatorio un Plan de Trabajo detallado. Debe prepararse junto con su supervisor y ser aprobado por el Comité del Programa y el Departamento responsable.",
+        details: [{
+            icon: '📋',
+            category: 'Categoría Principal: Planificación de las Prácticas',
+            points: [
+                "Contenido: Justificación, objetivos, carga horaria semanal, cronograma de actividades y referencias.",
+                "Firmas: Debe estar firmado por usted (el estudiante), su supervisor y el profesor del curso (si es diferente del supervisor).",
+                "Aprobación: El plan debe ser aprobado antes del inicio de las actividades."
+            ]
+        }],
+        legalBasis: "Art. 8 de la Resolución/UEPB/CONSEPE/032/2011",
+        documentation: "El Plan de Trabajo debe presentarse en la Secretaría del Programa al inscribirse en la disciplina de prácticas.",
+        deadlines: "El plan debe presentarse antes del inicio del período académico de las prácticas."
+    },
+    {
+        topic: "VIDA ACADÉMICA",
+        subtopic: "Prácticas de Docencia",
+        question: "¿Cómo seré evaluado en las Prácticas de Docencia?",
+        answer: "La evaluación se basa en un informe final que usted prepara al completar las actividades. El informe es evaluado por su supervisor y posteriormente por el Comité del Programa.",
+        details: [{
+            icon: '✅',
+            category: 'Categoría Principal: Evaluación y Finalización',
+            points: [
+                "Informe Parcial: Un informe sobre las actividades en el aula debe presentarse al profesor del curso dentro de los 15 días de su finalización.",
+                "Informe Final: Un informe completo, firmado por usted y su supervisor (con su opinión adjunta), debe presentarse al Comité dentro de los 30 días posteriores al final de todas las actividades.",
+                "Resultado: El Comité puede aprobar, solicitar adiciones o rechazar el informe. En caso de rechazo, se deben realizar nuevas prácticas."
+            ]
+        }],
+        legalBasis: "Art. 10, Art. 11 y Art. 12 de la Resolución/UEPB/CONSEPE/032/2011",
+        documentation: "Informe de Prácticas de Docencia, según el modelo o las directrices del programa.",
+        deadlines: "Informe Parcial (15 días después de que terminen las clases), Informe Final (30 días después de que terminen todas las actividades)."
+    },
+    {
+        topic: "INGRESO Y ADMISIÓN",
+        subtopic: "Proceso de Selección Regular",
+        question: "¿Cómo funciona el proceso de selección regular?",
+        answer: "El proceso de selección es el punto de entrada oficial al programa, regido por una convocatoria pública que detalla todas las reglas, fechas y documentos necesarios.",
+        details: [{
+            icon: '📝',
+            category: 'Categoría Principal: Proceso de Selección',
+            points: [
+                "Convocatoria: Es el documento más importante, publicado con al menos 30 días de antelación. Define vacantes, criterios, cronograma y documentación.",
+                "Inscripción: Generalmente en línea, requiere completar formularios y enviar documentos escaneados.",
+                "Flujo Continuo: El programa puede optar por un modelo de 'flujo continuo', permitiendo inscripciones en cualquier momento del año, según la convocatoria."
+            ]
+        }],
+        legalBasis: "Art. 79 (Estandarización), Art. 81 (Flujo Continuo), Art. 87 (Comité de Selección), Art. 88 (Validez del Proceso)",
+        documentation: "Solicitud de inscripción, Formulario de inscripción, Copia del diploma (o declaración), Expediente académico, CV Lattes, Comprobante de pago de la tasa.",
+        deadlines: "Publicación de la Convocatoria: Mínimo 30 días antes de las inscripciones. Apelaciones: Plazo definido en la convocatoria, con el Comité como primera instancia."
+    },
+    {
+        topic: "INGRESO Y ADMISIÓN",
+        subtopic: "Matrícula Institucional",
+        question: "¡Fui aceptado! ¿Cómo completo la matrícula institucional?",
+        answer: "La matrícula institucional es el acto que formaliza tu conexión con la UEPB. Perder el plazo significa perder tu plaza, incluso si fuiste aceptado.",
+        details: [{
+            icon: '🔗',
+            category: 'Categoría Principal: Vínculo Académico',
+            points: [
+                "Procedimiento: Se realiza en la secretaría del programa, dentro del período estipulado en el calendario académico.",
+                "Condición: Es un prerrequisito para la primera inscripción en cursos.",
+                "Prohibición: Está prohibida la matrícula simultánea en más de un programa de posgrado stricto sensu en la UEPB."
+            ]
+        }],
+        legalBasis: "Art. 100 (Obligatoriedad y Plazos), Art. 101 (Prohibición de Matrícula Simultánea), Art. 102 (Diplomas Extranjeros), Art. 103 (Matrícula Semestral)",
+        documentation: "Documentos enumerados en la convocatoria de selección (diploma, expediente, documentos personales, etc.).",
+        deadlines: "Plazo definido en el calendario académico del programa. No matricularse resulta en la pérdida automática de la plaza (Art. 100, §4)."
+    },
+    {
+        topic: "INGRESO Y ADMISIÓN",
+        subtopic: "Traslado",
+        question: "¿Puedo trasladarme de otro programa de maestría/doctorado al PPGCF?",
+        answer: "Sí, el traslado es posible, pero depende de la disponibilidad de plazas, la aprobación del Comité y el cumplimiento de requisitos específicos.",
+        details: [{
+            icon: '🔄',
+            category: 'Categoría Principal: Movilidad Académica',
+            points: [
+                "Requisitos: Ser estudiante regular de un programa con una calificación CAPES igual o superior, haber completado al menos 6 meses y tener la aceptación formal de un supervisor del PPGCF.",
+                "Proceso: La solicitud debe ser aprobada por los Comités de ambos programas (origen y destino)."
+            ]
+        }],
+        legalBasis: "Art. 86, §1 (Admisión por Traslado), Art. 105 (Condiciones Mínimas)",
+        documentation: "Solicitud formal, Expediente académico de la institución de origen, Programas de los cursos, Carta de aceptación del nuevo supervisor, Carta de consentimiento del programa de origen.",
+        deadlines: "El tiempo ya cursado en el programa de origen se cuenta para la duración máxima. La decisión final recae en el Comité del PPGCF."
+    },
+    {
+        topic: "INGRESO Y ADMISIÓN",
+        subtopic: "Reingreso",
+        question: "Fui dado de baja del programa. ¿Puedo intentar ingresar de nuevo?",
+        answer: "Sí, pero hay un período de espera obligatorio. El reingreso no es automático y requiere la participación en un nuevo proceso de selección.",
+        details: [{
+            icon: '⏳',
+            category: 'Categoría Principal: Reingreso',
+            points: [
+                "Período de Espera: Es necesario esperar un mínimo de 12 meses después de la fecha de baja para solicitar un nuevo proceso de selección.",
+                "Nueva Matrícula: Si se aprueba, el reingreso se considera una nueva matrícula, sin transferencia automática de créditos."
+            ]
+        }],
+        legalBasis: "Art. 80 (Período de Espera), Art. 112 (Reingreso como Nueva Matrícula)",
+        documentation: "La misma documentación requerida en la convocatoria de selección para nuevos candidatos.",
+        deadlines: "Período mínimo de espera de 12 meses. El candidato compite normalmente en el nuevo proceso de selección."
+    },
+    {
+        topic: "INGRESO Y ADMISIÓN",
+        subtopic: "Estudiante Especial",
+        question: "¿Qué es un 'Estudiante Especial' y cómo funciona?",
+        answer: "Un Estudiante Especial es aquel que toma cursos individuales en el programa sin una matrícula regular. Es una excelente manera de conocer el programa o adelantar créditos.",
+        details: [{
+            icon: '🧑‍🏫',
+            category: 'Categoría Principal: Participación sin Grado',
+            points: [
+                "Derechos: Puede asistir a clases y recibir un certificado de finalización del curso.",
+                "Limitaciones: No tiene supervisor, no puede recibir una beca y no tiene los mismos derechos que un estudiante regular.",
+                "Transferencia de Créditos: Los créditos obtenidos en los últimos 5 años pueden transferirse si el estudiante se inscribe más tarde como estudiante regular."
+            ]
+        }],
+        legalBasis: "Art. 75 (Definición), Art. 76 (Reglas de Aceptación), Arts. 77 y 78 (Posibilidad para estudiantes de grado e investigadores)",
+        documentation: "Generalmente, un diploma de grado, expediente académico, CV y una carta de interés.",
+        deadlines: "Inscripción según el calendario académico. La aceptación es aprobada por el Comité."
+    },
+    {
+        topic: "ESTRUCTURA Y GOBERNANZA",
+        subtopic: "Responsabilidades del Comité",
+        question: "¿Cuáles son las principales responsabilidades del Comité?",
+        answer: "El Comité es el máximo órgano deliberativo del programa. Define y aprueba todas las reglas académicas, pedagógicas y administrativas, siendo la principal instancia para apelar las decisiones tomadas por la Coordinación.",
+        details: [{
+            icon: '🏛️',
+            category: 'Competencias Principales',
+            points: [
+                "Proponer y aprobar cambios en los reglamentos del programa.",
+                "Definir el número de vacantes y aprobar las convocatorias de selección.",
+                "Deliberar sobre transferencias de créditos, traslados, licencias y bajas.",
+                "Nombrar supervisores, co-supervisores y aprobar los comités de examen (tribunales).",
+                "Aprobar el calendario académico y la oferta de cursos para cada período."
+            ]
+        }],
+        legalBasis: "Art. 30, 31, 32",
+        documentation: "Actas de las reuniones del Comité.",
+        deadlines: "Las decisiones se toman en reuniones regulares (al menos una vez al mes) o extraordinarias."
+    },
+    {
+        topic: "ESTRUCTURA Y GOBERNANZA",
+        subtopic: "Responsabilidades de la Coordinación",
+        question: "¿Cuáles son las funciones de la Coordinación del Programa?",
+        answer: "La Coordinación es el órgano ejecutivo que gestiona las operaciones diarias del programa. Implementa las decisiones del Comité, representa al programa y garantiza el cumplimiento de todas las reglas y plazos.",
+        details: [{
+            icon: '🧑‍💼',
+            category: 'Funciones Principales',
+            points: [
+                "Presidir las reuniones del Comité y ejecutar sus decisiones.",
+                "Preparar y enviar informes a la CAPES (Plataforma Sucupira).",
+                "Gestionar la asignación de recursos financieros (como el PROAP).",
+                "Organizar el calendario académico y supervisar la finalización de las actividades.",
+                "Tomar decisiones urgentes 'ad referendum', que deben ser ratificadas por el Comité en la siguiente reunión."
+            ]
+        }],
+        legalBasis: "Art. 33, 34, 35",
+        documentation: "Informes anuales, planes de aplicación de recursos, convocatorias.",
+        deadlines: "Responsable de cumplir los plazos establecidos por la CAPES y la UEPB."
+    },
+    {
+        topic: "ESTRUCTURA Y GOBERNANZA",
+        subtopic: "Responsabilidades de la Secretaría",
+        question: "¿Cuál es el papel de la Secretaría del Programa?",
+        answer: "La Secretaría es el órgano de apoyo administrativo que se encarga de las funciones burocráticas y de control académico. Es el principal punto de contacto para estudiantes y profesores en asuntos documentales y de rutina.",
+        details: [{
+            icon: '🗗',
+            category: 'Tareas Principales',
+            points: [
+                "Organizar y procesar solicitudes, matrículas y otras peticiones.",
+                "Mantener actualizados los archivos, registros e historiales académicos de estudiantes y profesores.",
+                "Proporcionar apoyo de secretaría para reuniones del Comité, defensas y exámenes de calificación.",
+                "Gestionar el flujo de correspondencia y documentos oficiales del programa."
+            ]
+        }],
+        legalBasis: "Art. 36, 37",
+        documentation: "Procesos de matrícula, expedientes académicos, archivos de trabajos finales.",
+        deadlines: "Trabajo continuo para garantizar un funcionamiento administrativo fluido."
+    },
+    {
+        topic: "PROFESORADO",
+        subtopic: "Acreditación y Categorías",
+        question: "¿Cómo se convierte un profesor en parte del profesorado del programa?",
+        answer: "Un profesor o investigador con un título de doctor puede ser autorizado a participar en el programa (acreditado) en una de tres categorías: Permanente, Visitante o Colaborador, tras la aprobación del Comité.",
+        details: [{
+            icon: '🧑‍🏫',
+            category: 'Categorías de Profesorado',
+            points: [
+                "Permanente: El núcleo del programa, con participación continua en docencia, investigación y supervisión.",
+                "Visitante: Un profesor externo contratado por un período determinado para colaborar con el programa.",
+                "Colaborador: Participa de manera complementaria en proyectos, clases o supervisiones, sin los mismos vínculos que un miembro del profesorado permanente."
+            ]
+        }],
+        legalBasis: "Art. 43, 44, 45, 46, 49",
+        documentation: "Convocatoria de acreditación, CV Lattes, proyecto de investigación.",
+        deadlines: "La acreditación se realiza periódicamente, según las convocatorias publicadas por el programa."
+    },
+    {
+        topic: "PROFESORADO",
+        subtopic: "Deberes del Supervisor",
+        question: "¿Cuáles son las principales responsabilidades de mi supervisor?",
+        answer: "El supervisor es responsable de guiar al estudiante a lo largo de su trayectoria académica, desde la planificación de los estudios y la elección de cursos hasta la preparación y defensa del trabajo final.",
+        details: [{
+            icon: '🧭',
+            category: 'Responsabilidades Principales',
+            points: [
+                "Asistir al estudiante en la planificación académica y la matrícula.",
+                "Monitorear y evaluar el desempeño del estudiante.",
+                "Ayudar en la preparación del proyecto y el trabajo final.",
+                "Proponer la baja del estudiante en caso de incumplimiento de las actividades.",
+                "Sugerir nombres para los comités y autorizar la defensa del trabajo final."
+            ]
+        }],
+        legalBasis: "Art. 69",
+        documentation: "Informes de desempeño, dictámenes sobre solicitudes de los estudiantes.",
+        deadlines: "Monitoreo continuo durante todo el curso del estudiante."
+    },
+    {
+        topic: "ASUNTOS FINANCIEROS",
+        subtopic: "Becas",
+        question: "¿Cómo se otorgan las becas?",
+        answer: "Las becas no son automáticas y dependen de la disponibilidad de cuotas de las agencias de financiación (como la CAPES). La selección se basa en el mérito académico.",
+        details: [{
+            icon: '💰',
+            category: 'Categoría Principal: Financiación y Ayuda',
+            points: [
+                "Comité de Becas: Cada programa tiene un comité responsable de definir los criterios de selección y monitorear a los becarios.",
+                "Criterios de Selección: Priorizan el mérito académico, generalmente basado en la clasificación en el proceso de selección.",
+                "Renovación: La beca se otorga por 12 meses, renovable anualmente hasta el límite del curso, sujeto a un buen desempeño."
+            ]
+        }],
+        legalBasis: "Art. 167 (Comité de Becas), Art. 168 (Requisitos), Art. 169 (Renovación)",
+        documentation: "Documentos que prueben la ausencia de una relación laboral remunerada, término de compromiso de la agencia de financiación.",
+        deadlines: "La selección es realizada por el Comité de Becas después de los resultados del proceso de selección de admisión."
+    },
+    {
+        topic: "ASUNTOS FINANCIEROS",
+        subtopic: "Dedicación a Tiempo Completo",
+        question: "¿Puedo trabajar y recibir una beca al mismo tiempo?",
+        answer: "No. La beca requiere dedicación a tiempo completo a las actividades del programa.",
+        details: [{
+            icon: '🚫',
+            category: 'Categoría Principal: Prohibiciones y Reglas',
+            points: [
+                "Dedicación a Tiempo Completo: El becario debe dedicarse por completo al curso, lo que impide acumularlo con actividades profesionales remuneradas.",
+                "Excepciones: La propia agencia de financiación puede prever excepciones específicas en sus reglamentos.",
+                "Consecuencias: El incumplimiento conduce a la cancelación de la beca y a la obligación de reembolsar los montos recibidos."
+            ]
+        }],
+        legalBasis: "Art. 168, incisos II y IV (Requisito de Dedicación a Tiempo Completo)",
+        documentation: "Declaración de no acumulación de becas y ausencia de empleo.",
+        deadlines: "El estudiante es responsable de mantener su estado de dedicación a tiempo completo e informar a la coordinación de cualquier cambio."
+    },
+    {
+        topic: "VIDA ACADÉMICA",
+        subtopic: "Créditos Mínimos",
+        question: "¿Cuántos créditos necesito para completar el curso?",
+        answer: "El programa requiere un número mínimo de créditos en cursos, que deben completarse dentro del plazo del curso.",
+        details: [{
+            icon: '📊',
+            category: 'Categoría Principal: Estructura Curricular',
+            points: [
+                "Maestría: Mínimo de 18 créditos.",
+                "Doctorado: Mínimo de 27 créditos.",
+                "Definición de Crédito: 1 crédito = 15h de clase teórica o 30h de clase práctica.",
+                "Nota: Los créditos de la tesina/tesis no cuentan para este total."
+            ]
+        }],
+        legalBasis: "Art. 115 (Límites Mínimos de Créditos)",
+        documentation: "El control se realiza a través del expediente académico.",
+        deadlines: "Los créditos deben completarse dentro de la duración máxima del curso. El estudiante y el supervisor son responsables de la planificación."
+    },
+    {
+        topic: "VIDA ACADÉMICA",
+        subtopic: "Evaluación y Aprobación",
+        question: "¿Cómo funciona la evaluación en los cursos?",
+        answer: "Aprobar un curso depende de una calificación y asistencia mínimas.",
+        details: [{
+            icon: '✅',
+            category: 'Categoría Principal: Rendimiento Académico',
+            points: [
+                "Calificación Mínima: Para aprobar se requiere una calificación de 7.0 o superior (Concepto C).",
+                "Asistencia Mínima: Es obligatoria la asistencia de al menos el 75% de las clases.",
+                "Promedio General (GPA): Mantener un GPA superior a 7.0 es una condición para permanecer en el programa."
+            ]
+        }],
+        legalBasis: "Art. 125 (Sistema de Calificación), Art. 126 (Asistencia Mínima), Art. 110, inciso VI (Baja por bajo GPA)",
+        documentation: "N/A",
+        deadlines: "El profesor tiene hasta 30 días después del final del curso para publicar las calificaciones. Reprobar el mismo curso dos veces o tener un GPA < 7.0 conduce a la baja."
+    },
+    {
+        topic: "VIDA ACADÉMICA",
+        subtopic: "Prácticas de Docencia",
+        question: "¿Son obligatorias las Prácticas de Docencia?",
+        answer: "Sí, las prácticas de docencia son una actividad académica obligatoria para los becarios, con el objetivo de formarse para la enseñanza superior. Los estudiantes que ya son profesores pueden solicitar una exención.",
+        details: [{
+            icon: '👨‍🏫',
+            category: 'Detalles de las Prácticas',
+            points: [
+                "Es obligatorio para los estudiantes becarios.",
+                "Los estudiantes de maestría deben completarlo durante un semestre; los de doctorado durante dos semestres.",
+                "Las actividades son supervisadas por el supervisor y un profesor de grado.",
+                "Al final, el estudiante debe preparar un informe para obtener los créditos."
+            ]
+        }],
+        legalBasis: "Art. 118",
+        documentation: "Informe de actividades de las prácticas.",
+        deadlines: "Debe completarse dentro de la duración regular del curso."
+    },
+    {
+        topic: "VIDA ACADÉMICA",
+        subtopic: "Transferencia de Créditos",
+        question: "¿Puedo transferir créditos de otros cursos de posgrado?",
+        answer: "Sí, el Comité puede aceptar créditos de cursos tomados en otros programas de posgrado (stricto o lato sensu), siempre que se hayan completado en los últimos 5 años y sean relevantes para su formación.",
+        details: [{
+            icon: '📚',
+            category: 'Reglas para la Transferencia de Créditos',
+            points: [
+                "El curso debe haberse completado hace no más de 5 años.",
+                "La calificación obtenida debe ser de 7.0 o superior (o concepto C).",
+                "El número máximo de créditos a transferir se define en los reglamentos de cada programa.",
+                "Se debe presentar una solicitud con el expediente académico y los programas de los cursos."
+            ]
+        }],
+        legalBasis: "Art. 129, Art. 130",
+        documentation: "Solicitud formal, expediente académico y programas de los cursos tomados.",
+        deadlines: "La solicitud debe presentarse formalmente a la coordinación del programa."
+    },
+    {
+        topic: "PLAZOS Y SITUACIONES ESPECIALES",
+        subtopic: "Plazos del Curso",
+        question: "¿Cuál es el tiempo máximo para completar la maestría/doctorado?",
+        answer: "Los reglamentos establecen plazos mínimos y máximos para completar el curso, contados desde la fecha de la primera matrícula.",
+        details: [{
+            icon: '⏳',
+            category: 'Categoría Principal: Plazos Reglamentarios',
+            points: [
+                "Maestría: Mínimo de 1 año y máximo de 2 años y 6 meses (30 meses).",
+                "Doctorado: Mínimo de 2 años y máximo de 5 años (60 meses).",
+                "Prórroga: En casos excepcionales, el Comité puede conceder una prórroga de hasta 6 meses (maestría) o 12 meses (doctorado)."
+            ]
+        }],
+        legalBasis: "Art. 113 (Plazos), Art. 114 (Prórroga)",
+        documentation: "Para la prórroga: Solicitud formal, justificación, dictamen del supervisor, versión preliminar del trabajo, cronograma.",
+        deadlines: "La solicitud de prórroga debe realizarse ANTES de que expire el plazo regular. La decisión depende del Comité."
+    },
+    {
+        topic: "SUPERVISIÓN",
+        subtopic: "Asignación y Cambio de Supervisor",
+        question: "¿Cómo funciona la asignación y el cambio de supervisor?",
+        answer: "Todo estudiante tiene derecho a un supervisor, que es nombrado formalmente por el Comité. Un cambio es posible, pero es un proceso que requiere acuerdo y aprobación.",
+        details: [{
+            icon: '🤝',
+            category: 'Categoría Principal: Relación Supervisor-Estudiante',
+            points: [
+                "Asignación: Nombrado por el Comité, basado en la indicación del estudiante y la alineación de la investigación.",
+                "Cambio por parte del Estudiante: El estudiante puede solicitar un cambio, con el consentimiento del supervisor actual y del nuevo.",
+                "Conflicto: En caso de desacuerdo, la decisión final sobre el cambio recae en el Comité."
+            ]
+        }],
+        legalBasis: "Art. 65 (Asignación), Art. 66 (Cambio por el Estudiante), Art. 32, inciso XXI (Autoridad del Comité)",
+        documentation: "Para el cambio: Solicitud formal, justificación, cartas de consentimiento/aceptación.",
+        deadlines: "El Comité tiene hasta 30 días para nombrar a un nuevo supervisor en caso de vacante."
+    },
+    {
+        topic: "SUPERVISIÓN",
+        subtopic: "Asignación y Cambio de Supervisor",
+        question: "¿Puede un supervisor dejar de supervisarme?",
+        answer: "Sí, un supervisor puede solicitar al Comité el derecho a renunciar a la supervisión de un estudiante. Esto debe hacerse a través de una justificación formal y detallada, basada en los informes de desempeño del estudiante.",
+        details: [{
+            icon: '👋',
+            category: 'Renuncia a la Supervisión',
+            points: [
+                "Derecho del Supervisor: Los supervisores tienen derecho a renunciar a la supervisión.",
+                "Justificación: La solicitud debe ser formal y bien fundamentada.",
+                "Aprobación: La solicitud debe ser presentada y aprobada por el Comité del programa.",
+                "Nuevo Supervisor: Si se aprueba, el Comité nombrará a un nuevo supervisor en un plazo de 30 días."
+            ]
+        }],
+        legalBasis: "Art. 67 (Renuncia por el Supervisor), Art. 68 (Tutela de la Coordinación)",
+        documentation: "Justificación formal del supervisor.",
+        deadlines: "La decisión final la toma el Comité."
+    },
+    {
+        topic: "DEFENSA Y TITULACIÓN",
+        subtopic: "Examen de Calificación",
+        question: "¿Qué es el Examen de Calificación?",
+        answer: "El examen de calificación (o pre-defensa) es un paso obligatorio para el doctorado que evalúa la capacidad del estudiante para llevar a cabo una investigación original. Es un hito importante que precede a la defensa final de la tesis.",
+        details: [{
+            icon: '🧐',
+            category: 'Proceso de Calificación',
+            points: [
+                "Objetivo: Evaluar la madurez de la investigación y la capacidad del estudiante.",
+                "Obligatorio: Es obligatorio para el Doctorado y puede ser requerido para la Maestría, según el reglamento del programa.",
+                "Comité: Compuesto por al menos tres doctores, aprobado por el Comité.",
+                "Resultado: El estudiante puede ser 'Aprobado' o 'Reprobado'. En caso de reprobación, solo hay una oportunidad para repetir el examen."
+            ]
+        }],
+        legalBasis: "Art. 147, 148, 149, 150",
+        documentation: "Versión del trabajo para el comité, solicitud de programación.",
+        deadlines: "El plazo para el segundo intento es de hasta 120 días (Doctorado) o 60 días (Maestría) después del primero."
+    },
+    {
+        topic: "DEFENSA Y TITULACIÓN",
+        subtopic: "Requisitos de Defensa",
+        question: "¿Qué necesito hacer para poder defender mi tesina/tesis?",
+        answer: "Para programar la defensa, se deben cumplir una serie de requisitos académicos y administrativos, que forman una lista de verificación obligatoria.",
+        details: [{
+            icon: '🏁',
+            category: 'Categoría Principal: Finalización del Curso',
+            points: [
+                "Lista de Verificación: Créditos completados, examen de calificación aprobado, suficiencia en un idioma extranjero, prácticas de docencia completadas, declaración de no plagio y recomendación del supervisor."
+            ]
+        }],
+        legalBasis: "Art. 151 (Requisitos de Defensa)",
+        documentation: "Solicitud de programación, autorización del supervisor, versión del trabajo para el comité, sugerencia de nombres para el comité, prueba de todos los requisitos.",
+        deadlines: "El Comité tiene hasta 30 días para aprobar el comité, y la defensa debe programarse dentro de los 30 días posteriores a la aprobación."
+    },
+    {
+        topic: "DEFENSA Y TITULACIÓN",
+        subtopic: "Comité y Resultados",
+        question: "¿Cómo funciona el comité de defensa y cuáles son los posibles resultados?",
+        answer: "La defensa es una sesión pública juzgada por un comité de expertos. El resultado puede ser aprobación, aprobación con correcciones o reprobación.",
+        details: [{
+            icon: '🧑‍⚖️',
+            category: 'Categoría Principal: Comité de Examen',
+            points: [
+                "Composición (Maestría): Supervisor + 2 expertos (1 externo).",
+                "Composición (Doctorado): Supervisor + 4 expertos (2 externos, 1 de otra institución).",
+                "Resultados: Aprobado, Insuficiente (con un plazo para correcciones), Reprobado (conduce a la baja)."
+            ]
+        }],
+        legalBasis: "Art. 156 (Composición del Comité), Art. 157 (Resultados)",
+        documentation: "Acta de la sesión de defensa pública.",
+        deadlines: "Plazo para correcciones (si es 'Insuficiente'): 90 días (Maestría) o 180 días (Doctorado)."
+    },
+    {
+        topic: "DEFENSA Y TITULACIÓN",
+        subtopic: "Emisión del Diploma",
+        question: "¡Aprobé! ¿Cómo solicito mi diploma?",
+        answer: "Después de la aprobación y de hacer las correcciones, debe depositar la versión final del trabajo en el repositorio de la UEPB y luego solicitar formalmente la emisión del diploma.",
+        details: [{
+            icon: '📜',
+            category: 'Categoría Principal: Emisión del Diploma',
+            points: [
+                "Depósito Final: La versión final corregida (PDF/A con ficha catalográfica) debe depositarse en el Repositorio Institucional dentro de los 30 días de la defensa.",
+                "Solicitud de Diploma: El proceso lo inicia el estudiante con el PRPGP, con toda la documentación de respaldo."
+            ]
+        }],
+        legalBasis: "Art. 159 (Depósito Final), Art. 162 (Requisitos para la Concesión), Art. 163 (Documentación para la Emisión)",
+        documentation: "Formulario de solicitud estándar, Acta de la defensa, Copia del diploma anterior, Documentos personales, Comprobante de depósito, Declaración de estar al corriente con la biblioteca, Declaración y expediente de finalización.",
+        deadlines: "Plazo de Depósito: 30 días después de la defensa (prorrogable por otros 15). La emisión del diploma es responsabilidad del PRPGP."
+    },
+    {
+        topic: "DERECHOS Y GOBERNANZA",
+        subtopic: "Propiedad Intelectual",
+        question: "¿Quién es el dueño de mi investigación? ¿Puedo solicitar confidencialidad?",
+        answer: "Los resultados de la investigación son propiedad de la UEPB, pero los derechos de autor están protegidos. Sí, puede y debe solicitar confidencialidad si planea publicar o patentar.",
+        details: [{
+            icon: '💡',
+            category: 'Categoría Principal: Propiedad Intelectual',
+            points: [
+                "Propiedad: Los resultados pertenecen a la UEPB, pero cualquier difusión siempre debe mencionar a la universidad, al supervisor y al estudiante.",
+                "Confidencialidad: Tiene derecho a solicitar un período de confidencialidad de hasta 1 año para la difusión de su trabajo en el repositorio.",
+                "Proceso: La solicitud de confidencialidad se realiza en el momento del depósito final del trabajo."
+            ]
+        }],
+        legalBasis: "Art. 187 (Difusión y Confidencialidad), Art. 188 (Propiedad de los Resultados)",
+        documentation: "Formulario de autorización de depósito, con la opción de embargo/confidencialidad marcada.",
+        deadlines: "Período de Confidencialidad: Hasta 1 año, puede extenderse. La solicitud se realiza en el momento del depósito."
+    },
+    {
+        topic: "DERECHOS Y GOBERNANZA",
+        subtopic: "Reglas de Transición",
+        question: "¿Cómo funcionan las reglas de transición para el nuevo reglamento?",
+        answer: "Para los estudiantes que ingresaron hasta el segundo período académico de 2023, se aplican las disposiciones del reglamento anterior. Esta nueva resolución se aplica a los que ingresen después de su publicación.",
+        details: [{
+            icon: '📜',
+            category: 'Categoría Principal: Reglas Aplicables',
+            points: [
+                "Marco Temporal: La fecha de ingreso al curso determina qué reglamento se aplica al estudiante.",
+                "Regla Anterior: Los estudiantes que ingresaron hasta 2023.2 siguen el reglamento antiguo.",
+                "Regla Nueva: Los estudiantes que ingresen después de la publicación de esta resolución siguen las nuevas reglas."
+            ]
+        }],
+        legalBasis: "Art. 189",
+        documentation: "No se aplica documentación específica; la regla se aplica automáticamente por la secretaría.",
+        deadlines: "La regla de transición es permanente para las cohortes especificadas."
+    },
+    {
+        topic: "PLAZOS Y SITUACIONES ESPECIALES",
+        subtopic: "Licencia General y Ausencia",
+        question: "¿Puedo tomar un descanso del curso por un tiempo?",
+        answer: "Sí, es posible solicitar una 'Interrupción de Estudios' (licencia general) por razones de enfermedad comprobada o licencia de maternidad. El período de licencia no se cuenta en el tiempo total para la finalización del curso.",
+        keywords: ["licencia", "interrupción", "licencia de maternidad", "enfermedad", "ausencia", "descanso", "suspender", "embarazada", "salud", "certificado médico"],
+        details: [{
+            icon: '⏸️',
+            category: 'Categoría Principal: Interrupción de Estudios',
+            points: [
+                "Razones Aceptadas: Viaje de trabajo, enfermedad comprobada o licencia de maternidad.",
+                "Duraciones de la Licencia: Maestría (1 período académico), Doctorado (hasta 2 períodos académicos).",
+                "Efecto: El período de licencia no cuenta para la duración total del curso.",
+                "Beca: La beca se suspende durante la interrupción, excepto en el caso de licencia de maternidad.",
+                "Licencia de Maternidad: La estudiante de posgrado tiene derecho a 180 días de licencia, que no suspenden la beca y no cuentan para el plazo del curso."
+            ]
+        }],
+        legalBasis: "Art. 107 de la Resolución/UEPB/CONSEPE/008/2023",
+        documentation: "Solicitud formal con justificación comprobada (certificado médico, etc.), opinión del supervisor y aprobación del Comité.",
+        deadlines: "La solicitud debe hacerse antes o durante el período que se va a tomar libre."
+    },
+    {
+        topic: "SITUACIONES PROBLEMÁTICAS",
+        subtopic: "Baja Académica",
+        question: "¿En qué situaciones un estudiante puede ser dado de baja del programa?",
+        answer: "La baja es la terminación de la relación del estudiante con el programa y ocurre automáticamente en casos de rendimiento académico insuficiente, incumplimiento de plazos o infracciones graves, como el plagio.",
+        keywords: ["baja", "expulsión", "reprobación", "plazo vencido", "abandono", "plagio", "bajo GPA", "perder la plaza"],
+        details: [{
+            icon: '❌',
+            category: 'Categoría Principal: Causas de Baja',
+            points: [
+                "Reprobar el mismo curso obligatorio dos veces.",
+                "No aprobar los exámenes de suficiencia dentro del plazo.",
+                "No matricularse para el semestre a tiempo.",
+                "Reprobar el examen de calificación o pre-defensa dos veces.",
+                "Exceder el tiempo máximo para la finalización del curso, incluidas las prórrogas.",
+                "Tener un Promedio General (GPA) por debajo de 7.0.",
+                "Reprobar la defensa final de la tesina o tesis.",
+                "Plagio comprobado en cualquier trabajo académico."
+            ]
+        }],
+        legalBasis: "Art. 110 y Art. 111 de la Resolución/UEPB/CONSEPE/008/2023",
+        documentation: "El proceso es administrativo, iniciado por la Coordinación, garantizando al estudiante el derecho a una defensa completa y a apelar ante el Comité.",
+        deadlines: "La baja se hace efectiva después de la notificación oficial o la publicación de la decisión del Comité."
+    },
+    {
+        topic: "PLAZOS Y SITUACIONES ESPECIALES",
+        subtopic: "Licencia General y Ausencia",
+        question: "¿Cómo funciona la licencia de maternidad en los estudios de posgrado?",
+        answer: "Una estudiante de posgrado tiene derecho a 180 días de licencia de maternidad. Este período no se deduce del tiempo total para la finalización del curso y, para las estudiantes becadas, la beca no se suspende durante la licencia.",
+        keywords: ["licencia de maternidad", "madre", "embarazada", "parto", "adopción", "licencia", "bebé", "hijo", "beca", "plazo"],
+        details: [{
+            icon: '🤱',
+            category: 'Categoría Principal: Derechos de las Estudiantes de Posgrado',
+            points: [
+                "Duración de la Licencia: 180 días.",
+                "Cálculo del Plazo: El período de licencia NO se cuenta en el tiempo máximo para la defensa de la tesina o tesis.",
+                "Beca: La beca se mantiene íntegramente durante la licencia, siendo una excepción a la regla de suspensión por ausencia.",
+                "Actividades en Casa: Una estudiante embarazada también tiene derecho a un régimen de actividades en casa a partir del octavo mes de embarazo, con una duración de 4 meses."
+            ]
+        }],
+        legalBasis: "Art. 41 (§ 2), Art. 107 (§§ 6 y 7), y Art. 108 (I) de la Resolución/UEPB/CONSEPE/008/2023",
+        documentation: "Certificado médico o partida de nacimiento para formalizar la solicitud ante la coordinación del programa.",
+        deadlines: "La solicitud debe hacerse formalmente a la coordinación del programa para garantizar que se respeten los plazos y el mantenimiento de la beca."
+    },
+    {
+        topic: "DERECHOS Y GOBERNANZA",
+        subtopic: "Transferencia Directa Maestría-Doctorado",
+        question: "¿Es posible pasar de una maestría a un doctorado directamente (fast track)?",
+        answer: "Sí, los programas pueden permitir que los estudiantes se transfieran de una maestría a un doctorado sin un nuevo proceso de selección pública, siempre que se cumplan criterios de excelencia.",
+        details: [{
+            icon: '🚀',
+            category: 'Categoría Principal: Movilidad Académica Avanzada',
+            points: [
+                "Condición: Los reglamentos del programa deben prever y detallar esta posibilidad.",
+                "Criterios: El estudiante debe demostrar un rendimiento excepcional, una producción académica calificada y tener un plan de trabajo consistente para el doctorado.",
+                "Evaluación: La transferencia depende de una evaluación rigurosa por parte de un comité designado por el Comité."
+            ]
+        }],
+        legalBasis: "Art. 104",
+        documentation: "Solicitud formal, expediente académico, CV Lattes actualizado, producción científica, plan de trabajo doctoral, carta de recomendación del supervisor.",
+        deadlines: "La solicitud debe hacerse dentro de un plazo definido por los reglamentos del programa, generalmente después de la calificación de la maestría."
+    },
+    {
+        topic: "DERECHOS Y GOBERNANZA",
+        subtopic: "Deberes del Estudiante",
+        question: "¿Cuáles son los principales deberes de un estudiante de posgrado?",
+        answer: "Además de respetar las reglas de la UEPB, el estudiante debe seguir el plan de estudios, mantener informado al supervisor, participar en las actividades, completar las prácticas de docencia y presentar proyectos al Comité de Ética cuando sea necesario.",
+        details: [{
+            icon: '📋',
+            category: 'Categoría Principal: Responsabilidades Académicas',
+            points: [
+                "Preservar el nombre de la institución y cumplir con los reglamentos.",
+                "Mantener actualizados sus datos de registro y curriculares.",
+                "Dedicarse a las actividades del curso y cumplir con los plazos.",
+                "Completar las Prácticas de Docencia (obligatorias para los becarios).",
+                "Observar las directrices del Comité de Ética en Investigación."
+            ]
+        }],
+        legalBasis: "Art. 74",
+        documentation: "Prueba de presentación al Comité de Ética, informes de prácticas de docencia, etc., según lo requiera el programa.",
+        deadlines: "Los deberes deben cumplirse a lo largo de todo el curso."
+    },
+    {
+        topic: "DERECHOS Y GOBERNANZA",
+        subtopic: "Representación Estudiantil",
+        question: "¿Cómo funciona la representación estudiantil en el Comité?",
+        answer: "Los estudiantes tienen derecho a representación en el Comité del programa, con derecho a voz y voto, asegurando su participación en las decisiones. El mandato es de 1 año, con una reelección permitida.",
+        details: [{
+            icon: '🗣️',
+            category: 'Categoría Principal: Gobernanza y Participación',
+            points: [
+                "Composición: El Comité incluye representantes estudiantiles, elegidos por sus pares.",
+                "Mandato: El mandato del representante estudiantil es de 1 (un) año.",
+                "Reelección: Se permite una reelección para un segundo mandato.",
+                "Voz y Voto: Los representantes participan activamente en las reuniones y deliberaciones."
+            ]
+        }],
+        legalBasis: "Art. 31, inciso III y §3",
+        documentation: "La elección es organizada por los propios estudiantes y formalizada con la coordinación del programa.",
+        deadlines: "El mandato es de 1 año, con elecciones periódicas para elegir a los representantes."
+    },
+    {
+        topic: "REQUISITOS DE FINALIZACIÓN",
+        subtopic: "Criterios de Finalización",
+        question: "¿Cuáles son los requisitos obligatorios para completar la Maestría en Ciencias Farmacéuticas?",
+        answer: "Para completar la Maestría en el PPGCF/UEPB, el estudiante debe cumplir con criterios específicos de plazo, suficiencia de idioma y producción científica, que varían según su situación de beca.",
+        details: [{
+            icon: '🎯',
+            category: 'Categoría Principal: Requisitos de Finalización',
+            points: [
+                "Plazo: Duración máxima de 24 meses, con una posible prórroga de hasta 6 meses previa aprobación del comité.",
+                "Suficiencia: Aprobación en un Examen de Suficiencia en Lengua Inglesa de una institución pública reconocida.",
+                "Producción Científica (sin beca): Mínimo de 1 producto enviado (artículo Qualis A, patente o capítulo de libro).",
+                "Producción Científica (con beca): Mínimo de 2 productos enviados o 1 aceptado (artículo Qualis A, patente o capítulo de libro).",
+                "Nota: El estudiante debe ser el primer autor de los artículos enviados."
+            ]
+        }],
+        legalBasis: "Reglamento Interno del PPGCF",
+        documentation: "Comprobante de suficiencia, comprobantes de envío/aceptación de productos científicos.",
+        deadlines: "Plazo máximo de 24 meses para la finalización, con la posibilidad de una prórroga de 6 meses."
+    }
+];
+
+// Quick access cards data (Spanish Version)
+const quickAccessCards_es = [
+    { icon: 'fas fa-user-plus', title: 'Ingreso', description: 'Proceso selectivo, matrícula y admisión', topic: 'INGRESO Y ADMISIÓN' },
+    { icon: 'fas fa-graduation-cap', title: 'Vida Académica', description: 'Créditos, asignaturas y evaluaciones', topic: 'VIDA ACADÉMICA' },
+    { icon: 'fas fa-money-bill-wave', title: 'Becas', description: 'Ayudas económicas y dedicación', topic: 'ASUNTOS FINANCIEROS' },
+    { icon: 'fas fa-chalkboard-teacher', title: 'Supervisión', description: 'Supervisores y relaciones', topic: 'SUPERVISIÓN' },
+    { icon: 'fas fa-certificate', title: 'Defensa', description: 'Calificación, defensa y titulación', topic: 'DEFENSA Y TITULACIÓN' },
+    { icon: 'fas fa-balance-scale', title: 'Derechos y Gobernanza', description: 'Estructura, funcionamiento y derechos', topic: 'DERECHOS Y GOBERNANZA' },
+    { icon: 'fas fa-clock', title: 'Plazos y Situaciones Especiales', description: 'Plazos del curso y casos especiales', topic: 'PLAZOS Y SITUACIONES ESPECIALES' },
+    { icon: 'fas fa-exclamation-triangle', title: 'Situaciones Problemáticas', description: 'Baja académica y problemas académicos', topic: 'SITUACIONES PROBLEMÁTICAS' },
+    { icon: 'fas fa-users', title: 'Profesorado', description: 'Profesores, supervisores y acreditación', topic: 'PROFESORADO' },
+    { icon: 'fas fa-plane-departure', title: 'Apoyo a Eventos', description: 'Ayuda para participación en congresos', topic: 'APOYO A EVENTOS CIENTÍFICOS' },
+    { icon: 'fas fa-check-circle', title: 'Requisitos de Finalización', description: 'Criterios para finalizar el curso', topic: 'REQUISITOS DE FINALIZACIÓN' },
+    { icon: 'fas fa-hands-helping', title: 'Profesor Voluntario', description: 'Reglas para trabajo voluntario en la UEPB', topic: 'PROFESOR VOLUNTARIO' },
+    { icon: 'fas fa-microscope', title: 'Investigación Postdoctoral', description: 'Estancia, reglas y actividades', topic: 'INVESTIGACIÓN POSTDOCTORAL' },
+    { icon: 'fas fa-info-circle', title: 'Sobre esta Versión', description: 'Información sobre actualizaciones y mejoras', topic: 'SOBRE' }
+];
+
+// Topic icons (Spanish Version)
+const topicIcons_es = {
+    "INGRESO Y ADMISIÓN": "fas fa-door-open",
+    "ESTRUCTURA Y GOBERNANZA": "fas fa-building",
+    "PROFESORADO": "fas fa-users",
+    "ASUNTOS FINANCIEROS": "fas fa-money-bill-wave",
+    "VIDA ACADÉMICA": "fas fa-graduation-cap",
+    "PLAZOS Y SITUACIONES ESPECIALES": "fas fa-clock",
+    "SUPERVISIÓN": "fas fa-chalkboard-teacher",
+    "DEFENSA Y TITULACIÓN": "fas fa-certificate",
+    "SITUACIONES PROBLEMÁTICAS": "fas fa-exclamation-triangle",
+    "DERECHOS Y GOBERNANZA": "fas fa-balance-scale",
+    "APOYO A EVENTOS CIENTÍFICOS": "fas fa-plane-departure",
+    "PROFESOR VOLUNTARIO": "fas fa-hands-helping",
+    "INVESTIGACIÓN POSTDOCTORAL": "fas fa-microscope",
+    "REQUISITOS DE FINALIZACIÓN": "fas fa-check-circle"
+};
+
 // DOM Elements
 const searchInput = document.getElementById('searchInput');
 const topicFilter = document.getElementById('topicFilter');
